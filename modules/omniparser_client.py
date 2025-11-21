@@ -126,7 +126,7 @@ class OmniparserClient:
                         should_include = True
                         inclusion_reason = "has_content"
                         text_count += 1
-                        
+
                         # Check if this looks like performance data
                         if any(keyword in element_content.lower() for keyword in [
                             'fps', 'avg', 'p1', 'p99', 'frame', 'ms', 'hz', 'performance',
@@ -155,7 +155,7 @@ class OmniparserClient:
                             element_text=element_content
                         )
                         bounding_boxes.append(bbox)
-                        
+
                         # Log important elements
                         if inclusion_reason == "performance_data":
                             logger.info(f"🎯 PERFORMANCE DATA: '{element_content[:50]}...'")

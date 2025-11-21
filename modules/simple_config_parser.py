@@ -82,17 +82,39 @@ class SimpleConfigParser:
         for step_num, step in steps.items():
             if "description" not in step:
                 logger.warning(f"Step {step_num} missing description")
-            
-            # Check for either find_and_click or action
-            if "find_and_click" not in step and not ("action" in step and step["action"] == "wait"):
-                logger.error(f"Step {step_num} must have either find_and_click or action: wait")
-                raise ValueError(f"Invalid step {step_num}: missing required action")
-            
-            # Validate find_and_click
-            if "find_and_click" in step:
-                target = step["find_and_click"]
-                if "text" not in target:
-                    logger.warning(f"Step {step_num} find_and_click missing text attribute")
+
+            # Check that step has either:
+            # 1. A 'find' section (for steps that need to locate UI elements)
+            # 2. An 'action' section without 'find' (for action-only steps like wait, key press)
+            has_find = "find" in step
+            has_action = "action" in step
+
+            if not has_find and not has_action:
+                logger.error(f"Step {step_num} must have either 'find' or 'action' section")
+                raise ValueError(f"Invalid step {step_num}: missing 'find' or 'action'")
+
+            # Validate find section if present
+            if has_find:
+                find_section = step["find"]
+                if not isinstance(find_section, dict):
+                    logger.error(f"Step {step_num} 'find' must be a dictionary")
+                    raise ValueError(f"Invalid step {step_num}: 'find' must be a dictionary")
+
+                # Check for required fields in find section
+                if "type" not in find_section and "text" not in find_section:
+                    logger.warning(f"Step {step_num} 'find' should have 'type' and/or 'text'")
+
+            # Validate action section if present
+            if has_action:
+                action_section = step["action"]
+                if not isinstance(action_section, dict):
+                    logger.error(f"Step {step_num} 'action' must be a dictionary")
+                    raise ValueError(f"Invalid step {step_num}: 'action' must be a dictionary")
+
+                # Check for action type
+                if "type" not in action_section:
+                    logger.error(f"Step {step_num} 'action' must have 'type' field")
+                    raise ValueError(f"Invalid step {step_num}: 'action' missing 'type'")
         
         logger.info("Simple configuration validation successful")
         return True
