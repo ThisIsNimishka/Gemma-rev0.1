@@ -19,6 +19,10 @@ import win32gui
 import ctypes
 from ctypes import wintypes
 import sys
+import winreg
+import re
+import glob
+import win32process
 
 # Configure logging
 logging.basicConfig(
@@ -634,146 +638,353 @@ def screenshot():
         logger.error(f"Error capturing screenshot: {str(e)}")
         return jsonify({"status": "error", "error": str(e)}), 500
 
+def get_steam_install_path():
+    """Get Steam installation path from Windows Registry."""
+    try:
+        key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\\Valve\\Steam")
+        path, _ = winreg.QueryValueEx(key, "SteamPath")
+        winreg.CloseKey(key)
+        return path
+    except:
+        try:
+            key = winreg.OpenKey(winreg.HKEY_LOCAL_MACHINE, r"SOFTWARE\\WOW6432Node\\Valve\\Steam")
+            path, _ = winreg.QueryValueEx(key, "InstallPath")
+            winreg.CloseKey(key)
+            return path
+        except:
+            return None
+
+def resolve_steam_app_path(app_id, target_process_name=''):
+    """Resolve Steam App ID to executable path by parsing manifest files."""
+    steam_path = get_steam_install_path()
+    if not steam_path:
+        return None, "Steam installation not found in registry"
+
+    logger.info(f"Steam path found: {steam_path}")
+    
+    # Library folders config
+    vdf_path = os.path.join(steam_path, "steamapps", "libraryfolders.vdf")
+    if not os.path.exists(vdf_path):
+        # Fallback to single library
+        libraries = [steam_path]
+    else:
+        libraries = []
+        try:
+            with open(vdf_path, 'r', encoding='utf-8') as f:
+                content = f.read()
+            # Regex to find "path" "..." entries
+            matches = re.findall(r'"path"\s+"([^"]+)"', content)
+            if matches:
+                libraries.extend(matches)
+                # Unescape double backslashes
+                libraries = [lib.replace('\\\\', '\\') for lib in libraries]
+            else:
+                 libraries = [steam_path]
+        except Exception as e:
+            logger.warning(f"Failed to parse libraryfolders.vdf: {e}")
+            libraries = [steam_path]
+
+    logger.info(f"Checking Steam libraries: {libraries}")
+
+    # Search for app manifest
+    manifest_file = f"appmanifest_{app_id}.acf"
+    found_manifest = None
+    game_library = None
+    
+    for lib in libraries:
+        manifest_path = os.path.join(lib, "steamapps", manifest_file)
+        if os.path.exists(manifest_path):
+            found_manifest = manifest_path
+            game_library = lib
+            break
+            
+    if not found_manifest:
+        return None, f"App ID {app_id} not installed (manifest not found)"
+
+    # Parse manifest for installdir
+    install_dir_name = None
+    try:
+        with open(found_manifest, 'r', encoding='utf-8') as f:
+            content = f.read()
+        match = re.search(r'"installdir"\s+"([^"]+)"', content)
+        if match:
+            install_dir_name = match.group(1)
+    except Exception as e:
+        return None, f"Failed to parse manifest: {e}"
+        
+    if not install_dir_name:
+        return None, "Could not find 'installdir' in manifest"
+        
+    full_game_path = os.path.join(game_library, "steamapps", "common", install_dir_name)
+    logger.info(f"Game folder resolved: {full_game_path}")
+    
+    if not os.path.exists(full_game_path):
+         return None, f"Game folder does not exist: {full_game_path}"
+
+    # Find executable
+    candidates = []
+    
+    # Strategy 1: Target process name
+    if target_process_name:
+        exe_path = os.path.join(full_game_path, f"{target_process_name}.exe")
+        if os.path.exists(exe_path):
+            return exe_path, None
+        
+        # Search recursively for target process name
+        for root, dirs, files in os.walk(full_game_path):
+            if f"{target_process_name}.exe" in files:
+                return os.path.join(root, f"{target_process_name}.exe"), None
+
+    # Strategy 2: Folder name matcher
+    exe_path = os.path.join(full_game_path, f"{install_dir_name}.exe")
+    if os.path.exists(exe_path):
+        return exe_path, None
+
+    # Strategy 3: Find largest .exe in the folder
+    exe_files = []
+    for root, dirs, files in os.walk(full_game_path):
+        for file in files:
+            if file.lower().endswith(".exe"):
+                path = os.path.join(root, file)
+                size = os.path.getsize(path)
+                exe_files.append((path, size))
+    
+    if exe_files:
+        exe_files.sort(key=lambda x: x[1], reverse=True)
+        best_match = exe_files[0][0]
+        logger.info(f"Selected largest executable: {best_match}")
+        return best_match, None
+    
+    return None, "No executable found in game directory"
+
+def ensure_window_foreground(pid, timeout=5):
+    """Ensure the main window of the process is in the foreground using robust methods."""
+    
+    # Callback to find windows for PID
+    def callback(hwnd, windows):
+        try:
+            _, found_pid = win32process.GetWindowThreadProcessId(hwnd)
+            if found_pid == pid:
+                # Basic visibility check, can be refined based on window style
+                if win32gui.IsWindowVisible(hwnd):
+                    # Check if it has a title (usually main windows do)
+                    if win32gui.GetWindowText(hwnd):
+                        windows.append(hwnd)
+        except:
+            pass
+        return True
+
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        windows = []
+        try:
+            win32gui.EnumWindows(callback, windows)
+        except Exception as e:
+            logger.warning(f"Window enumeration failed: {e}")
+            
+        if windows:
+            # Use first window with a title found
+            target_hwnd = windows[0]
+            
+            # Helper to try forcing foreground
+            current_tid = win32api.GetCurrentThreadId()
+            target_tid, _ = win32process.GetWindowThreadProcessId(target_hwnd)
+            
+            try:
+                # 1. Allow this process to set foreground (magic constant ASFW_ANY = -1)
+                ctypes.windll.user32.AllowSetForegroundWindow(-1)
+                
+                # 2. Attach input processing mechanism to target thread
+                attached = False
+                if current_tid != target_tid:
+                    attached = win32process.AttachThreadInput(current_tid, target_tid, True)
+                
+                # 3. Restore and Show
+                if win32gui.IsIconic(target_hwnd):
+                    win32gui.ShowWindow(target_hwnd, win32con.SW_RESTORE)
+                else:
+                    win32gui.ShowWindow(target_hwnd, win32con.SW_SHOW)
+                
+                # 4. Bring to front
+                win32gui.BringWindowToTop(target_hwnd)
+                win32gui.SetForegroundWindow(target_hwnd)
+                
+                # 5. Detach
+                if attached:
+                     win32process.AttachThreadInput(current_tid, target_tid, False)
+                
+                # Verify
+                foreground_hwnd = win32gui.GetForegroundWindow()
+                if foreground_hwnd == target_hwnd:
+                    logger.info(f"Successfully forced window {target_hwnd} to foreground.")
+                    return True
+                else:
+                    logger.debug(f"Window {target_hwnd} brought to top but GetForegroundWindow is {foreground_hwnd}")
+                    # sometimes main window is wrapper, but child took focus. Accept if PID matches?
+                    _, fg_pid = win32process.GetWindowThreadProcessId(foreground_hwnd)
+                    if fg_pid == pid:
+                        return True
+
+            except Exception as e:
+                logger.warning(f"Failed to force foreground: {e}")
+                # Ensure detach happens even on error
+                try:
+                    if 'attached' in locals() and attached:
+                        win32process.AttachThreadInput(current_tid, target_tid, False)
+                except:
+                    pass
+
+        time.sleep(0.5)
+    
+    return False
+
 @app.route('/launch', methods=['POST'])
 def launch_game():
-    """
-    Launch a game with process tracking.
-    Supports three launch methods:
-    1. Steam app ID (numeric): path: 1847520, process_id: Launcher
-    2. Steam URL: path: steam://run/1847520, process_id: Launcher
-    3. Direct EXE: path: C:\\Games\\Game.exe, process_id: Game (optional)
-    Request JSON:
-        path (required): Game path or Steam app ID
-        process_id (optional): Process name to wait for after launch
-        startup_wait (optional): Max seconds to wait for process (default: 15)
-    """
+    """Launch a game with process tracking. Supports both exe paths and Steam app IDs."""
     global game_process, current_game_process_name
 
     try:
-        # ===== STEP 1: Get request parameters =====
         data = request.json
         game_path = data.get('path', '')
-        process_id = data.get('process_id', '')  # Optional - for process tracking
-        startup_wait = data.get('startup_wait', 15)  # NEW: Accept startup_wait from client
+        process_id = data.get('process_id', '')
 
         # Validate game_path is provided (before conversion)
         if not game_path:
             logger.error("No game path provided")
             return jsonify({"status": "error", "error": "Game path is required"}), 400
 
-        # Convert game_path to string (in case YAML parsed numeric app ID as integer)
-        # This handles: path: 1847520 (int in YAML) → "1847520" (string)
+        # Convert game_path to string
         game_path = str(game_path)
+        is_steam_id = False
+        
+        # Check if it's a numeric Steam App ID
+        if game_path.isdigit():
+            is_steam_id = True
+            logger.info(f"Detected Steam App ID: {game_path}")
+        elif game_path.startswith('steam://'):
+            # Legacy handling, try to extract ID
+            match = re.search(r'run/(\d+)', game_path) or re.search(r'rungameid/(\d+)', game_path)
+            if match:
+                game_path = match.group(1)
+                is_steam_id = True
+                logger.info(f"Extracted Steam App ID from URL: {game_path}")
 
-        # ===== STEP 2: Detect launch method (Steam vs Direct EXE) =====
-        is_steam_launch = False
-        steam_url = None
-
-        if game_path.startswith('steam://'):
-            # Method 1: Already a Steam URL (e.g., steam://run/1847520)
-            is_steam_launch = True
-            steam_url = game_path
-            logger.info(f"Detected Steam URL: {steam_url}")
-            # REMOVED: No longer mandatory - process_id is optional for Steam launches
-
-        elif game_path.isdigit():
-            # Method 2: Just an app ID number - construct Steam URL
-            # FIX: Changed from steam://rungameid/ to steam://run/ (Windows requirement)
-            is_steam_launch = True
-            steam_url = f"steam://run/{game_path}"
-            logger.info(f"Detected Steam app ID: {game_path}, using URL: {steam_url}")
-            # REMOVED: No longer mandatory - process_id is optional
-
-        elif not os.path.exists(game_path):
-            # Method 3: Direct EXE path - validate it exists
-            logger.error(f"Game path not found: {game_path}")
-            return jsonify({"status": "error", "error": "Game executable not found"}), 404
-
+        # Resolve Steam App ID to Executable
+        if is_steam_id:
+            logger.info(f"Resolving Steam App ID: {game_path}")
+            resolved_path, error = resolve_steam_app_path(game_path, process_id)
+            if resolved_path:
+                logger.info(f"Resolved Steam ID {game_path} to: {resolved_path}")
+                game_path = resolved_path
+                # If process_id wasn't provided, try to guess it from the exe name
+                if not process_id:
+                     new_process_name = os.path.splitext(os.path.basename(resolved_path))[0]
+                else:
+                     new_process_name = process_id
+            else:
+                 logger.error(f"Failed to resolve Steam ID: {error}")
+                 return jsonify({"status": "error", "error": f"Failed to resolve Steam ID: {error}"}), 404
+        else:
+             if not os.path.exists(game_path):
+                 logger.error(f"Game path not found: {game_path}")
+                 return jsonify({"status": "error", "error": "Game executable not found"}), 404
+             # For direct EXE, use process_id if provided, otherwise extract from path
+             new_process_name = process_id if process_id else os.path.splitext(os.path.basename(game_path))[0]
+        
         with game_lock:
-            # ===== STEP 3: Cleanup existing game processes =====
+            # Terminate existing game if running (using GLOBAL current_game_process_name)
             if current_game_process_name:
                 logger.info(f"Terminating existing game: {current_game_process_name}")
                 terminate_process_by_name(current_game_process_name)
+                # Also try to terminate previous game_process handle
+                if game_process and game_process.poll() is None:
+                     try:
+                        game_process.terminate()
+                        game_process.wait(timeout=2)
+                     except:
+                        pass
                 current_game_process_name = None
 
-            if game_process and game_process.poll() is None:
-                logger.info("Terminating existing subprocess")
-                game_process.terminate()
-                try:
-                    game_process.wait(timeout=5)
-                except subprocess.TimeoutExpired:
-                    game_process.kill()
+            # Set the new global process name
+            current_game_process_name = new_process_name
 
-            # ===== STEP 4: Determine process name to track =====
+            # Launch game
             logger.info(f"Launching game: {game_path}")
-
-            # Set process name for tracking after launch
-            if is_steam_launch:
-                # For Steam launches, use process_id if provided, otherwise None (no tracking)
-                current_game_process_name = process_id if process_id else None
-            else:
-                # For direct EXE, use process_id if provided, otherwise extract from path
-                current_game_process_name = process_id if process_id else os.path.splitext(os.path.basename(game_path))[0]
-
-            # ===== STEP 5: Launch the game =====
-            if is_steam_launch:
-                # Launch via Steam URL protocol (uses os.startfile)
-                logger.info(f"Launching via Steam: {steam_url}")
-                os.startfile(steam_url)
-                # For Steam launches, we don't get a subprocess handle
-                game_process = None
-            else:
-                # Launch regular executable via subprocess
+            
+            # Use cwd to avoid common launcher issues
+            game_dir = os.path.dirname(game_path)
+            try:
+                game_process = subprocess.Popen(game_path, cwd=game_dir)
+            except Exception as e:
+                logger.warning(f"Failed to launch with cwd, trying direct: {e}")
                 game_process = subprocess.Popen(game_path)
-                logger.info(f"Subprocess started with PID: {game_process.pid}")
+                
+            logger.info(f"Subprocess started with PID: {game_process.pid}")
 
-            # Brief wait for launch to start
-            time.sleep(3)
+            time.sleep(3) # Initial wait for process spawn
 
-            # Determine subprocess status for response
-            if is_steam_launch:
-                subprocess_status = "steam_launch"
-            else:
-                subprocess_status = "running" if game_process.poll() is None else "exited"
-
-            # ===== STEP 6: Wait for game process to appear =====
-            # NEW: Use startup_wait from request instead of hardcoded 15 seconds
-            # This allows client to specify how long to wait (e.g., 60s for slow games)
+            subprocess_status = "running" if game_process.poll() is None else "exited"
+            logger.info(f"Subprocess status after 3 seconds: {subprocess_status}")
+            
+            # If subprocess exited quickly (launcher wrapper), we need to find the actual game process
+            # Give the actual game process time to start and show window
+            max_wait_time = 60  # Increased wait time to ensure window logic has time
+            wait_interval = 1
             actual_process = None
+            foreground_confirmed = False
+            
+            logger.info(f"Waiting up to {max_wait_time}s for process '{current_game_process_name}' to appear...")
 
-            if current_game_process_name:
-                # Process tracking enabled - wait up to startup_wait seconds
-                logger.info(f"Waiting up to {startup_wait} seconds for process: {current_game_process_name}")
-                for i in range(startup_wait):
-                    time.sleep(1)
-                    actual_process = find_process_by_name(current_game_process_name)
-                    if actual_process:
-                        logger.info(f"Game process found: {actual_process.name()} (PID: {actual_process.pid})")
-                        break
-            else:
-                # No process tracking - just wait briefly for Steam to start
-                logger.info("No process name specified, skipping process detection")
-
-            # ===== STEP 7: Build response =====
-            response_data = {
-                "status": "success",
-                "subprocess_pid": game_process.pid if game_process else "N/A",
-                "subprocess_status": subprocess_status,
-                "launch_method": "steam" if is_steam_launch else "direct_exe"
-            }
-
+            # Phase 1: Detect Process
+            start_wait = time.time()
+            while time.time() - start_wait < max_wait_time:
+                actual_process = find_process_by_name(current_game_process_name)
+                if actual_process:
+                    logger.info(f"Process found: {actual_process.name()} (PID: {actual_process.pid})")
+                    break
+                time.sleep(1)
+            
             if actual_process:
-                response_data["game_process_pid"] = actual_process.pid
-                response_data["game_process_name"] = actual_process.name()
-                logger.info(f"Game launched successfully")
-            else:
-                if current_game_process_name:
-                    logger.warning(f"Game process not detected within {startup_wait}s")
-                    response_data["warning"] = f"Game process not detected within {startup_wait}s"
+                # Phase 2: Attempt Foreground (Strict)
+                logger.info("Attempting to bring process to foreground...")
+                foreground_confirmed = ensure_window_foreground(actual_process.pid, timeout=5)
+                
+                # Retry if failed (per user request)
+                if not foreground_confirmed:
+                    logger.warning(f"Initial foreground attempt failed. Retrying in 3 seconds...")
+                    time.sleep(3)
+                    logger.info("Retrying foreground attempt...")
+                    foreground_confirmed = ensure_window_foreground(actual_process.pid, timeout=5)
+                
+                response_data = {
+                    "status": "success" if foreground_confirmed else "warning",
+                    "subprocess_pid": game_process.pid,
+                    "subprocess_status": subprocess_status,
+                    "resolved_path": game_path if is_steam_id else None,
+                    "launch_method": "steam" if is_steam_id else "direct_exe",
+                    "game_process_pid": actual_process.pid,
+                    "game_process_name": actual_process.name(),
+                    "game_process_status": actual_process.status(),
+                    "foreground_confirmed": foreground_confirmed
+                }
+                
+                if foreground_confirmed:
+                     logger.info(f"[OK] Launch Complete: {actual_process.name()} is running and in foreground.")
                 else:
-                    logger.info("Game launched successfully (no process tracking)")
-                    response_data["note"] = "No process tracking requested"
+                     logger.warning(f"[WARN] Launch Warning: Process {actual_process.pid} exists but could not confirm foreground status.")
+                     response_data["warning"] = "Process launched but window not in foreground (timeout)"
 
+            else:
+                logger.warning(f"Game process '{current_game_process_name}' not found within {max_wait_time} seconds")
+                response_data = {
+                    "status": "warning",
+                    "warning": f"Game process '{current_game_process_name}' not detected, but launch command executed",
+                    "subprocess_pid": game_process.pid,
+                    "subprocess_status": subprocess_status,
+                    "resolved_path": game_path if is_steam_id else None,
+                    "launch_method": "steam" if is_steam_id else "direct_exe"
+                }
+        
         return jsonify(response_data)
 
     except Exception as e:

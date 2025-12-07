@@ -42,9 +42,24 @@ class GameLauncher:
             response = self.network_manager.launch_game(game_path, process_id, startup_wait)
 
             # Check response
-            if response.get("status") == "success":
-                logger.info(f"Game launched successfully: {game_path} (process_id: {process_id}, startup_wait: {startup_wait})")
+            status = response.get("status")
+            if status == "success":
+                # Parse detailed status
+                proc_name = response.get("game_process_name", "Unknown")
+                proc_pid = response.get("game_process_pid", "N/A")
+                fg_confirmed = response.get("foreground_confirmed", False)
+                launch_method = response.get("launch_method", "unknown")
+                
+                logger.info(f"Game launched successfully: {game_path}")
+                logger.info(f"  - Launch Method: {launch_method}")
+                logger.info(f"  - Process Detected: {proc_name} (PID: {proc_pid})")
+                logger.info(f"  - Foreground Confirmed: {fg_confirmed}")
                 return True
+            elif status == "warning":
+                 # Treat warning as failure for strict foreground enforcement
+                 warning_msg = response.get("warning", "Unknown warning")
+                 logger.error(f"Game launch warning (treating as failure): {warning_msg}")
+                 raise RuntimeError(f"Game launch failed: {warning_msg}")
             else:
                 error_msg = response.get("error", "Unknown error")
                 logger.error(f"Failed to launch game: {error_msg}")

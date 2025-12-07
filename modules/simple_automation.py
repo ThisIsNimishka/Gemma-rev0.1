@@ -57,6 +57,9 @@ class SimpleAutomation:
         # Enhanced features
         self.enhanced_features = self.config.get("enhanced_features", {})
         self.monitor_process = self.enhanced_features.get("monitor_process_cpu", False)
+
+        # Retry configuration
+        self.retry_delay = self.config.get("metadata", {}).get("retry_delay", 2.0)
         
         # Optional step handlers
         self.optional_steps = self.config.get("optional_steps", {})
@@ -154,6 +157,9 @@ class SimpleAutomation:
                     retries += 1
                     if retries >= max_retries:
                         return False
+                    
+                    logger.info(f"Screenshot capture failed, waiting {self.retry_delay}s before retry...")
+                    time.sleep(self.retry_delay)
                     continue
 
                 # Detect UI elements
@@ -171,6 +177,9 @@ class SimpleAutomation:
                     retries += 1
                     if retries >= max_retries:
                         return False
+                    
+                    logger.info(f"UI element detection failed, waiting {self.retry_delay}s before retry...")
+                    time.sleep(self.retry_delay)
                     continue
 
                 # Annotate screenshot if annotator available
@@ -210,6 +219,11 @@ class SimpleAutomation:
                     if retries >= max_retries:
                         logger.error(f"Max retries reached for step {current_step}")
                         return False
+                    
+                    if not is_optional_step:
+                         logger.info(f"Waiting {self.retry_delay}s before retry...")
+                         time.sleep(self.retry_delay)
+                    
                     self._execute_fallback()
                 
         return current_step > len(steps)

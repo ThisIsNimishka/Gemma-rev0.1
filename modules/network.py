@@ -130,7 +130,7 @@ class NetworkManager:
             response = self.session.post(
                 f"{self.base_url}/launch",
                 json=payload,
-                timeout=30
+                timeout=90
             )
             response.raise_for_status()
             result = response.json()
