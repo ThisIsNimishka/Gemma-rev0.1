@@ -550,7 +550,7 @@ class SUTController:
             # Restore original game path
             self.game_path = original_game_path
 
-            self.logger.info(f"✓ Completed all {game_entry.run_count} runs of {game_entry.game_name}")
+            self.logger.info(f">>>> Completed all {game_entry.run_count} runs of {game_entry.game_name}")
 
             # Delay between games (except after last game)
             if game_index < len(self.campaign) - 1 and self.delay_between_games > 0:
@@ -569,7 +569,7 @@ class SUTController:
             self.logger.info(f"╔════════════════════════════════════════════════════════════╗")
             if len(self.failed_games) == 0:
                 self.status = "Completed"
-                self.logger.info(f"║ ✓ CAMPAIGN COMPLETED SUCCESSFULLY!")
+                self.logger.info(f"║ >>>> CAMPAIGN COMPLETED SUCCESSFULLY!")
                 self.logger.info(f"║ Total Games: {len(self.campaign)}")
                 self.logger.info(f"║ All games executed without errors")
             else:
@@ -638,6 +638,29 @@ class SUTController:
             annotator = Annotator()
             game_launcher = GameLauncher(network)
 
+            # Helper to handle steam login - returns True if successful or no credentials needed
+            def _handle_steam_login(metadata):
+                steam_user = metadata.get("steam_username")
+                steam_pass = metadata.get("steam_password")
+                
+                if steam_user and steam_pass:
+                    self.logger.info(f"Steam credentials found for user: {steam_user}")
+                    try:
+                        self.logger.info("Initiating Steam login...")
+                        if network.login_steam(steam_user, steam_pass):
+                            self.logger.info("Steam login completed successfully")
+                            time.sleep(5)  # Wait for Steam to settle
+                            return True
+                        else:
+                            self.logger.error("Steam login FAILED - cannot proceed")
+                            return False
+                    except Exception as e:
+                        self.logger.error(f"Steam login exception: {e}")
+                        return False
+                else:
+                    self.logger.debug("No Steam credentials in metadata - skipping login")
+                    return True  # No credentials = success (not required)
+
             # Get game metadata
             game_metadata = config_parser.get_game_metadata()
             self.logger.info(f"Game metadata loaded: {game_metadata}")
@@ -645,6 +668,13 @@ class SUTController:
             process_id = game_metadata.get("process_id", '')
 
             try:
+                # Handle Steam Login FIRST - STOP if it fails
+                steam_login_ok = _handle_steam_login(game_metadata)
+                if not steam_login_ok:
+                    self.logger.error("Stopping automation: Steam login failed")
+                    self.status = "Failed"
+                    return
+
                 # Launch game if path provided
                 if self.game_path:
                     self.logger.info(f"Launching game from: {self.game_path}")
@@ -776,6 +806,30 @@ class SUTController:
             process_id = game_metadata.get("process_id", '')
 
             try:
+                # Handle Steam Login FIRST - STOP if it fails
+                steam_user = game_metadata.get("steam_username")
+                steam_pass = game_metadata.get("steam_password")
+                steam_login_ok = True  # Default: no credentials needed
+                
+                if steam_user and steam_pass:
+                    self.logger.info(f"Steam credentials found for user: {steam_user}")
+                    try:
+                        self.logger.info("Initiating Steam login...")
+                        if network.login_steam(steam_user, steam_pass):
+                            self.logger.info(">>>> Steam login completed successfully")
+                            time.sleep(5)
+                        else:
+                            self.logger.error("XXXX - Steam login FAILED - cannot proceed")
+                            steam_login_ok = False
+                    except Exception as e:
+                        self.logger.error(f"XXXX - Steam login exception: {e}")
+                        steam_login_ok = False
+
+                if not steam_login_ok:
+                    self.logger.error("Stopping automation: Steam login failed")
+                    self.status = "Failed"
+                    return
+
                 # Launch game if path provided
                 if self.game_path:
                     self.logger.info(f"Launching game from: {self.game_path}")
@@ -956,7 +1010,7 @@ class SUTController:
 
             if response.status_code == 200:
                 if self.logger:
-                    self.logger.info(f"✓ Killed game process (PID: {pid})")
+                    self.logger.info(f">>>> Killed game process (PID: {pid})")
                 self.current_process_id = None
                 return True
             elif response.status_code == 404:
@@ -1818,6 +1872,40 @@ class MultiSUTGUI:
             except Exception as e:
                 messagebox.showerror("Error", f"Failed to export logs: {str(e)}")
 
+    def _sync_controller_from_gui(self, controller):
+        """Update controller object with latest values from GUI widgets."""
+        widgets = self.sut_widgets.get(controller.name)
+        if not widgets:
+            return
+
+        # Basic Config
+        controller.ip = widgets['ip_var'].get()
+        try:
+            controller.port = int(widgets['port_var'].get())
+        except ValueError:
+            pass  # Keep existing port if invalid
+
+        # Mode
+        if 'mode_var' in widgets:
+            mode = widgets['mode_var'].get()
+            controller.campaign_mode = (mode == "campaign")
+
+        # Campaign Settings
+        if 'campaign_name_var' in widgets:
+            controller.campaign_name = widgets['campaign_name_var'].get()
+        if 'delay_between_games_var' in widgets:
+            controller.delay_between_games = widgets['delay_between_games_var'].get()
+        if 'continue_on_failure_var' in widgets:
+            controller.continue_on_failure = widgets['continue_on_failure_var'].get()
+
+        # Single Game Settings
+        if 'game_var' in widgets:
+            controller.game_path = widgets['game_var'].get()
+        if 'run_count_var' in widgets:
+            controller.run_count = widgets['run_count_var'].get()
+        if 'run_delay_var' in widgets:
+            controller.run_delay = widgets['run_delay_var'].get()
+
     def start_all(self):
         """Start automation on all SUTs."""
         if not self.sut_controllers:
@@ -1891,6 +1979,10 @@ class MultiSUTGUI:
 
         if not filename:
             return
+
+        # Synchronize all controllers with GUI state before saving
+        for controller in self.sut_controllers.values():
+            self._sync_controller_from_gui(controller)
 
         config = {
             "version": "1.0",

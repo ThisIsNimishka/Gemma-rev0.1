@@ -129,18 +129,33 @@ class ImprovedInputController:
 
     def __init__(self):
         self.user32 = ctypes.windll.user32
-        self.screen_width = self.user32.GetSystemMetrics(0)
-        self.screen_height = self.user32.GetSystemMetrics(1)
+        # Removed cached resolution to allow dynamic updates
+        # self.screen_width = self.user32.GetSystemMetrics(0)
+        # self.screen_height = self.user32.GetSystemMetrics(1)
 
         # Reusable null pointer for dwExtraInfo to reduce allocations
         self._null_ptr = ctypes.cast(ctypes.pointer(wintypes.ULONG(0)), ctypes.POINTER(wintypes.ULONG))
 
-        logger.info(f"Screen resolution: {self.screen_width}x{self.screen_height}")
+        logger.info(f"Initial screen resolution: {self.screen_width}x{self.screen_height}")
+
+    @property
+    def screen_width(self):
+        """Get current screen width."""
+        return self.user32.GetSystemMetrics(0)
+
+    @property
+    def screen_height(self):
+        """Get current screen height."""
+        return self.user32.GetSystemMetrics(1)
 
     def _normalize_coordinates(self, x, y):
         """Convert screen coordinates to normalized coordinates (0-65535)."""
-        normalized_x = int(x * 65535 / self.screen_width)
-        normalized_y = int(y * 65535 / self.screen_height)
+        # Fetch current resolution to handle dynamic changes
+        width = self.screen_width
+        height = self.screen_height
+        
+        normalized_x = int(x * 65535 / width)
+        normalized_y = int(y * 65535 / height)
         return normalized_x, normalized_y
 
     def move_mouse(self, x, y, smooth=True, duration=0.3):
@@ -599,7 +614,142 @@ def terminate_process_by_name(process_name):
         logger.error(f"Error terminating process {process_name}: {str(e)}")
         return False
 
+# ============================================================================
+# STEAM LOGIN HELPERS
+# ============================================================================
+
+def set_steam_auto_login(username):
+    """
+    Set the AutoLoginUser registry key to enable auto-login for specified user.
+    """
+    try:
+        key = winreg.OpenKey(
+            winreg.HKEY_CURRENT_USER, 
+            r"Software\Valve\Steam",
+            0, 
+            winreg.KEY_SET_VALUE
+        )
+        winreg.SetValueEx(key, "AutoLoginUser", 0, winreg.REG_SZ, username)
+        winreg.SetValueEx(key, "RememberPassword", 0, winreg.REG_DWORD, 1)
+        winreg.CloseKey(key)
+        logger.info(f"Registry: Set AutoLoginUser to '{username}'")
+        return True
+    except Exception as e:
+        logger.warning(f"Failed to set AutoLoginUser registry: {e}")
+        return False
+
+
+def verify_steam_login(timeout=45):
+    """
+    Verify that Steam is logged in via registry check (ActiveUser != 0).
+    """
+    start_time = time.time()
+    
+    while time.time() - start_time < timeout:
+        try:
+            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam\ActiveProcess")
+            active_user, _ = winreg.QueryValueEx(key, "ActiveUser")
+            winreg.CloseKey(key)
+            
+            if active_user and active_user != 0:
+                logger.info(f"Steam login verified! ActiveUser ID: {active_user}")
+                return True, active_user
+            else:
+                logger.debug("Steam ActiveUser is 0, login in progress...")
+                
+        except Exception as e:
+            logger.debug(f"Waiting for Steam registry... {e}")
+        
+        time.sleep(2)
+    
+    logger.warning(f"Steam login verification timed out after {timeout}s")
+    return False, None
+
+
 # Flask routes
+@app.route('/login_steam', methods=['POST'])
+def login_steam():
+    """
+    Login to Steam using steam.exe -login command.
+    
+    Flow:
+    1. Check if already logged in (skip if so)
+    2. Kill existing Steam processes
+    3. Set registry for the desired user
+    4. Launch steam.exe with -login credentials
+    5. Wait and verify login via registry
+    """
+    try:
+        data = request.json
+        username = data.get('username')
+        password = data.get('password')
+
+        if not username or not password:
+            return jsonify({"status": "error", "message": "Username and password required"}), 400
+
+        logger.info(f"===== Steam Login Request: {username} =====")
+
+        # 1. Check if already logged in as this user
+        steam_running = find_process_by_name("steam.exe")
+        try:
+            key = winreg.OpenKey(winreg.HKEY_CURRENT_USER, r"Software\Valve\Steam")
+            current_user, _ = winreg.QueryValueEx(key, "AutoLoginUser")
+            winreg.CloseKey(key)
+            logger.info(f"Current AutoLoginUser: {current_user}")
+
+            if steam_running and current_user.lower() == username.lower():
+                verified, user_id = verify_steam_login(timeout=5)
+                if verified:
+                    logger.info(f"Already logged in as {username}")
+                    return jsonify({"status": "success", "message": "Already logged in", "user_id": user_id}), 200
+        except Exception as e:
+            logger.debug(f"Registry check: {e}")
+
+        # 2. Kill all Steam processes
+        logger.info("Killing Steam processes...")
+        terminate_process_by_name("steam.exe")
+        terminate_process_by_name("steamwebhelper.exe")
+        time.sleep(3)
+
+        # 3. Set registry for auto-login
+        set_steam_auto_login(username)
+
+        # 4. Get Steam path
+        steam_path = get_steam_install_path()
+        if not steam_path:
+            return jsonify({"status": "error", "message": "Steam not found"}), 500
+        
+        steam_exe = os.path.join(steam_path, "steam.exe")
+        if not os.path.exists(steam_exe):
+            return jsonify({"status": "error", "message": f"steam.exe not found: {steam_exe}"}), 500
+
+        # 5. Launch Steam with -login credentials
+        cmd = [steam_exe, "-login", username, password]
+        logger.info(f"Launching: steam.exe -login {username} ********")
+        subprocess.Popen(cmd)
+
+        # 6. Wait for login verification
+        logger.info("Waiting for Steam login...")
+        verified, user_id = verify_steam_login(timeout=60)
+
+        if verified:
+            logger.info(f"===== Steam Login SUCCESS: {username} (ID: {user_id}) =====")
+            return jsonify({
+                "status": "success",
+                "message": "Steam login successful",
+                "user_id": user_id
+            }), 200
+        else:
+            logger.warning("Steam login verification failed - check SUT")
+            return jsonify({
+                "status": "warning",
+                "message": "Steam launched but login unverified"
+            }), 200
+
+    except Exception as e:
+        logger.error(f"Steam login failed: {str(e)}", exc_info=True)
+        return jsonify({"status": "error", "error": str(e)}), 500
+
 @app.route('/status', methods=['GET'])
 def status():
     """Enhanced status endpoint."""
@@ -607,6 +757,8 @@ def status():
         "status": "running",
         "version": "3.1-optimized",
         "input_method": "SendInput",
+        "screen_width": input_controller.screen_width,
+        "screen_height": input_controller.screen_height,
         "admin_privileges": is_admin(),
         "capabilities": [
             "sendinput_clicks", "sendinput_mouse", "smooth_movement",
@@ -614,6 +766,59 @@ def status():
             "scroll", "process_management", "text_input"
         ]
     })
+
+
+@app.route('/check_process', methods=['POST'])
+def check_process():
+    """Check if a process is running by name."""
+    try:
+        data = request.json
+        process_name = data.get('process_name', '')
+        
+        if not process_name:
+            return jsonify({"status": "error", "message": "process_name required"}), 400
+        
+        proc = find_process_by_name(process_name)
+        
+        if proc:
+            return jsonify({
+                "status": "success",
+                "running": True,
+                "pid": proc.pid,
+                "name": proc.name()
+            })
+        else:
+            return jsonify({
+                "status": "success",
+                "running": False
+            })
+            
+    except Exception as e:
+        logger.error(f"Check process error: {e}")
+        return jsonify({"status": "error", "error": str(e)}), 500
+
+
+@app.route('/kill_process', methods=['POST'])
+def kill_process():
+    """Kill a process by name."""
+    try:
+        data = request.json
+        process_name = data.get('process_name', '')
+        
+        if not process_name:
+            return jsonify({"status": "error", "message": "process_name required"}), 400
+        
+        killed = terminate_process_by_name(process_name)
+        
+        return jsonify({
+            "status": "success",
+            "killed": killed,
+            "process_name": process_name
+        })
+            
+    except Exception as e:
+        logger.error(f"Kill process error: {e}")
+        return jsonify({"status": "error", "error": str(e)}), 500
 
 @app.route('/screenshot', methods=['GET'])
 def screenshot():
@@ -791,6 +996,23 @@ def ensure_window_foreground(pid, timeout=5):
             target_tid, _ = win32process.GetWindowThreadProcessId(target_hwnd)
             
             try:
+                # 0. "Alt" key trick to bypass foreground lock
+                # Pressing Alt (VK_MENU = 0x12) tells Windows user is active
+                # This is a known workaround for "Access is denied" on SetForegroundWindow
+                alt_input = INPUT()
+                alt_input.type = INPUT_KEYBOARD
+                alt_input.union.ki.wVk = 0x12 # VK_MENU (Alt)
+                alt_input.union.ki.wScan = 0
+                alt_input.union.ki.dwFlags = 0
+                alt_input.union.ki.time = 0
+                alt_input.union.ki.dwExtraInfo = ctypes.cast(ctypes.pointer(wintypes.ULONG(0)), ctypes.POINTER(wintypes.ULONG))
+                
+                ctypes.windll.user32.SendInput(1, ctypes.byref(alt_input), ctypes.sizeof(INPUT))
+                
+                # Release Alt
+                alt_input.union.ki.dwFlags = KEYEVENTF_KEYUP
+                ctypes.windll.user32.SendInput(1, ctypes.byref(alt_input), ctypes.sizeof(INPUT))
+                
                 # 1. Allow this process to set foreground (magic constant ASFW_ANY = -1)
                 ctypes.windll.user32.AllowSetForegroundWindow(-1)
                 
@@ -870,7 +1092,9 @@ def launch_game():
                 logger.info(f"Extracted Steam App ID from URL: {game_path}")
 
         # Resolve Steam App ID to Executable
+        steam_app_id = None  # Track the original app ID for steam:// launch
         if is_steam_id:
+            steam_app_id = game_path  # Store original Steam App ID
             logger.info(f"Resolving Steam App ID: {game_path}")
             resolved_path, error = resolve_steam_app_path(game_path, process_id)
             if resolved_path:
@@ -908,23 +1132,34 @@ def launch_game():
             # Set the new global process name
             current_game_process_name = new_process_name
 
-            # Launch game
-            logger.info(f"Launching game: {game_path}")
-            
-            # Use cwd to avoid common launcher issues
-            game_dir = os.path.dirname(game_path)
-            try:
-                game_process = subprocess.Popen(game_path, cwd=game_dir)
-            except Exception as e:
-                logger.warning(f"Failed to launch with cwd, trying direct: {e}")
-                game_process = subprocess.Popen(game_path)
+            # Launch game - Use steam:// protocol for Steam games to ensure Steam starts
+            if steam_app_id:
+                # Launch via Steam protocol - this automatically starts Steam if not running
+                steam_url = f"steam://rungameid/{steam_app_id}"
+                logger.info(f"Launching game via Steam protocol: {steam_url}")
+                os.startfile(steam_url)
+                game_process = None  # No subprocess handle for steam:// launch
+            else:
+                # Direct exe launch for non-Steam games
+                logger.info(f"Launching game directly: {game_path}")
+                game_dir = os.path.dirname(game_path)
+                try:
+                    game_process = subprocess.Popen(game_path, cwd=game_dir)
+                except Exception as e:
+                    logger.warning(f"Failed to launch with cwd, trying direct: {e}")
+                    game_process = subprocess.Popen(game_path)
                 
-            logger.info(f"Subprocess started with PID: {game_process.pid}")
+            # Log launch status
+            if game_process:
+                logger.info(f"Subprocess started with PID: {game_process.pid}")
+            else:
+                logger.info("Game launched via Steam protocol (no direct PID)")
 
             time.sleep(3) # Initial wait for process spawn
 
-            subprocess_status = "running" if game_process.poll() is None else "exited"
-            logger.info(f"Subprocess status after 3 seconds: {subprocess_status}")
+            if game_process:
+                subprocess_status = "running" if game_process.poll() is None else "exited"
+                logger.info(f"Subprocess status after 3 seconds: {subprocess_status}")
             
             # If subprocess exited quickly (launcher wrapper), we need to find the actual game process
             # Give the actual game process time to start and show window
@@ -958,8 +1193,8 @@ def launch_game():
                 
                 response_data = {
                     "status": "success" if foreground_confirmed else "warning",
-                    "subprocess_pid": game_process.pid,
-                    "subprocess_status": subprocess_status,
+                    "subprocess_pid": game_process.pid if game_process else None,
+                    "subprocess_status": subprocess_status if game_process else "steam_protocol",
                     "resolved_path": game_path if is_steam_id else None,
                     "launch_method": "steam" if is_steam_id else "direct_exe",
                     "game_process_pid": actual_process.pid,
@@ -979,8 +1214,8 @@ def launch_game():
                 response_data = {
                     "status": "warning",
                     "warning": f"Game process '{current_game_process_name}' not detected, but launch command executed",
-                    "subprocess_pid": game_process.pid,
-                    "subprocess_status": subprocess_status,
+                    "subprocess_pid": game_process.pid if game_process else None,
+                    "subprocess_status": subprocess_status if game_process else "steam_protocol",
                     "resolved_path": game_path if is_steam_id else None,
                     "launch_method": "steam" if is_steam_id else "direct_exe"
                 }

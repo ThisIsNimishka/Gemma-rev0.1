@@ -68,6 +68,13 @@ class SimpleAutomation:
         if self.process_id:
             logger.info(f"Process ID tracking enabled: {self.process_id}")
 
+        # Log SUT resolution for debugging
+        try:
+            resolution = self.network.get_resolution()
+            logger.info(f"Detected SUT Resolution: {resolution['width']}x{resolution['height']}")
+        except Exception as e:
+            logger.warning(f"Could not determine SUT resolution: {e}")
+
     def _execute_fallback(self):
         """Execute fallback action when step fails."""
         fallback = self.config.get("fallbacks", {}).get("general", {})

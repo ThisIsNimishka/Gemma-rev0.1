@@ -14,7 +14,7 @@ This repository contains the **Gemma Automation Framework**, a computer vision-b
 
 ## 📂 Repository Structure
 
-*   `sut_service_installer/gemma_client_0.2.py`: **The SUT Agent**. Runs on the gaming machine. Handles input (mouse/keyboard), game launching, and screen capture.
+*   `sut_service_installer/gemma_service_0.1.py`: **The SUT Agent**. Runs on the gaming machine. Handles input (mouse/keyboard), game launching, and screen capture.
 *   `gui_app_multi_sut.py`: **The Controller**. Runs on the host machine. Connects to SUTs, sends commands, and runs the automation logic.
 *   `modules/`: Shared logic for networking, game launching, and automation.
 *   `config/games/`: YAML configuration files defining game states (e.g., `Start Menu` -> `Click Play`).
@@ -30,7 +30,7 @@ This repository contains the **Gemma Automation Framework**, a computer vision-b
     ```
 3.  Run the client:
     ```bash
-    python sut_service_installer/gemma_client_0.2.py
+    python sut_service_installer/gemma_service_0.1.py
     ```
     *   *Note: This service listens on port 8080 by default.*
 
@@ -71,7 +71,7 @@ states:
 
 ## ⚠️ Troubleshooting
 
-*   **"Access Denied" when launching games**: Ensure `gemma_client_0.2.py` is running as **Administrator**.
+*   **"Access Denied" when launching games**: Ensure `gemma_service_0.1.py` is running as **Administrator**.
 *   **Game window not focusing**: The client includes a robust `AttachThreadInput` mechanism. If it fails initially, it will retry after 3 seconds. Check logs for `[WARN] Initial foreground attempt failed`.
 
 ---

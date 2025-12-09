@@ -2,10 +2,10 @@ metadata:
   game_name: Cyberpunk2077
   version: '1.0'
   created_with: Katana Workflow Builder
-  created_date: '2025-11-18 01:07:32'
+  created_date: '2025-12-09 02:53:56'
   path: C:\Program Files (x86)\Steam\steamapps\common\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe
-  process_id: Cyberpunk 2077
-  process_name: Cyberpunk 2077
+  process_id: Cyberpunk2077
+  process_name: Cyberpunk2077
   benchmark_name: Cyberpunk ingame benchmark
   benchmark_duration: 100
   startup_wait: 80
@@ -18,21 +18,17 @@ steps:
     description: PRESS SPACE TO CONTINUE
     find:
       type: any
-      text: PRESS  TO CONTINUE
+      text: SPACE
       text_match: contains
     action:
       type: key
       key: space
-    verify_success:
-    - type: any
-      text: SETTINGS
-      text_match: contains
     expected_delay: 3
     timeout: 20
   2:
     description: CLICK ON SETTINGS
     find:
-      type: icon
+      type: any
       text: SETTINGS
       text_match: contains
     action:
@@ -46,7 +42,7 @@ steps:
     description: NAVIGATE TO GRAPHICS
     find:
       type: any
-      text: DEFAULTS
+      text: ''
       text_match: contains
     action:
       type: key
@@ -56,8 +52,8 @@ steps:
   4:
     description: NAVIGATE TO GRAPHICS
     find:
-      type: any
-      text: DEFAULTS
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
@@ -67,38 +63,30 @@ steps:
   5:
     description: NAVIGATE TO GRAPHICS
     find:
-      type: any
-      text: DEFAULTS
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
       key: '3'
-    verify_success:
-    - type: any
-      text: BENCHMARK
-      text_match: contains
     expected_delay: 2
     timeout: 20
   6:
     description: START BENCHMARK
     find:
-      type: any
-      text: DEFAULTS
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
       key: b
-    verify_success:
-    - type: any
-      text: CONFIRM
-      text_match: contains
     expected_delay: 2
     timeout: 20
   7:
     description: HIT CONFIRM
     find:
-      type: any
-      text: CONFIRM
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
@@ -123,17 +111,13 @@ steps:
       button: left
       move_duration: 0.3
       click_delay: 0.2
-    verify_success:
-    - type: any
-      text: CONFIRM
-      text_match: contains
     expected_delay: 2
     timeout: 20
   10:
     description: CONFIRM TO EXIT TO MAIN MENU
     find:
-      type: any
-      text: CONFIRM
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
@@ -143,16 +127,12 @@ steps:
   11:
     description: PRESS SPACE TO CONTINUE
     find:
-      type: any
-      text: PRESS  TO CONTINUE
+      type: icon
+      text: ''
       text_match: contains
     action:
       type: key
       key: space
-    verify_success:
-    - type: any
-      text: SETTINGS
-      text_match: contains
     expected_delay: 3
     timeout: 20
   12:
