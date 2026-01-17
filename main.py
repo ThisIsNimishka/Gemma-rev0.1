@@ -224,6 +224,7 @@ def main():
         # Extract benchmark metadata
         game_metadata = config_parser.get_config().get("metadata", {})
         benchmark_duration = game_metadata.get("benchmark_duration", 120)
+        launch_mode = game_metadata.get("launch_mode", "default")
         logger.info(f"Expected benchmark duration: {benchmark_duration} seconds")
         
         # Main execution loop
@@ -237,8 +238,8 @@ def main():
         
         try:
             # Launch the game
-            logger.info(f"Launching game from: {args.game_path}")
-            game_launcher.launch(args.game_path)
+            logger.info(f"Launching game from: {args.game_path} (Mode: {launch_mode})")
+            game_launcher.launch(args.game_path, launch_mode=launch_mode)
             
             # Get startup wait time from config or use default
             startup_wait = game_metadata.get("startup_wait", 30)

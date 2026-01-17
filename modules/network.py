@@ -162,7 +162,7 @@ class NetworkManager:
             logger.error(f"Failed to get screenshot: {str(e)}")
             raise
     
-    def launch_game(self, game_path: str, process_id: str = '', startup_wait: int = 15) -> Dict[str, Any]:
+    def launch_game(self, game_path: str, process_id: str = '', startup_wait: int = 15, launch_mode: str = 'default') -> Dict[str, Any]:
         """
         Request the SUT to launch a game.
 
@@ -170,6 +170,7 @@ class NetworkManager:
             game_path: Path to the game executable or Steam app ID on the SUT
             process_id: Optional process name to wait for after launch (e.g., 'Launcher', 'Game')
             startup_wait: Maximum seconds to wait for process to appear (default: 15)
+            launch_mode: Launch mode ('default', 'maximized', 'fullscreen')
 
         Returns:
             Response from the SUT as a dictionary
@@ -182,7 +183,8 @@ class NetworkManager:
             payload = {
                 "path": game_path,
                 "process_id": process_id,
-                "startup_wait": startup_wait
+                "startup_wait": startup_wait,
+                "launch_mode": launch_mode
             }
             
             logger.debug(f"Sending launch request to {self.base_url}/launch with payload: {payload}")

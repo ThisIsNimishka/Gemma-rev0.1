@@ -1416,6 +1416,37 @@ def cancel_launch():
     launch_cancel_flag.set()
     return jsonify({"status": "success", "message": "Launch cancellation requested"})
 
+def apply_window_mode(pid, hwnd, mode):
+    """
+    Apply window mode (maximized, fullscreen) to a specific window.
+    """
+    if not mode or mode in ['default', 'windowed']:
+        return
+
+    logger.info(f"Applying window mode '{mode}' to PID {pid}")
+
+    # Try using Win32 API with the known HWND first (most reliable if we have it)
+    if hwnd:
+        try:
+            if mode in ['maximized', 'fullscreen']:
+                # maximize
+                win32gui.ShowWindow(hwnd, win32con.SW_MAXIMIZE)
+                logger.info(f"Maximized window {hwnd} using Win32 ShowWindow")
+                return
+        except Exception as e:
+            logger.warning(f"Win32 maximize failed: {e}")
+
+    # Fallback: Use pywinauto if we didn't have HWND or Win32 failed
+    if PYWINAUTO_AVAILABLE:
+        try:
+            app = Application().connect(process=pid)
+            win = app.top_window()
+            if mode in ['maximized', 'fullscreen']:
+                win.maximize()
+                logger.info("Maximized window using pywinauto")
+        except Exception as e:
+            logger.warning(f"pywinauto maximize failed: {e}")
+
 # ============================================================================
 
 @app.route('/launch', methods=['POST'])
@@ -1430,6 +1461,7 @@ def launch_game():
         data = request.json
         game_path = data.get('path', '')
         process_id = data.get('process_id', '')
+        launch_mode = data.get('launch_mode', 'default')
 
         # Validate game_path is provided (before conversion)
         if not game_path:
@@ -1610,6 +1642,12 @@ def launch_game():
                                 break
                         else:
                             logger.warning(f"Retry {attempt}: Process '{current_game_process_name}' no longer found")
+
+                # v0.2: Apply launch mode (e.g., maximized)
+                if foreground_confirmed:
+                     # Get HWND if found during pywinauto detection
+                     current_hwnd = hwnd if 'hwnd' in locals() and hwnd else None
+                     apply_window_mode(actual_process.pid, current_hwnd, launch_mode)
                 
                 response_data = {
                     "status": "success" if foreground_confirmed else "warning",

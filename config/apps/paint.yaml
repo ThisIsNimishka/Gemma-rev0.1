@@ -10,6 +10,7 @@ metadata:
   startup_wait: 10 # Wait for the application to load
   resolution: "1920x1080"
   preset: ""
+  launch_mode: "maximized" # Open application in maximized mode
 
 # Enhanced features configuration
 enhanced_features:

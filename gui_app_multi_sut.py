@@ -677,6 +677,7 @@ class SUTController:
             self.logger.info(f"Game metadata loaded: {game_metadata}")
             startup_wait = game_metadata.get("startup_wait", 30)
             process_id = game_metadata.get("process_id", '')
+            launch_mode = game_metadata.get("launch_mode", "default")
 
             try:
                 # Handle Steam Login FIRST - STOP if it fails
@@ -688,9 +689,9 @@ class SUTController:
 
                 # Launch game if path provided
                 if self.game_path:
-                    self.logger.info(f"Launching game from: {self.game_path}")
+                    self.logger.info(f"Launching game from: {self.game_path} (Mode: {launch_mode})")
                     # Pass process_id and startup_wait to enable process tracking on SUT
-                    game_launcher.launch(self.game_path, process_id, startup_wait)
+                    game_launcher.launch(self.game_path, process_id, startup_wait, launch_mode)
 
                     # Store process ID for cleanup
                     if process_id:
