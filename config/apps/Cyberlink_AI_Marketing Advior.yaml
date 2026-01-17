@@ -1,0 +1,95 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-01-16 19:11:00'
+  path: C:\Program Files\CyberLink\Promeo\8.17.4830.0\Promeo.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Click on Launch Free Version
+    find:
+      type: icon
+      text: Launch Free Version
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click on Settings Icon
+    find:
+      type: icon
+      text: Settings
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: Click on AI PC Section
+    find:
+      type: icon
+      text: Al PC Section
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: Click on AICV (NPU)
+    find:
+      type: any
+      text: AIPC (NPU
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Click Save
+    find:
+      type: icon
+      text: Save
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: Click on AI Marketing Advisor tab
+    find:
+      type: icon
+      text: Al Marketing Advisor
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 11
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

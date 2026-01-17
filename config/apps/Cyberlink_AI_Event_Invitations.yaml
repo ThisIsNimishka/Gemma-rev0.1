@@ -1,0 +1,174 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-01-16 19:31:43'
+  path: C:\Program Files\CyberLink\Promeo\8.17.4830.0\Promeo.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Click on Launch Free Version
+    find:
+      type: icon
+      text: Launch Free Version
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click on Settings Icon
+    find:
+      type: icon
+      text: Settings
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: Click on AI PC Section
+    find:
+      type: icon
+      text: Al PC Section
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: Click on AICV (NPU)
+    find:
+      type: any
+      text: AIPC (NPU
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Click Save
+    find:
+      type: icon
+      text: Save
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: Click on AI Event Mechanism
+    find:
+      type: icon
+      text: Al Event Invitation
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  7:
+    description: Click continue button
+    find:
+      type: icon
+      text: Continue
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  8:
+    description: Click on Title Name Bar
+    find:
+      type: icon
+      text: 'e.g. '
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  9:
+    description: 'Add Text '
+    find:
+      type: icon
+      text: e.g.
+      text_match: contains
+    action:
+      type: text
+      text: gen ai workshop
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  10:
+    description: Click on Event Tab
+    find:
+      type: icon
+      text: e.g.
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 6
+    timeout: 20
+  11:
+    description: Add text
+    find:
+      type: text
+      text: e,g.
+      text_match: contains
+    action:
+      type: text
+      text: hands-on experience with cutting-edge Al tools, expert insights from industry
+        leaders
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  12:
+    description: Click on Generate with AI PC
+    find:
+      type: icon
+      text: 'Generate with Al PC '
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

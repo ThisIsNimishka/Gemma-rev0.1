@@ -1,0 +1,83 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2025-12-22 19:21:20'
+  path: C:\Program Files\UL\Procyon\Procyon.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Click on Office_Productivity
+    find:
+      type: icon
+      text: Office Productivity Benchmark
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click Run
+    find:
+      type: icon
+      text: Run
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: Click on Export as PDF
+    find:
+      type: icon
+      text: Export as PDF
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    optional: true
+    expected_delay: 6
+    timeout: 20
+  4:
+    description: Click on add button
+    find:
+      type: icon
+      text: Save
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Close
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

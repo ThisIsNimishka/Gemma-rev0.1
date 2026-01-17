@@ -1,0 +1,198 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-01-06 16:56:31'
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: click on windows key
+    find:
+      type: icon
+      text: Windows
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Add vray keyword
+    find:
+      type: icon
+      text: Q Search
+      text_match: contains
+    action:
+      type: text
+      text: vray
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: set the mouse properly
+    find:
+      type: text
+      text: Best match
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: click on vray app
+    find:
+      type: text
+      text: vray-benchmark
+      text_match: startswith
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 25
+    timeout: 20
+  5:
+    description: click play
+    find:
+      type: text
+      text: V-Ray
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: click on start
+    find:
+      type: icon
+      text: Startd
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 80
+    timeout: 20
+  7:
+    description: Wait time of 3 min
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 180
+    timeout: 20
+  8:
+    description: click new test (2nd iteration)
+    find:
+      type: icon
+      text: New test
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  9:
+    description: click play
+    find:
+      type: text
+      text: V-Ray
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  10:
+    description: click on start
+    find:
+      type: icon
+      text: Startd
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 80
+    timeout: 20
+  11:
+    description: Wait time of 3 min
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 180
+    timeout: 20
+  12:
+    description: click new test (3rd iteration)
+    find:
+      type: icon
+      text: New test
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  13:
+    description: click play
+    find:
+      type: text
+      text: V-Ray
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  14:
+    description: close option
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

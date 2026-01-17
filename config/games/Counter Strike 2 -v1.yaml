@@ -4,13 +4,16 @@ metadata:
   created_with: Katana Workflow Builder
   created_date: '2025-11-21 13:45:12'
   path: '730'
-  process_id: cs2
+  process_id: cs2.exe
+  process_name: cs2.exe
   benchmark_duration: 110
   startup_wait: 30
   resolution: 1920x1080
   preset: High
   engine: Source 2
   graphics_api: DirectX 11
+ # steam_username: "arrlauto1"
+ # steam_password: "arlr@101"
 steps:
   1:
     description: Left-click PLAY button from main menu

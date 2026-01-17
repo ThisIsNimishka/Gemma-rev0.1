@@ -1,0 +1,82 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-01-06 15:28:58'
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: click on window setup
+    find:
+      type: icon
+      text: Q Search
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: enter search keyword
+    find:
+      type: icon
+      text: search function.
+      text_match: contains
+    action:
+      type: text
+      text: crossmark
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: click on crossmark
+    find:
+      type: icon
+      text: CrossMarke App
+      text_match: endswith
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: click on run benchmark
+    find:
+      type: icon
+      text: Cj Run Benchmark
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 300
+    timeout: 20
+  5:
+    description: click proceed
+    find:
+      type: icon
+      text: Proceed
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    optional: true
+    expected_delay: 300
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

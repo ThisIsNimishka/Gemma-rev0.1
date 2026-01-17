@@ -31,9 +31,6 @@ class OmniparserClient:
         """
         self.api_url = api_url
         self.session = requests.Session()
-        # Assuming 1920x1080 resolution - adjust as needed for your target resolution
-        self.screen_width = 1920
-        self.screen_height = 1080
         logger.info(f"OmniparserClient initialized with API URL: {api_url}")
         
         # Test connection to the API
@@ -63,13 +60,14 @@ class OmniparserClient:
         with open(image_path, "rb") as image_file:
             return base64.b64encode(image_file.read()).decode('utf-8')
     
-    def _parse_omniparser_response(self, response_data: Dict) -> List[BoundingBox]:
+    def _parse_omniparser_response(self, response_data: Dict, image_size: Tuple[int, int]) -> List[BoundingBox]:
         """
         Parse the response from Omniparser into BoundingBox objects.
         COMPREHENSIVE filtering to capture ALL useful elements for gaming performance analysis.
         
         Args:
             response_data: Response JSON from Omniparser
+            image_size: Tuple of (width, height) used for scaling normalized coordinates
             
         Returns:
             List of BoundingBox objects
@@ -83,6 +81,10 @@ class OmniparserClient:
         # Log first item as sample if available
         if parsed_content_list and len(parsed_content_list) > 0:
             logger.debug(f"First item example: {json.dumps(parsed_content_list[0], indent=2)}")
+        
+        # Get image dimensions for scaling
+        img_width, img_height = image_size
+        logger.info(f"Scaling normalized coordinates to image size: {img_width}x{img_height}")
         
         # Counters for different element types
         interactive_count = 0
@@ -101,11 +103,11 @@ class OmniparserClient:
                     # Omniparser uses normalized coordinates [x1, y1, x2, y2]
                     x1, y1, x2, y2 = bbox_coords
                     
-                    # Convert normalized to absolute coordinates
-                    abs_x1 = int(x1 * self.screen_width)
-                    abs_y1 = int(y1 * self.screen_height)
-                    abs_x2 = int(x2 * self.screen_width)
-                    abs_y2 = int(y2 * self.screen_height)
+                    # Convert normalized to absolute coordinates using image dimensions
+                    abs_x1 = int(x1 * img_width)
+                    abs_y1 = int(y1 * img_height)
+                    abs_x2 = int(x2 * img_width)
+                    abs_y2 = int(y2 * img_height)
                     
                     # Get element properties
                     is_interactive = element.get('interactivity', False)
@@ -225,6 +227,11 @@ class OmniparserClient:
             if not os.path.exists(image_path):
                 raise FileNotFoundError(f"Image file not found: {image_path}")
             
+            # Open image to get dimensions for correct scaling
+            with Image.open(image_path) as img:
+                image_size = img.size # (width, height)
+                logger.debug(f"Loaded image {image_path} with size: {image_size}")
+
             # Encode the image
             base64_image = self._encode_image(image_path)
             
@@ -242,7 +249,7 @@ class OmniparserClient:
                 f"{self.api_url}/parse/",
                 json=payload,
                 headers={"Content-Type": "application/json"},
-                timeout=60  # Longer timeout for image processing
+                timeout=300  # Longer timeout for image processing
             )
             response.raise_for_status()
             
@@ -253,8 +260,8 @@ class OmniparserClient:
             if "latency" in response_data:
                 logger.info(f"Omniparser processing time: {response_data['latency']:.2f} seconds")
             
-            # Extract and convert bounding boxes
-            bounding_boxes = self._parse_omniparser_response(response_data)
+            # Extract and convert bounding boxes using ACTUAL image size
+            bounding_boxes = self._parse_omniparser_response(response_data, image_size)
             
             # STREAMLINED ANNOTATION HANDLING - Single source of truth
             if "som_image_base64" in response_data:

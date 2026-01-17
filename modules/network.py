@@ -54,6 +54,64 @@ class NetworkManager:
             logger.error(f"Connection check failed: {str(e)}")
             raise ConnectionError(f"Cannot connect to SUT at {self.base_url}: {str(e)}")
     
+    def get_resolution(self) -> dict:
+        """
+        Get the screen resolution of the SUT.
+        
+        Returns:
+            Dictionary with 'width' and 'height' keys
+        """
+        try:
+            response = self.session.get(f"{self.base_url}/status", timeout=5)
+            response.raise_for_status()
+            data = response.json()
+            return {
+                "width": data.get("screen_width", 1920),
+                "height": data.get("screen_height", 1080)
+            }
+        except Exception as e:
+            logger.warning(f"Failed to get resolution from SUT, defaulting to 1920x1080: {e}")
+            return {"width": 1920, "height": 1080}
+
+    def login_steam(self, username: str, password: str) -> bool:
+        """
+        Login to Steam via SUT service.
+        
+        Args:
+            username: Steam username
+            password: Steam password
+        
+        Returns:
+            True if login successful, False otherwise
+        """
+        try:
+            payload = {"username": username, "password": password}
+            logger.info(f"[Steam] Logging in as: {username}")
+            
+            # Timeout: kill processes (~3s) + steam.exe launch + login (~60s)
+            response = self.session.post(f"{self.base_url}/login_steam", json=payload, timeout=120)
+            
+            result = response.json()
+            status = result.get('status', 'unknown')
+            message = result.get('message', '')
+            user_id = result.get('user_id', '')
+            
+            if status == 'success':
+                logger.info(f"[Steam] ✓ Login successful: {message}")
+                if user_id:
+                    logger.info(f"[Steam] User ID: {user_id}")
+                return True
+            elif status == 'warning':
+                logger.warning(f"[Steam] ⚠ {message}")
+                return True  # Proceed with caution
+            else:
+                logger.error(f"[Steam] ✗ Login failed: {message or result.get('error', 'Unknown error')}")
+                return False
+                
+        except Exception as e:
+            logger.error(f"[Steam] Request failed: {e}")
+            return False
+
     def send_action(self, action: Dict[str, Any]) -> Dict[str, Any]:
         """
         Send an action command to the SUT.
@@ -126,6 +184,8 @@ class NetworkManager:
                 "process_id": process_id,
                 "startup_wait": startup_wait
             }
+            
+            logger.debug(f"Sending launch request to {self.base_url}/launch with payload: {payload}")
 
             response = self.session.post(
                 f"{self.base_url}/launch",
@@ -134,6 +194,8 @@ class NetworkManager:
             )
             response.raise_for_status()
             result = response.json()
+            
+            logger.debug(f"Launch response received: status={result.get('status')}, foreground={result.get('foreground_confirmed')}")
             logger.info(f"Game launch request sent: {game_path}, process_id: {process_id}, startup_wait: {startup_wait}")
             return result
         except requests.RequestException as e:

@@ -1,0 +1,109 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2025-12-22 17:53:34'
+  path: C:\Program Files\UL\Procyon\Procyon.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Press Windows Key
+    find:
+      type: icon
+      text: Windows
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Press Paint Icon
+    find:
+      type: icon
+      text: Paint
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: Press Copilot button
+    find:
+      type: icon
+      text: Microsoft Edge
+      text_match: startswith
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: Press Sticker Generator
+    find:
+      type: text
+      text: Sticker generator
+      text_match: endswith
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Click the textbox
+    find:
+      type: icon
+      text: Describe what you'd like to generate. Try "a cat wearing sunglasses"
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: Input Text
+    find:
+      type: icon
+      text: Describe what you'd like to generate. Try "a cat wearing sunglasses"
+      text_match: contains
+    action:
+      type: text
+      text: Act like a professional sticker generator, generate a cool shareable logo
+        of Intel (company). Use company colors logo
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 30
+    timeout: 20
+  7:
+    description: Click Generate button
+    find:
+      type: icon
+      text: Generate
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1
