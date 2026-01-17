@@ -20,7 +20,7 @@ from modules.omniparser_client import OmniparserClient
 from modules.annotator import Annotator
 from modules.decision_engine import DecisionEngine
 from modules.game_launcher import GameLauncher
-from modules.config_parser import ConfigParser
+from modules.config_parser import SimpleConfigParser as ConfigParser
 
 def create_directory_structure(game_name):
     """

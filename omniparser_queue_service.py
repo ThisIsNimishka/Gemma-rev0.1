@@ -13,11 +13,26 @@ from datetime import datetime
 import uuid
 from contextlib import asynccontextmanager
 
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.responses import JSONResponse
+try:
+    from fastapi import FastAPI, HTTPException, Request
+    from fastapi.responses import JSONResponse
+    import uvicorn
+    from pydantic import BaseModel
+    FASTAPI_AVAILABLE = True
+except ImportError:
+    FASTAPI_AVAILABLE = False
+    # Dummy classes for type hinting/runtime safety if imported but not run
+    class BaseModel: pass
+    class FastAPI: 
+        def __init__(self, **kwargs): pass
+        def get(self, path): return lambda x: x
+        def post(self, path): return lambda x: x
+    class HTTPException(Exception): pass
+    Request = Any
+    JSONResponse = Any
+    uvicorn = None
+
 import requests
-import uvicorn
-from pydantic import BaseModel
 
 # Configure logging
 logging.basicConfig(

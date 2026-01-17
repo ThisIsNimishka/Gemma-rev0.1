@@ -434,7 +434,7 @@ class SimpleAutomation:
                 "f5": "F5", "f6": "F6", "f7": "F7", "f8": "F8",
                 "f9": "F9", "f10": "F10", "f11": "F11", "f12": "F12",
                 "up": "Up", "down": "Down", "left": "Left", "right": "Right",
-                "home": "Home", "end": "End", "pageup": "Page_Up", "pagedown": "Page_Down"
+                "home": "Home", "end": "End", "pageup": "Page_Up", "pagedown": "Page_Down",
                 "prt scr": "Print",
                 "prtscr": "Print",
                 "printscreen": "Print",
