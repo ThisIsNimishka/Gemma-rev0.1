@@ -70,6 +70,7 @@ app = Flask(__name__)
 game_process = None
 game_lock = threading.Lock()
 current_game_process_name = None
+sdr_wrapper_process = None  # Track background SDR script
 
 # v0.2: Launch cancellation support
 launch_cancel_flag = threading.Event()  # Set this to cancel ongoing launch
@@ -987,6 +988,15 @@ def kill_process():
         
         killed = terminate_process_by_name(process_name)
         
+        # Cleanup SDR wrapper if it was monitoring this process
+        global sdr_wrapper_process
+        if sdr_wrapper_process and sdr_wrapper_process.poll() is None:
+            try:
+                sdr_wrapper_process.terminate()
+            except:
+                pass
+            sdr_wrapper_process = None
+        
         return jsonify({
             "status": "success",
             "killed": killed,
@@ -1520,6 +1530,17 @@ def launch_game():
                         game_process.wait(timeout=2)
                      except:
                         pass
+                
+                # Terminate any existing SDR wrapper
+                global sdr_wrapper_process
+                if sdr_wrapper_process and sdr_wrapper_process.poll() is None:
+                    logger.info("Terminating existing SDR wrapper script")
+                    try:
+                        sdr_wrapper_process.terminate()
+                    except:
+                        pass
+                sdr_wrapper_process = None
+                
                 current_game_process_name = None
 
             # Set the new global process name
@@ -1530,12 +1551,38 @@ def launch_game():
                 # Launch via Steam protocol - this automatically starts Steam if not running
                 steam_url = f"steam://rungameid/{steam_app_id}"
                 logger.info(f"Launching game via Steam protocol: {steam_url}")
+                
+                # Launch SDR wrapper script in background
+                try:
+                    wrapper_cmd = os.path.join(os.path.dirname(__file__), "game_launcher_wrapper.cmd")
+                    if os.path.exists(wrapper_cmd):
+                        logger.info(f"Starting SDR wrapper script for: {new_process_name}")
+                        sdr_wrapper_process = subprocess.Popen([wrapper_cmd, new_process_name], 
+                                                             creationflags=subprocess.CREATE_NEW_CONSOLE)
+                    else:
+                        logger.warning(f"SDR wrapper script not found at: {wrapper_cmd}")
+                except Exception as e:
+                    logger.error(f"Failed to start SDR wrapper script: {e}")
+
                 os.startfile(steam_url)
                 game_process = None  # No subprocess handle for steam:// launch
             else:
                 # Direct exe launch for non-Steam games
                 logger.info(f"Launching game directly: {game_path}")
                 game_dir = os.path.dirname(game_path)
+                
+                # Launch SDR wrapper script in background
+                try:
+                    wrapper_cmd = os.path.join(os.path.dirname(__file__), "game_launcher_wrapper.cmd")
+                    if os.path.exists(wrapper_cmd):
+                        logger.info(f"Starting SDR wrapper script for: {new_process_name}")
+                        sdr_wrapper_process = subprocess.Popen([wrapper_cmd, new_process_name], 
+                                                             creationflags=subprocess.CREATE_NEW_CONSOLE)
+                    else:
+                        logger.warning(f"SDR wrapper script not found at: {wrapper_cmd}")
+                except Exception as e:
+                    logger.error(f"Failed to start SDR wrapper script: {e}")
+
                 try:
                     game_process = subprocess.Popen(game_path, cwd=game_dir)
                 except Exception as e:
@@ -1868,6 +1915,15 @@ def perform_action():
                     except subprocess.TimeoutExpired:
                         game_process.kill()
                         terminated = True
+
+                # Cleanup SDR wrapper
+                global sdr_wrapper_process
+                if sdr_wrapper_process and sdr_wrapper_process.poll() is None:
+                    try:
+                        sdr_wrapper_process.terminate()
+                    except:
+                        pass
+                sdr_wrapper_process = None
 
                 message = "Game terminated" if terminated else "No game running"
                 return jsonify({
