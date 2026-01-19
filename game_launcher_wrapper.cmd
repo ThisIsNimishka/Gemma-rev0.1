@@ -1,6 +1,6 @@
 @echo off
 REM Game Launcher Wrapper with SDR Support
-REM This script launches SDRTrayApp.exe before the game and stops it after.
+REM This script launches SDRTrayAppCmdLine.exe before the game and stops it after.
 
 if "%~1"=="" (
     echo Error: No process name provided
@@ -10,15 +10,15 @@ if "%~1"=="" (
 )
 
 set "PROCESS_NAME=%~1"
-set "SDR_PATH=C:\Program Files\Intel Corporation\Intel(R)SystemDataRecorder\SDRTrayApp.exe"
+set "SDR_PATH=C:\Program Files\Intel Corporation\Intel(R)SystemDataRecorder\SDRTrayAppCmdLine.exe"
 
 echo ------------------------------------------------
-echo Starting SDR Tray App...
-echo Path: "%SDR_PATH%"
+echo Starting SDR Monitoring...
+echo Command: "%SDR_PATH%" --start
 if exist "%SDR_PATH%" (
-    start "" "%SDR_PATH%"
+    "%SDR_PATH%" --start
 ) else (
-    echo WARNING: SDRTrayApp.exe not found at specified path.
+    echo WARNING: SDRTrayAppCmdLine.exe not found at specified path.
     echo Proceeding with game launch anyway...
 )
 echo ------------------------------------------------
@@ -32,7 +32,7 @@ timeout /t 1 /nobreak >NUL
 goto wait_for_start
 
 :process_started
-echo Process "%PROCESS_NAME%" detected. Monitoring...
+echo Process "%PROCESS_NAME%" detected. Monitoring active.
 echo.
 
 :monitor_process
@@ -45,12 +45,11 @@ goto monitor_process
 echo Process "%PROCESS_NAME%" has stopped.
 echo.
 echo ------------------------------------------------
-echo Stopping SDR Tray App...
-taskkill /IM "SDRTrayApp.exe" /F 2>NUL
-if "%ERRORLEVEL%"=="0" (
-    echo SDR Tray App stopped successfully.
+echo Stopping SDR Monitoring...
+if exist "%SDR_PATH%" (
+    "%SDR_PATH%" --stop
 ) else (
-    echo SDR Tray App was not running or could not be stopped.
+    echo SDRTrayAppCmdLine.exe was not found to stop the process.
 )
 echo ------------------------------------------------
 
