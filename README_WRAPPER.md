@@ -58,7 +58,7 @@ monitor_process.wait()
 
 ```
 [Starting SDR Monitoring...]
-Command: "C:\Program Files\Intel Corporation\Intel(R)SystemDataRecorder\SDRTrayAppCmdLine.exe" --start
+Command: "C:\OWR\SDR\Intel(R)SystemDataRecorder_OneBKC\SDRBinaries\SDRApplication\SDRTrayAppCmdLine\SDRTrayAppCmdLine.exe" --start
 [Waiting for process to start...]
 Process "game.exe" detected. Monitoring active.
 [Monitoring process...]
