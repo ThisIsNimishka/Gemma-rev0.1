@@ -1,0 +1,3110 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.0,
+        0.34583333134651184,
+        0.025925925001502037
+      ],
+      "interactivity": false,
+      "content": " Process Explorer - Sysinternals: www.sysinternals.com [PTL_25H2\\Administrator] (Administrator)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0010416667209938169,
+        0.02777777798473835,
+        0.08541666716337204,
+        0.051851850003004074
+      ],
+      "interactivity": false,
+      "content": "EileOptionsView",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0833333358168602,
+        0.029629629105329514,
+        0.11562500149011612,
+        0.05000000074505806
+      ],
+      "interactivity": false,
+      "content": "Process",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11666666716337204,
+        0.029629629105329514,
+        0.18958333134651184,
+        0.05000000074505806
+      ],
+      "interactivity": false,
+      "content": "FindUsersHelp",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4593749940395355,
+        0.04814814776182175,
+        0.5291666388511658,
+        0.06759259104728699
+      ],
+      "interactivity": false,
+      "content": "Tencent Meeting",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0010416667209938169,
+        0.07314814627170563,
+        0.03020833246409893,
+        0.09351851791143417
+      ],
+      "interactivity": false,
+      "content": "Process",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13854166865348816,
+        0.06759259104728699,
+        0.15781250596046448,
+        0.09444444626569748
+      ],
+      "interactivity": false,
+      "content": "CPU|",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16249999403953552,
+        0.0694444477558136,
+        0.2135416716337204,
+        0.09537036716938019
+      ],
+      "interactivity": false,
+      "content": "Private Bytes",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20937499403953552,
+        0.07314814627170563,
+        0.26354166865348816,
+        0.09351851791143417
+      ],
+      "interactivity": false,
+      "content": "Working Set",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2718749940395355,
+        0.07314814627170563,
+        0.32499998807907104,
+        0.09351851791143417
+      ],
+      "interactivity": false,
+      "content": "PID| Description",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13437500596046448,
+        0.08796296268701553,
+        0.15833333134651184,
+        0.1101851835846901
+      ],
+      "interactivity": false,
+      "content": "< 0.01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17395833134651184,
+        0.08981481194496155,
+        0.21145834028720856,
+        0.1101851835846901
+      ],
+      "interactivity": false,
+      "content": "449,304 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.08981481194496155,
+        0.2645833194255829,
+        0.10833333432674408
+      ],
+      "interactivity": false,
+      "content": "468,028 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26875001192092896,
+        0.08796296268701553,
+        0.37291666865348816,
+        0.1120370402932167
+      ],
+      "interactivity": false,
+      "content": " 5560 Desktop Window Manager",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.00937500037252903,
+        0.1101851835846901,
+        0.06354166567325592,
+        0.13055555522441864
+      ],
+      "interactivity": false,
+      "content": "-explorer.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17395833134651184,
+        0.10833333432674408,
+        0.21145834028720856,
+        0.12870369851589203
+      ],
+      "interactivity": false,
+      "content": "476,260 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22499999403953552,
+        0.10462962836027145,
+        0.34583333134651184,
+        0.13240741193294525
+      ],
+      "interactivity": false,
+      "content": "543,408 K16256 Windows Explorer",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.1268518567085266,
+        0.21145834028720856,
+        0.14722222089767456
+      ],
+      "interactivity": false,
+      "content": "2,104 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23229166865348816,
+        0.12314815074205399,
+        0.2645833194255829,
+        0.14907407760620117
+      ],
+      "interactivity": false,
+      "content": "7,940 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26770833134651184,
+        0.125,
+        0.3739583194255829,
+        0.14907407760620117
+      ],
+      "interactivity": false,
+      "content": "9976 Windows Security notificati",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.014583333395421505,
+        0.14351852238178253,
+        0.1041666641831398,
+        0.1675925999879837
+      ],
+      "interactivity": false,
+      "content": "RtkAudUService64.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.14537036418914795,
+        0.21145834028720856,
+        0.1657407432794571
+      ],
+      "interactivity": false,
+      "content": "2,880 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.234375,
+        0.14537036418914795,
+        0.26354166865348816,
+        0.1657407432794571
+      ],
+      "interactivity": false,
+      "content": "7,548 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26770833134651184,
+        0.14351852238178253,
+        0.375,
+        0.1675925999879837
+      ],
+      "interactivity": false,
+      "content": "1456 Realtek HD Audio Universa",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01666666753590107,
+        0.16388888657093048,
+        0.0885416641831398,
+        0.18425926566123962
+      ],
+      "interactivity": false,
+      "content": "CompareUtility.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1822916716337204,
+        0.16388888657093048,
+        0.21041665971279144,
+        0.18425926566123962
+      ],
+      "interactivity": false,
+      "content": "2,712 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.234375,
+        0.16388888657093048,
+        0.26354166865348816,
+        0.18425926566123962
+      ],
+      "interactivity": false,
+      "content": "8,044 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.16388888657093048,
+        0.33541667461395264,
+        0.18425926566123962
+      ],
+      "interactivity": false,
+      "content": "11516 CompareUtility",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.014583333395421505,
+        0.18425926566123962,
+        0.05624999850988388,
+        0.20370370149612427
+      ],
+      "interactivity": false,
+      "content": "cmd.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18020834028720856,
+        0.1805555522441864,
+        0.21250000596046448,
+        0.20555555820465088
+      ],
+      "interactivity": false,
+      "content": "2,400 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23229166865348816,
+        0.1805555522441864,
+        0.2645833194255829,
+        0.20555555820465088
+      ],
+      "interactivity": false,
+      "content": "6,204 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26354166865348816,
+        0.1805555522441864,
+        0.3739583194255829,
+        0.20370370149612427
+      ],
+      "interactivity": false,
+      "content": "16608 Windows Command Proces",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.19814814627170563,
+        0.21250000596046448,
+        0.2240740805864334
+      ],
+      "interactivity": false,
+      "content": "1,412 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23229166865348816,
+        0.20000000298023224,
+        0.26354166865348816,
+        0.2203703671693802
+      ],
+      "interactivity": false,
+      "content": "10,600 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.19814814627170563,
+        0.359375,
+        0.2222222238779068
+      ],
+      "interactivity": false,
+      "content": "15348 Console Window Host",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0072916666977107525,
+        0.21759259700775146,
+        0.07187499850988388,
+        0.23888888955116272
+      ],
+      "interactivity": false,
+      "content": " Python.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17656250298023224,
+        0.21944443881511688,
+        0.21197916567325592,
+        0.2370370328426361
+      ],
+      "interactivity": false,
+      "content": "32,716 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.21666666865348816,
+        0.3135416805744171,
+        0.24259258806705475
+      ],
+      "interactivity": false,
+      "content": "48,376 K 23364 Python",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01145833358168602,
+        0.2351851910352707,
+        0.09270833432674408,
+        0.25925925374031067
+      ],
+      "interactivity": false,
+      "content": "WeMeetApp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.2351851910352707,
+        0.21250000596046448,
+        0.2611111104488373
+      ],
+      "interactivity": false,
+      "content": "7,236 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23125000298023224,
+        0.2370370328426361,
+        0.26354166865348816,
+        0.25740739703178406
+      ],
+      "interactivity": false,
+      "content": "19,716 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.2370370328426361,
+        0.3166666626930237,
+        0.25740739703178406
+      ],
+      "interactivity": false,
+      "content": "14068 A$ iRiX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01770833320915699,
+        0.25555557012557983,
+        0.0989583358168602,
+        0.2777777910232544
+      ],
+      "interactivity": false,
+      "content": "WeMeetApp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13854166865348816,
+        0.25555557012557983,
+        0.15937499701976776,
+        0.2777777910232544
+      ],
+      "interactivity": false,
+      "content": " 0.12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17135415971279144,
+        0.25648146867752075,
+        0.21302083134651184,
+        0.2768518626689911
+      ],
+      "interactivity": false,
+      "content": "224,760 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03750000149011612,
+        0.27407407760620117,
+        0.1302083283662796,
+        0.29814815521240234
+      ],
+      "interactivity": false,
+      "content": " WeMeetCrashHandler.e...",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.2759259343147278,
+        0.21145834028720856,
+        0.29629629850387573
+      ],
+      "interactivity": false,
+      "content": "6,396 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22968749701976776,
+        0.26944443583488464,
+        0.2640624940395355,
+        0.30000001192092896
+      ],
+      "interactivity": false,
+      "content": "16,112 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26354166865348816,
+        0.27407407760620117,
+        0.3552083373069763,
+        0.29814815521240234
+      ],
+      "interactivity": false,
+      "content": "15352 Bugly-Windows SDK",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03854166716337204,
+        0.2944444417953491,
+        0.10312499850988388,
+        0.31388887763023376
+      ],
+      "interactivity": false,
+      "content": "#WMExternal.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.2925925850868225,
+        0.3177083432674408,
+        0.3157407343387604
+      ],
+      "interactivity": false,
+      "content": "26,584 K26068 A4 iR iX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.45520833134651184,
+        0.29629629850387573,
+        0.528124988079071,
+        0.32685184478759766
+      ],
+      "interactivity": false,
+      "content": "AiiV",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03593749925494194,
+        0.3064814805984497,
+        0.10364583134651184,
+        0.3351851999759674
+      ],
+      "interactivity": false,
+      "content": "WeMeetApp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.31296294927597046,
+        0.21145834028720856,
+        0.3324074149131775
+      ],
+      "interactivity": false,
+      "content": "11,860 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23125000298023224,
+        0.31296294927597046,
+        0.26354166865348816,
+        0.3324074149131775
+      ],
+      "interactivity": false,
+      "content": "23,892 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2593750059604645,
+        0.31296294927597046,
+        0.3166666626930237,
+        0.3324074149131775
+      ],
+      "interactivity": false,
+      "content": "12176 l$ iR iX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.3305555582046509,
+        0.21145834028720856,
+        0.35092592239379883
+      ],
+      "interactivity": false,
+      "content": "14,240 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23125000298023224,
+        0.3305555582046509,
+        0.26354166865348816,
+        0.35092592239379883
+      ],
+      "interactivity": false,
+      "content": "27,404 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03750000149011612,
+        0.3490740656852722,
+        0.10312499850988388,
+        0.36944442987442017
+      ],
+      "interactivity": false,
+      "content": "3XnnExternal.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.3490740656852722,
+        0.26354166865348816,
+        0.36944442987442017
+      ],
+      "interactivity": false,
+      "content": "93, 196 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.36759260296821594,
+        0.21145834028720856,
+        0.3879629671573639
+      ],
+      "interactivity": false,
+      "content": "10,624 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.36759260296821594,
+        0.26354166865348816,
+        0.3879629671573639
+      ],
+      "interactivity": false,
+      "content": "21,484 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.265625,
+        0.36759260296821594,
+        0.3177083432674408,
+        0.3879629671573639
+      ],
+      "interactivity": false,
+      "content": "5648 $ i  iX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.37708333134651184,
+        0.3620370328426361,
+        0.5666666626930237,
+        0.3879629671573639
+      ],
+      "interactivity": false,
+      "content": "Service Agreement and Privacy Policy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.3861111104488373,
+        0.21145834028720856,
+        0.40648147463798523
+      ],
+      "interactivity": false,
+      "content": "62,360 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.38425925374031067,
+        0.3187499940395355,
+        0.40833333134651184
+      ],
+      "interactivity": false,
+      "content": "75,668 K19496 l4 i iX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03593749925494194,
+        0.39814814925193787,
+        0.10364583134651184,
+        0.4287036955356598
+      ],
+      "interactivity": false,
+      "content": "1WeMeetApp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.37708333134651184,
+        0.39537036418914795,
+        0.612500011920929,
+        0.4194444417953491
+      ],
+      "interactivity": false,
+      "content": "To protect your legal rights and interests, please read.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03593749925494194,
+        0.4166666567325592,
+        0.10364583134651184,
+        0.4472222328186035
+      ],
+      "interactivity": false,
+      "content": "1WeMeetApp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.42129629850387573,
+        0.21250000596046448,
+        0.4462963044643402
+      ],
+      "interactivity": false,
+      "content": "10,796 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2593750059604645,
+        0.42314815521240234,
+        0.3177083432674408,
+        0.442592591047287
+      ],
+      "interactivity": false,
+      "content": "15920 $ i iX",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.37708333134651184,
+        0.4157407283782959,
+        0.6020833253860474,
+        0.4407407343387604
+      ],
+      "interactivity": false,
+      "content": "and agree to Service Agreement and Privacy Policye",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0036458333488553762,
+        0.43703705072402954,
+        0.06927083432674408,
+        0.46759259700775146
+      ],
+      "interactivity": false,
+      "content": " procexp.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.43888887763023376,
+        0.21145834028720856,
+        0.46481481194496155
+      ],
+      "interactivity": false,
+      "content": "10,060 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.43888887763023376,
+        0.3656249940395355,
+        0.46296295523643494
+      ],
+      "interactivity": false,
+      "content": "17,352 K22256 Sysinternals Process Ex",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17604166269302368,
+        0.4574074149131775,
+        0.21250000596046448,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "69,656 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.4592592716217041,
+        0.3656249940395355,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "99,580 K15468 Sysinternals Process Ex",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.00937500037252903,
+        0.47592592239379883,
+        0.09166666865348816,
+        0.5
+      ],
+      "interactivity": false,
+      "content": "AdobelPCBroker.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.47777777910232544,
+        0.21041665971279144,
+        0.4981481432914734
+      ],
+      "interactivity": false,
+      "content": "7,744 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23333333432674408,
+        0.47592592239379883,
+        0.3656249940395355,
+        0.5
+      ],
+      "interactivity": false,
+      "content": "9,712 K11528 Creative Cloud Interproc",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01145833358168602,
+        0.4981481432914734,
+        0.08541666716337204,
+        0.5185185074806213
+      ],
+      "interactivity": false,
+      "content": "QCreative Cloud.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.4962962865829468,
+        0.26354166865348816,
+        0.5166666507720947
+      ],
+      "interactivity": false,
+      "content": "217,416 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2593750059604645,
+        0.4962962865829468,
+        0.33645832538604736,
+        0.5148147940635681
+      ],
+      "interactivity": false,
+      "content": "16564 Creative Cloud",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01354166679084301,
+        0.5111111402511597,
+        0.12187500298023224,
+        0.5388888716697693
+      ],
+      "interactivity": false,
+      "content": "Creative Cloud Ul Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17395833134651184,
+        0.5129629373550415,
+        0.21250000596046448,
+        0.5388888716697693
+      ],
+      "interactivity": false,
+      "content": "178,840 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.5129629373550415,
+        0.2645833194255829,
+        0.5388888716697693
+      ],
+      "interactivity": false,
+      "content": "123,328 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2666666805744171,
+        0.5111111402511597,
+        0.36666667461395264,
+        0.5388888716697693
+      ],
+      "interactivity": false,
+      "content": "9648 Creative Cloud Ul Helpel",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.015625,
+        0.5333333611488342,
+        0.12187500298023224,
+        0.5574073791503906
+      ],
+      "interactivity": false,
+      "content": "QCreative Cloud Ul Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.5314815044403076,
+        0.21250000596046448,
+        0.5574073791503906
+      ],
+      "interactivity": false,
+      "content": "8,692 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.5314815044403076,
+        0.36666667461395264,
+        0.5574073791503906
+      ],
+      "interactivity": false,
+      "content": "12,924 K16496 Creative Cloud Ul Helper",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.014583333395421505,
+        0.5481481552124023,
+        0.12187500298023224,
+        0.5759259462356567
+      ],
+      "interactivity": false,
+      "content": "QCreative Cloud Ul Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.550000011920929,
+        0.21250000596046448,
+        0.574999988079071
+      ],
+      "interactivity": false,
+      "content": "18,244 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.550000011920929,
+        0.2645833194255829,
+        0.574999988079071
+      ],
+      "interactivity": false,
+      "content": "26,964 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2666666805744171,
+        0.5472221970558167,
+        0.36770832538604736,
+        0.5759259462356567
+      ],
+      "interactivity": false,
+      "content": "4972 Creative Cloud Ul Helper",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4609375,
+        0.5527777671813965,
+        0.526562511920929,
+        0.5833333134651184
+      ],
+      "interactivity": false,
+      "content": "More options",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.014583333395421505,
+        0.5694444179534912,
+        0.11770833283662796,
+        0.5935184955596924
+      ],
+      "interactivity": false,
+      "content": "Adobe Desktop Service.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17499999701976776,
+        0.5712962746620178,
+        0.21145834028720856,
+        0.5916666388511658
+      ],
+      "interactivity": false,
+      "content": "161,240 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.5675926208496094,
+        0.2645833194255829,
+        0.5935184955596924
+      ],
+      "interactivity": false,
+      "content": "134,568 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26875001192092896,
+        0.5694444179534912,
+        0.3739583194255829,
+        0.5935184955596924
+      ],
+      "interactivity": false,
+      "content": " 3932 Creative Cloud Core Servic",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02187499962747097,
+        0.5879629850387573,
+        0.11874999850988388,
+        0.6120370626449585
+      ],
+      "interactivity": false,
+      "content": "Creative Cloud Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13437500596046448,
+        0.5879629850387573,
+        0.15833333134651184,
+        0.6101852059364319
+      ],
+      "interactivity": false,
+      "content": "< 0.01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.5861111283302307,
+        0.3583333194255829,
+        0.6120370626449585
+      ],
+      "interactivity": false,
+      "content": " 46,732 K11724 Creative Cloud Helper",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03125,
+        0.6083333492279053,
+        0.07916666567325592,
+        0.6287037134170532
+      ],
+      "interactivity": false,
+      "content": "CoreSync.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.6083333492279053,
+        0.26354166865348816,
+        0.6287037134170532
+      ],
+      "interactivity": false,
+      "content": "27,464 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2666666805744171,
+        0.604629635810852,
+        0.37187498807907104,
+        0.6287037134170532
+      ],
+      "interactivity": false,
+      "content": "3968 Adobe Content Synchroniz",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26875001192092896,
+        0.6231481432914734,
+        0.3739583194255829,
+        0.6490740776062012
+      ],
+      "interactivity": false,
+      "content": " 5816 Creative Cloud Content Ma",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23333333432674408,
+        0.6268518567085266,
+        0.26354166865348816,
+        0.6472222208976746
+      ],
+      "interactivity": false,
+      "content": "1,552 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.014583333395421505,
+        0.6472222208976746,
+        0.06979166716337204,
+        0.6675925850868225
+      ],
+      "interactivity": false,
+      "content": "node.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17499999701976776,
+        0.645370364189148,
+        0.21145834028720856,
+        0.6657407283782959
+      ],
+      "interactivity": false,
+      "content": "190,964 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.6435185074806213,
+        0.375,
+        0.6675925850868225
+      ],
+      "interactivity": false,
+      "content": "184,596 K14628 Node.js JavaScript Runtime",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03020833246409893,
+        0.6657407283782959,
+        0.0833333358168602,
+        0.6861110925674438
+      ],
+      "interactivity": false,
+      "content": "conhost.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18125000596046448,
+        0.6638888716697693,
+        0.21145834028720856,
+        0.6842592358589172
+      ],
+      "interactivity": false,
+      "content": "1,280 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23333333432674408,
+        0.6638888716697693,
+        0.26354166865348816,
+        0.6842592358589172
+      ],
+      "interactivity": false,
+      "content": "5,612 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.25833332538604736,
+        0.6620370149612427,
+        0.3604166805744171,
+        0.6861110925674438
+      ],
+      "interactivity": false,
+      "content": "22892 Console Window Host",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01666666753590107,
+        0.6842592358589172,
+        0.12083332985639572,
+        0.7018518447875977
+      ],
+      "interactivity": false,
+      "content": "Creative Cloud Ul Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.6824073791503906,
+        0.21145834028720856,
+        0.7018518447875977
+      ],
+      "interactivity": false,
+      "content": "71,472 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.6805555820465088,
+        0.2645833194255829,
+        0.7055555582046509
+      ],
+      "interactivity": false,
+      "content": "76, 184 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.25833332538604736,
+        0.6805555820465088,
+        0.36666667461395264,
+        0.7037037014961243
+      ],
+      "interactivity": false,
+      "content": "20584 Creative Cloud Ul Helper",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01666666753590107,
+        0.6962962746620178,
+        0.12083332985639572,
+        0.7222222089767456
+      ],
+      "interactivity": false,
+      "content": "QCreative Cloud Ul Helper.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1770833283662796,
+        0.6981481313705444,
+        0.21250000596046448,
+        0.7240740656852722
+      ],
+      "interactivity": false,
+      "content": "60,252 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.6981481313705444,
+        0.2645833194255829,
+        0.7240740656852722
+      ],
+      "interactivity": false,
+      "content": "76,728 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.7018518447875977,
+        0.3656249940395355,
+        0.720370352268219
+      ],
+      "interactivity": false,
+      "content": " 22276 Creative Cloud Ul Helper",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.7166666388511658,
+        0.21250000596046448,
+        0.7425925731658936
+      ],
+      "interactivity": false,
+      "content": "3,32 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22968749701976776,
+        0.7194444537162781,
+        0.26510417461395264,
+        0.739814817905426
+      ],
+      "interactivity": false,
+      "content": "17,772 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.25833332538604736,
+        0.7166666388511658,
+        0.28958332538604736,
+        0.7425925731658936
+      ],
+      "interactivity": false,
+      "content": "17296",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.39791667461395264,
+        0.7240740656852722,
+        0.59375,
+        0.7481481432914734
+      ],
+      "interactivity": false,
+      "content": "I have read and agree to Service Agreement",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17552083730697632,
+        0.7351852059364319,
+        0.2109375,
+        0.7611111402511597
+      ],
+      "interactivity": false,
+      "content": "105,204 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22812500596046448,
+        0.7370370626449585,
+        0.28854167461395264,
+        0.7574074268341064
+      ],
+      "interactivity": false,
+      "content": "180,224 K13332",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.7518518567085266,
+        0.3635416626930237,
+        0.779629647731781
+      ],
+      "interactivity": false,
+      "content": "6,328 K23312 Microsoft Edge Update",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3947916626930237,
+        0.7462962865829468,
+        0.4791666567325592,
+        0.7722222208976746
+      ],
+      "interactivity": false,
+      "content": " and Privacy Policy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.010416666977107525,
+        0.7555555701255798,
+        0.10625000298023224,
+        0.779629647731781
+      ],
+      "interactivity": false,
+      "content": "MicrosoftEdgeUpdate.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18020834028720856,
+        0.7555555701255798,
+        0.21145834028720856,
+        0.7759259343147278
+      ],
+      "interactivity": false,
+      "content": "3,272 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.7759259343147278,
+        0.21145834028720856,
+        0.7962962985038757
+      ],
+      "interactivity": false,
+      "content": "99,412 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.7722222208976746,
+        0.35104167461395264,
+        0.7962962985038757
+      ],
+      "interactivity": false,
+      "content": "185,808 K 22840 Microsoft OneDrive",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.008333333767950535,
+        0.7925925850868225,
+        0.11145833134651184,
+        0.8138889074325562
+      ],
+      "interactivity": false,
+      "content": ":OneDrive.Sync.Service.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17656250298023224,
+        0.7925925850868225,
+        0.21302083134651184,
+        0.8138889074325562
+      ],
+      "interactivity": false,
+      "content": "41,244 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.7907407283782959,
+        0.2645833194255829,
+        0.8157407641410828
+      ],
+      "interactivity": false,
+      "content": "15,372 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.265625,
+        0.7944444417953491,
+        0.37187498807907104,
+        0.8129629492759705
+      ],
+      "interactivity": false,
+      "content": "8044 Microsoft OneDrive Sync S",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.008333333767950535,
+        0.8111110925674438,
+        0.06458333134651184,
+        0.8324074149131775
+      ],
+      "interactivity": false,
+      "content": "Cmsedge.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13437500596046448,
+        0.8111110925674438,
+        0.15833333134651184,
+        0.8305555582046509
+      ],
+      "interactivity": false,
+      "content": "< 0.01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17343750596046448,
+        0.8064814805984497,
+        0.2109375,
+        0.8370370268821716
+      ],
+      "interactivity": false,
+      "content": "101,192 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.8111110925674438,
+        0.2666666805744171,
+        0.8305555582046509
+      ],
+      "interactivity": false,
+      "content": "246,808 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2630208432674408,
+        0.8064814805984497,
+        0.3369791805744171,
+        0.8370370268821716
+      ],
+      "interactivity": false,
+      "content": "15380 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.38333332538604736,
+        0.8129629492759705,
+        0.45520833134651184,
+        0.8324074149131775
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22812500596046448,
+        0.8268518447875977,
+        0.2645833194255829,
+        0.8527777791023254
+      ],
+      "interactivity": false,
+      "content": "11, 140 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.8305555582046509,
+        0.3375000059604645,
+        0.8509259223937988
+      ],
+      "interactivity": false,
+      "content": "11928 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3843750059604645,
+        0.8305555582046509,
+        0.45520833134651184,
+        0.8509259223937988
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.015625,
+        0.8490740656852722,
+        0.0677083358168602,
+        0.8694444298744202
+      ],
+      "interactivity": false,
+      "content": "Cmsedge.exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17395833134651184,
+        0.8490740656852722,
+        0.21145834028720856,
+        0.8694444298744202
+      ],
+      "interactivity": false,
+      "content": "227,576 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22708334028720856,
+        0.8490740656852722,
+        0.26354166865348816,
+        0.8694444298744202
+      ],
+      "interactivity": false,
+      "content": "281, 156 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.8490740656852722,
+        0.3375000059604645,
+        0.8694444298744202
+      ],
+      "interactivity": false,
+      "content": "11064 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3843750059604645,
+        0.8490740656852722,
+        0.45520833134651184,
+        0.8694444298744202
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1770833283662796,
+        0.8675925731658936,
+        0.21145834028720856,
+        0.8879629373550415
+      ],
+      "interactivity": false,
+      "content": "20, 192 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2291666716337204,
+        0.8675925731658936,
+        0.2645833194255829,
+        0.8879629373550415
+      ],
+      "interactivity": false,
+      "content": "50,976 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2645833194255829,
+        0.8675925731658936,
+        0.3375000059604645,
+        0.8879629373550415
+      ],
+      "interactivity": false,
+      "content": "16032 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3843750059604645,
+        0.8675925731658936,
+        0.4541666805744171,
+        0.8879629373550415
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.18020834028720856,
+        0.8861111402511597,
+        0.21145834028720856,
+        0.9064815044403076
+      ],
+      "interactivity": false,
+      "content": "9,236 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.23020833730697632,
+        0.8861111402511597,
+        0.26354166865348816,
+        0.9064815044403076
+      ],
+      "interactivity": false,
+      "content": "20,364 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26875001192092896,
+        0.8861111402511597,
+        0.3375000059604645,
+        0.9064815044403076
+      ],
+      "interactivity": false,
+      "content": "3316 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3843750059604645,
+        0.8861111402511597,
+        0.45520833134651184,
+        0.9064815044403076
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.904629647731781,
+        0.20937499403953552,
+        0.925000011920929
+      ],
+      "interactivity": false,
+      "content": "63,568 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.22812500596046448,
+        0.904629647731781,
+        0.26354166865348816,
+        0.925000011920929
+      ],
+      "interactivity": false,
+      "content": "113,484 K",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.26875001192092896,
+        0.904629647731781,
+        0.3375000059604645,
+        0.925000011920929
+      ],
+      "interactivity": false,
+      "content": "5944 Microsoft Edge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3843750059604645,
+        0.904629647731781,
+        0.4541666805744171,
+        0.925000011920929
+      ],
+      "interactivity": false,
+      "content": "Microsoft Corporation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0,
+        0.9231481552124023,
+        0.2958333194255829,
+        0.9481481313705444
+      ],
+      "interactivity": false,
+      "content": "CPU Usage: 2.61%Commit Charge: 19.81% Processes: 282 Physical Usage: 34.99%e",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02083333395421505,
+        0.949999988079071,
+        0.05312500149011612,
+        0.9759259223937988
+      ],
+      "interactivity": false,
+      "content": "928C",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3187499940395355,
+        0.9611111283302307,
+        0.3697916567325592,
+        0.9870370626449585
+      ],
+      "interactivity": false,
+      "content": "Q Search",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03125,
+        0.9722222089767456,
+        0.0572916679084301,
+        0.9925925731658936
+      ],
+      "interactivity": false,
+      "content": "Sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.48597049713134766,
+        0.4600549340248108,
+        0.5469581484794617,
+        0.5016749501228333
+      ],
+      "interactivity": true,
+      "content": "Cancel ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5512126684188843,
+        0.4607182741165161,
+        0.6130617260932922,
+        0.5007456541061401
+      ],
+      "interactivity": true,
+      "content": "Agree ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.552108645439148,
+        0.6043367385864258,
+        0.5951764583587646,
+        0.6961964964866638
+      ],
+      "interactivity": true,
+      "content": "WeCom ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.024959038943052292,
+        0.38567107915878296,
+        0.13125362992286682,
+        0.40552428364753723
+      ],
+      "interactivity": true,
+      "content": "3WeMeetApp.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.02339078113436699,
+        0.3661338686943054,
+        0.13126829266548157,
+        0.38640695810317993
+      ],
+      "interactivity": true,
+      "content": "3WMExternal.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01270591001957655,
+        0.1271759420633316,
+        0.13105078041553497,
+        0.14648810029029846
+      ],
+      "interactivity": true,
+      "content": "SecurityHealthSystray.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.030619120225310326,
+        0.3309975564479828,
+        0.13149552047252655,
+        0.35012245178222656
+      ],
+      "interactivity": true,
+      "content": "3WeMeetApp.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6044229865074158,
+        0.32894688844680786,
+        0.6241565942764282,
+        0.3647516369819641
+      ],
+      "interactivity": true,
+      "content": "X ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9330621957778931,
+        0.04686207324266434,
+        1.0,
+        0.07412535697221756
+      ],
+      "interactivity": true,
+      "content": "Filter by name > ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3942982256412506,
+        0.604180097579956,
+        0.4331356883049011,
+        0.7013005018234253
+      ],
+      "interactivity": true,
+      "content": "Mobile ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.008744120597839355,
+        0.7751781940460205,
+        0.1301996260881424,
+        0.7951638102531433
+      ],
+      "interactivity": true,
+      "content": "OneDrive.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.014896929264068604,
+        0.4605107605457306,
+        0.13077233731746674,
+        0.48128780722618103
+      ],
+      "interactivity": true,
+      "content": "Aprocexp64.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009851431474089622,
+        0.8307279944419861,
+        0.1307542771100998,
+        0.8643922805786133
+      ],
+      "interactivity": true,
+      "content": "Cmsedge.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13374961912631989,
+        0.10942333936691284,
+        0.15789176523685455,
+        0.12959803640842438
+      ],
+      "interactivity": true,
+      "content": "< 0.01 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13146135210990906,
+        0.4907882809638977,
+        0.1583857238292694,
+        0.5200836062431335
+      ],
+      "interactivity": true,
+      "content": " 0.50 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.023445140570402145,
+        0.2003365010023117,
+        0.1297590285539627,
+        0.2213071584701538
+      ],
+      "interactivity": true,
+      "content": "conhost. exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009378683753311634,
+        0.7358394861221313,
+        0.12889595329761505,
+        0.7648122310638428
+      ],
+      "interactivity": true,
+      "content": "Notepad.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15791359543800354,
+        0.49490514397621155,
+        0.21740540862083435,
+        0.5163668990135193
+      ],
+      "interactivity": true,
+      "content": "203,904 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15540510416030884,
+        0.625577986240387,
+        0.21805718541145325,
+        0.6457100510597229
+      ],
+      "interactivity": true,
+      "content": "572 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13274025917053223,
+        0.5694084167480469,
+        0.1584491729736328,
+        0.6042482256889343
+      ],
+      "interactivity": true,
+      "content": "0.12 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13202056288719177,
+        0.34771931171417236,
+        0.21972188353538513,
+        0.36839064955711365
+      ],
+      "interactivity": true,
+      "content": "106,124 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.14775237441062927,
+        0.40321603417396545,
+        0.2180689424276352,
+        0.42400062084198
+      ],
+      "interactivity": true,
+      "content": "15,412 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15551866590976715,
+        0.6078800559043884,
+        0.21711952984333038,
+        0.627208411693573
+      ],
+      "interactivity": true,
+      "content": "30,088 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15586541593074799,
+        0.5883775949478149,
+        0.21741193532943726,
+        0.6088320016860962
+      ],
+      "interactivity": true,
+      "content": "43,524 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9516728520393372,
+        0.9458045363426208,
+        0.9937387108802795,
+        0.9943239688873291
+      ],
+      "interactivity": true,
+      "content": "8:56 PM 2/1/2026 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009355425834655762,
+        0.9061093926429749,
+        0.13031604886054993,
+        0.9275433421134949
+      ],
+      "interactivity": true,
+      "content": "Cmsedge.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1492832750082016,
+        0.2923913896083832,
+        0.2178947478532791,
+        0.3131175935268402
+      ],
+      "interactivity": true,
+      "content": "15, 128 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.010722016915678978,
+        0.8644229173660278,
+        0.13116514682769775,
+        0.9065402746200562
+      ],
+      "interactivity": true,
+      "content": "Cmsedge.exe Cmsedge.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13183991611003876,
+        0.13869979977607727,
+        0.15853913128376007,
+        0.1696501225233078
+      ],
+      "interactivity": true,
+      "content": "< 0.01 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21875938773155212,
+        0.403456449508667,
+        0.2633649408817291,
+        0.42388561367988586
+      ],
+      "interactivity": true,
+      "content": "34, 576 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.018155086785554886,
+        0.08417049050331116,
+        0.13112647831439972,
+        0.1103777140378952
+      ],
+      "interactivity": true,
+      "content": "dwm.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.028071880340576172,
+        0.6257262229919434,
+        0.13109882175922394,
+        0.6463263630867004
+      ],
+      "interactivity": true,
+      "content": "?ccXProcess.exe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.21877847611904144,
+        0.42318013310432434,
+        0.2635439336299896,
+        0.4425309896469116
+      ],
+      "interactivity": true,
+      "content": "20,704 K ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13169987499713898,
+        0.21309523284435272,
+        0.1577041894197464,
+        0.24666796624660492
+      ],
+      "interactivity": true,
+      "content": "< 0.01 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6875371932983398,
+        0.9486950039863586,
+        0.7163860201835632,
+        0.9994185566902161
+      ],
+      "interactivity": true,
+      "content": "Movies and TV",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5471864342689514,
+        0.9548379182815552,
+        0.5728626251220703,
+        0.9972186088562012
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6598144769668579,
+        0.9486668109893799,
+        0.6866010427474976,
+        0.9992603659629822
+      ],
+      "interactivity": true,
+      "content": "Magnets",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6311022043228149,
+        0.9502214193344116,
+        0.659554123878479,
+        0.9996961951255798
+      ],
+      "interactivity": true,
+      "content": "Play video",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.002677708864212036,
+        0.04720115661621094,
+        0.018409479409456253,
+        0.07206030935049057
+      ],
+      "interactivity": true,
+      "content": "Mail",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.44503670930862427,
+        0.6038874387741089,
+        0.48941174149513245,
+        0.7092759013175964
+      ],
+      "interactivity": true,
+      "content": "Email",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5175247192382812,
+        0.9546886086463928,
+        0.5438043475151062,
+        0.9974374175071716
+      ],
+      "interactivity": true,
+      "content": "Gallery",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5741506218910217,
+        0.9527909755706787,
+        0.6002216935157776,
+        0.9967868328094482
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.603485643863678,
+        0.950739860534668,
+        0.6291906833648682,
+        0.999039351940155
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4901219308376312,
+        0.95452880859375,
+        0.5149105787277222,
+        0.9946807622909546
+      ],
+      "interactivity": true,
+      "content": "Picsics",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3865291476249695,
+        0.06338544934988022,
+        0.4037114977836609,
+        0.10289744287729263
+      ],
+      "interactivity": true,
+      "content": "Settings",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8764104843139648,
+        0.9524222016334534,
+        0.8982866406440735,
+        0.9931405782699585
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4602132737636566,
+        0.9536104798316956,
+        0.48362284898757935,
+        0.9920201897621155
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01925424300134182,
+        0.047835614532232285,
+        0.03142942860722542,
+        0.07142941653728485
+      ],
+      "interactivity": true,
+      "content": "Refresh",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.11581484973430634,
+        0.04763830825686455,
+        0.13083000481128693,
+        0.07199303805828094
+      ],
+      "interactivity": true,
+      "content": "Language Language",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4222992956638336,
+        0.9529021382331848,
+        0.4581402838230133,
+        0.9911252856254578
+      ],
+      "interactivity": true,
+      "content": "HealthHealth",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5003589391708374,
+        0.6039788126945496,
+        0.5434249639511108,
+        0.6991488933563232
+      ],
+      "interactivity": true,
+      "content": "SSO",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.931530773639679,
+        0.9521147608757019,
+        0.9487720727920532,
+        0.9893606901168823
+      ],
+      "interactivity": true,
+      "content": "Tasks",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8582529425621033,
+        0.9536401629447937,
+        0.8755453824996948,
+        0.9899113178253174
+      ],
+      "interactivity": true,
+      "content": "Go to the next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.18204084038734436,
+        0.04506196826696396,
+        0.23130373656749725,
+        0.0714331567287445
+      ],
+      "interactivity": true,
+      "content": "a checkbox.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.022129034623503685,
+        0.4045828878879547,
+        0.13087010383605957,
+        0.42454561591148376
+      ],
+      "interactivity": true,
+      "content": "Music",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.03168970346450806,
+        0.047692880034446716,
+        0.04538161680102348,
+        0.07156497240066528
+      ],
+      "interactivity": true,
+      "content": "Toggle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8991396427154541,
+        0.9526179432868958,
+        0.9166123867034912,
+        0.9940601587295532
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9161659479141235,
+        0.9521775841712952,
+        0.9315649271011353,
+        0.9917277097702026
+      ],
+      "interactivity": true,
+      "content": "Sound",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04646677151322365,
+        0.048010315746068954,
+        0.05930594354867935,
+        0.07138300687074661
+      ],
+      "interactivity": true,
+      "content": "M&m",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.060815319418907166,
+        0.047450244426727295,
+        0.07340404391288757,
+        0.07142951339483261
+      ],
+      "interactivity": true,
+      "content": "Group",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.08714483678340912,
+        0.046988509595394135,
+        0.1011684387922287,
+        0.07164353132247925
+      ],
+      "interactivity": true,
+      "content": "closing or cancel action.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10146912187337875,
+        0.04754890874028206,
+        0.11562412232160568,
+        0.07195748388767242
+      ],
+      "interactivity": true,
+      "content": "Search function.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04105942323803902,
+        0.3112125098705292,
+        0.13106483221054077,
+        0.33204489946365356
+      ],
+      "interactivity": true,
+      "content": "SoundCloud",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07424432784318924,
+        0.04687253385782242,
+        0.08673873543739319,
+        0.0714760422706604
+      ],
+      "interactivity": true,
+      "content": "Information",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2841065227985382,
+        0.94883793592453,
+        0.3121323883533478,
+        0.9948062300682068
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.029270529747009277,
+        0.2550044655799866,
+        0.13101930916309357,
+        0.27535757422447205
+      ],
+      "interactivity": true,
+      "content": "Chart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.28285205364227295,
+        0.044522274285554886,
+        0.3315480649471283,
+        0.07280915975570679
+      ],
+      "interactivity": true,
+      "content": "A checkbox.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004753020126372576,
+        0.18282228708267212,
+        0.014172246679663658,
+        0.20331934094429016
+      ],
+      "interactivity": true,
+      "content": "Add new item",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.49818724393844604,
+        0.009199700318276882,
+        0.5179659128189087
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5942434668540955,
+        0.03900539502501488,
+        0.6152565479278564,
+        0.07717583328485489
+      ],
+      "interactivity": true,
+      "content": "a user profile or account.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004509581718593836,
+        0.5732308030128479,
+        0.014871283434331417,
+        0.59321129322052
+      ],
+      "interactivity": true,
+      "content": "Add",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.38148385286331177,
+        0.7364771962165833,
+        0.39662012457847595,
+        0.7634795308113098
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13174960017204285,
+        0.4407344460487366,
+        0.21786518394947052,
+        0.461103230714798
+      ],
+      "interactivity": true,
+      "content": "Strikethrough",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.8127514123916626,
+        0.008964690379798412,
+        0.8344897627830505
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.4019182092160918e-05,
+        0.10960513353347778,
+        0.008657070808112621,
+        0.13108624517917633
+      ],
+      "interactivity": true,
+      "content": "Save",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.23238973319530487,
+        0.04148823395371437,
+        0.28165677189826965,
+        0.07231573760509491
+      ],
+      "interactivity": true,
+      "content": "a beach or ocean view.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.13075090944766998,
+        0.5197740197181702,
+        0.1583097130060196,
+        0.5699028968811035
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9728067517280579,
+        0.0,
+        0.9953014254570007,
+        0.025989118963479996
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.72061687707901,
+        0.008847071789205074,
+        0.7402378916740417
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1571240872144699,
+        0.5338009595870972,
+        0.21297506988048553,
+        0.5537233352661133
+      ],
+      "interactivity": true,
+      "content": "Uncomm&ent (\u2318N)",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5762632489204407,
+        0.0399271659553051,
+        0.5936189889907837,
+        0.07867395877838135
+      ],
+      "interactivity": true,
+      "content": "a loading or buffering indicator.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009002107195556164,
+        0.2885288894176483,
+        0.03582305833697319,
+        0.31504741311073303
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.008600318804383278,
+        0.34782156348228455,
+        0.03729313239455223,
+        0.3701830506324768
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.22074690461158752,
+        0.5536080002784729,
+        0.2625986635684967,
+        0.5713207721710205
+      ],
+      "interactivity": true,
+      "content": "26, September, 2024",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.15714508295059204,
+        0.42237743735313416,
+        0.2160790115594864,
+        0.44234499335289
+      ],
+      "interactivity": true,
+      "content": "Uncomm&ent",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.33309897780418396,
+        0.04436643421649933,
+        0.3822357952594757,
+        0.07392847537994385
+      ],
+      "interactivity": true,
+      "content": "a checkbox.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.01229384820908308,
+        0.645363450050354,
+        0.025778483599424362,
+        0.6718233227729797
+      ],
+      "interactivity": true,
+      "content": "Page",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9415308237075806,
+        0.0,
+        0.9631021618843079,
+        0.026890642940998077
+      ],
+      "interactivity": true,
+      "content": "Delete",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.31512680649757385,
+        0.954073965549469,
+        0.3360418379306793,
+        0.9916555881500244
+      ],
+      "interactivity": true,
+      "content": "Search function.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9144176244735718,
+        0.00011826091213151813,
+        0.9320615530014038,
+        0.025642363354563713
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 11.052653551101685,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

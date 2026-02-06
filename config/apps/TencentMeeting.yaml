@@ -1,0 +1,165 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-02-02 14:57:54'
+  path: C:\Program Files\Tencent\WeMeet\WeMeetApp.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Click on Mobile option
+    find:
+      type: icon
+      text: Mobile
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click On Agree Button
+    find:
+      type: icon
+      text: Agree
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    optional: true
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: 'Click on Mobile Number '
+    find:
+      type: text
+      text: Enter mobile number
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: Input login mobile number
+    find:
+      type: text
+      text: Enter mobile number
+      text_match: contains
+    action:
+      type: text
+      text: 176 1216 2932
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Input password
+    find:
+      type: icon
+      text: Enter password
+      text_match: contains
+    action:
+      type: text
+      text: Intel_11380876
+      clear_first: false
+      char_delay: 0.05
+    verify_success:
+    - type: icon
+      text: Log
+      text_match: contains
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: Click on Log In Option
+    find:
+      type: icon
+      text: Log In
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  7:
+    description: Click on Profile
+    find:
+      type: icon
+      text: fanjiang
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  8:
+    description: click on settings icon
+    find:
+      type: icon
+      text: Settings
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  9:
+    description: Click on Background & Effect
+    find:
+      type: icon
+      text: Background & Effect
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  10:
+    description: click on Blur Button
+    find:
+      type: icon
+      text: Blur
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  11:
+    description: Close the window
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

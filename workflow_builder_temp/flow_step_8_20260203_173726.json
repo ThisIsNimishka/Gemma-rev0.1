@@ -1,0 +1,1046 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.16458334028720856,
+        0.12999999523162842,
+        0.2916666567325592,
+        0.15944445133209229
+      ],
+      "interactivity": false,
+      "content": "Product Information",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.42395833134651184,
+        0.16611111164093018,
+        0.7822916507720947,
+        0.20222222805023193
+      ],
+      "interactivity": false,
+      "content": "E-Commerce Marketing Made Easy ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16875000298023224,
+        0.2105555534362793,
+        0.2802083194255829,
+        0.2316666692495346
+      ],
+      "interactivity": false,
+      "content": "e.g. Owala Water Bottle",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.42395833134651184,
+        0.21388888359069824,
+        0.9833333492279053,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "Get personalized e-commerce strategies, product listing tips, and channel insights -- powered by Al to help you sell smarter",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.359375,
+        0.23499999940395355,
+        0.390625,
+        0.25833332538604736
+      ],
+      "interactivity": false,
+      "content": "0/ 30",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.42395833134651184,
+        0.23666666448116302,
+        0.5,
+        0.2549999952316284
+      ],
+      "interactivity": false,
+      "content": "and scale faster.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16562500596046448,
+        0.2761111259460449,
+        0.2510416805744171,
+        0.29944443702697754
+      ],
+      "interactivity": false,
+      "content": "Product Photos *",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4229166805744171,
+        0.28111112117767334,
+        0.546875,
+        0.30444443225860596
+      ],
+      "interactivity": false,
+      "content": "Select your platforms *",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5649305582046509,
+        0.3172222077846527,
+        0.6371527910232544,
+        0.3522222340106964
+      ],
+      "interactivity": false,
+      "content": " ebay eBay",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.43020832538604736,
+        0.3799999952316284,
+        0.518750011920929,
+        0.4077777862548828
+      ],
+      "interactivity": false,
+      "content": " Rqkuten Rakuten",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.47604167461395264,
+        0.43888887763023376,
+        0.5114583373069763,
+        0.46388888359069824
+      ],
+      "interactivity": false,
+      "content": "Yahoo!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17083333432674408,
+        0.4833333194255829,
+        0.3479166626930237,
+        0.5049999952316284
+      ],
+      "interactivity": false,
+      "content": "e.g. High quality particleboard, stylish,.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16979166865348816,
+        0.503333330154419,
+        0.29479166865348816,
+        0.5244444608688354
+      ],
+      "interactivity": false,
+      "content": "compact, easy installation.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3552083373069763,
+        0.5527777671813965,
+        0.390625,
+        0.5755555629730225
+      ],
+      "interactivity": false,
+      "content": "0 / 500",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4572916626930237,
+        0.5494444370269775,
+        0.5104166865348816,
+        0.5672222375869751
+      ],
+      "interactivity": false,
+      "content": "Free for 3 uses",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2874999940395355,
+        0.5805555582046509,
+        0.3916666805744171,
+        0.605555534362793
+      ],
+      "interactivity": false,
+      "content": "No ideas? Get Advice",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16875000298023224,
+        0.6561111211776733,
+        0.29479166865348816,
+        0.6777777671813965
+      ],
+      "interactivity": false,
+      "content": "e.g. Double-wall insulation",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.35624998807907104,
+        0.7238888740539551,
+        0.390625,
+        0.746666669845581
+      ],
+      "interactivity": false,
+      "content": "0 / 150",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28784722089767456,
+        0.7516666650772095,
+        0.3913194537162781,
+        0.778333306312561
+      ],
+      "interactivity": false,
+      "content": "No ideas? Get Advice",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16388888657093048,
+        0.7872222065925598,
+        0.2152777761220932,
+        0.8161110877990723
+      ],
+      "interactivity": false,
+      "content": "Language",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.16979166865348816,
+        0.8305555582046509,
+        0.2083333283662796,
+        0.8538888692855835
+      ],
+      "interactivity": false,
+      "content": "English",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03368055447936058,
+        0.9700000286102295,
+        0.08715277910232544,
+        0.9972222447395325
+      ],
+      "interactivity": false,
+      "content": "Mostly sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.010196303948760033,
+        0.08205743879079819,
+        0.1435847133398056,
+        0.15736933052539825
+      ],
+      "interactivity": true,
+      "content": "+ New Design ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8137851357460022,
+        0.009314646944403648,
+        0.8672348260879517,
+        0.05158977210521698
+      ],
+      "interactivity": true,
+      "content": "Log in ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.727744460105896,
+        0.011434784159064293,
+        0.8083156943321228,
+        0.04976337030529976
+      ],
+      "interactivity": true,
+      "content": "W Premium ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4233018755912781,
+        0.5007597804069519,
+        0.5439772009849548,
+        0.5486668348312378
+      ],
+      "interactivity": true,
+      "content": "Generate with Cloud ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.16481445729732513,
+        0.30336612462997437,
+        0.39137932658195496,
+        0.43484097719192505
+      ],
+      "interactivity": true,
+      "content": "Drag your photo here, or click to import ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3007277548313141,
+        0.9534512162208557,
+        0.4552120268344879,
+        0.9917837381362915
+      ],
+      "interactivity": true,
+      "content": "QSearch ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5142271518707275,
+        0.09828416258096695,
+        0.665299117565155,
+        0.1437201052904129
+      ],
+      "interactivity": true,
+      "content": "E-Commerce Store Listing ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.003328180406242609,
+        0.4129619002342224,
+        0.15145684778690338,
+        0.46681687235832214
+      ],
+      "interactivity": true,
+      "content": "Template Generator ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.005375278182327747,
+        0.4866692125797272,
+        0.15041588246822357,
+        0.5323199033737183
+      ],
+      "interactivity": true,
+      "content": "Al Model Lab NEW ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6667098999023438,
+        0.09852968156337738,
+        0.767451286315918,
+        0.14249305427074432
+      ],
+      "interactivity": true,
+      "content": "Ad Creatives ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0032886385452002287,
+        0.34285250306129456,
+        0.153501495718956,
+        0.39485982060432434
+      ],
+      "interactivity": true,
+      "content": "Photo Toolkits ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7676084637641907,
+        0.09835754334926605,
+        0.8996469378471375,
+        0.14274859428405762
+      ],
+      "interactivity": true,
+      "content": "Social Media Platforms ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.010037422180175781,
+        0.5973156094551086,
+        0.14263805747032166,
+        0.6476746201515198
+      ],
+      "interactivity": true,
+      "content": "Al PC Toolkits ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9291717410087585,
+        0.9505207538604736,
+        0.9930250644683838,
+        0.992401123046875
+      ],
+      "interactivity": true,
+      "content": "12:07 AM 2/3/2026 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.007137477397918701,
+        0.7087888121604919,
+        0.14135605096817017,
+        0.758398711681366
+      ],
+      "interactivity": true,
+      "content": "AijAI Creations ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.005845856852829456,
+        0.7794961333274841,
+        0.1422612965106964,
+        0.830603301525116
+      ],
+      "interactivity": true,
+      "content": "Projects ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.16652828454971313,
+        0.16897597908973694,
+        0.24420762062072754,
+        0.1953747570514679
+      ],
+      "interactivity": true,
+      "content": "Product Name * ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7199032306671143,
+        0.3178015947341919,
+        0.7697485089302063,
+        0.35303136706352234
+      ],
+      "interactivity": true,
+      "content": "Etsy ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8544496297836304,
+        0.3173206150531769,
+        0.9291238784790039,
+        0.352668821811676
+      ],
+      "interactivity": true,
+      "content": "Shopify ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5494319796562195,
+        0.5011091232299805,
+        0.7200700640678406,
+        0.5489228367805481
+      ],
+      "interactivity": true,
+      "content": "Unlimited Generation with Al PC ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.45153313875198364,
+        0.43093469738960266,
+        0.47356322407722473,
+        0.47071221470832825
+      ],
+      "interactivity": true,
+      "content": "y! ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0026515244971960783,
+        0.26076430082321167,
+        0.1537991613149643,
+        0.33560821413993835
+      ],
+      "interactivity": true,
+      "content": " Al Marketing Advisor ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.45005178451538086,
+        0.3152647614479065,
+        0.5408175587654114,
+        0.3546212911605835
+      ],
+      "interactivity": true,
+      "content": "aAmazon ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0026845098473131657,
+        0.20001080632209778,
+        0.15225933492183685,
+        0.25160494446754456
+      ],
+      "interactivity": true,
+      "content": "Home ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8545807600021362,
+        0.37589266896247864,
+        0.9236684441566467,
+        0.4094945192337036
+      ],
+      "interactivity": true,
+      "content": "S Shopee ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.0,
+        0.09320393949747086,
+        0.06217333301901817
+      ],
+      "interactivity": true,
+      "content": "Promeo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.16131369769573212,
+        0.0706624835729599,
+        0.39059701561927795,
+        0.11911317706108093
+      ],
+      "interactivity": true,
+      "content": "<Project List ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.17749710381031036,
+        5.030155080021359e-05,
+        0.22286410629749298,
+        0.06140455603599548
+      ],
+      "interactivity": true,
+      "content": "Help ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1662718802690506,
+        0.6153203845024109,
+        0.2628057897090912,
+        0.6409025192260742
+      ],
+      "interactivity": true,
+      "content": "Product Highlights * ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1670737862586975,
+        0.441915363073349,
+        0.2682148814201355,
+        0.4688144624233246
+      ],
+      "interactivity": true,
+      "content": "Product Description * ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7203152775764465,
+        0.3764394521713257,
+        0.7805043458938599,
+        0.4085879623889923
+      ],
+      "interactivity": true,
+      "content": "Momo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5628213882446289,
+        0.373544305562973,
+        0.6589037775993347,
+        0.4076929986476898
+      ],
+      "interactivity": true,
+      "content": " PChome PC home ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1380915492773056,
+        2.2182464817888103e-05,
+        0.1787862628698349,
+        0.061392318457365036
+      ],
+      "interactivity": true,
+      "content": "Edit ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10034804791212082,
+        0.0,
+        0.13857531547546387,
+        0.0619814358651638
+      ],
+      "interactivity": true,
+      "content": "File ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5185704231262207,
+        0.951970100402832,
+        0.5475558638572693,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Save",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5479703545570374,
+        0.9507109522819519,
+        0.5780749917030334,
+        0.9989948868751526
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8933203220367432,
+        0.9531322121620178,
+        0.9281503558158875,
+        0.9907131791114807
+      ],
+      "interactivity": true,
+      "content": "Tasks",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6438990831375122,
+        0.0052621508948504925,
+        0.6732285618782043,
+        0.053919967263936996
+      ],
+      "interactivity": true,
+      "content": "Notifications",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5790488123893738,
+        0.9508253931999207,
+        0.6083365678787231,
+        0.9986736178398132
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8506190180778503,
+        0.9538086652755737,
+        0.8741493821144104,
+        0.9892295598983765
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6791558861732483,
+        0.005878806114196777,
+        0.7094942927360535,
+        0.05348588898777962
+      ],
+      "interactivity": true,
+      "content": "Settings",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6078267097473145,
+        0.9509547352790833,
+        0.6396192908287048,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Toggle Terminal",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8747190833091736,
+        0.9539758563041687,
+        0.8936296105384827,
+        0.9895471334457397
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.45652252435684204,
+        0.9517335891723633,
+        0.4853631854057312,
+        0.9962772727012634
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.67046058177948,
+        0.9516432285308838,
+        0.6997115015983582,
+        0.9997796416282654
+      ],
+      "interactivity": true,
+      "content": "Properties",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9245704412460327,
+        0.006894064135849476,
+        0.9573890566825867,
+        0.053136374801397324
+      ],
+      "interactivity": true,
+      "content": "Paste",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7008903622627258,
+        0.9510893225669861,
+        0.7302066087722778,
+        0.999147355556488
+      ],
+      "interactivity": true,
+      "content": "Adobe Photoshop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4881773293018341,
+        0.9513728022575378,
+        0.5164487957954407,
+        0.9982934594154358
+      ],
+      "interactivity": true,
+      "content": "Keebok - Microsoft Edge",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8820348381996155,
+        0.0069672586396336555,
+        0.9203900694847107,
+        0.0525747686624527
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8302718997001648,
+        0.9558209776878357,
+        0.8498695492744446,
+        0.9881728291511536
+      ],
+      "interactivity": true,
+      "content": "Go to the next item",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.64065021276474,
+        0.9513530135154724,
+        0.6683307886123657,
+        0.9999181032180786
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.42563217878341675,
+        0.3144129812717438,
+        0.4504990577697754,
+        0.357815682888031
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.42522260546684265,
+        0.4300312101840973,
+        0.45089247822761536,
+        0.47256627678871155
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6965755820274353,
+        0.3178374469280243,
+        0.7179854512214661,
+        0.3535178303718567
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9658050537109375,
+        0.00556916231289506,
+        0.9934170246124268,
+        0.056098975241184235
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8312437534332275,
+        0.3177901804447174,
+        0.8527700901031494,
+        0.35246145725250244
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6967830657958984,
+        0.37549513578414917,
+        0.7182369828224182,
+        0.4102495014667511
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5613831281661987,
+        0.3159324824810028,
+        0.583167552947998,
+        0.35553038120269775
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3644612729549408,
+        0.8271881341934204,
+        0.3848823606967926,
+        0.859403669834137
+      ],
+      "interactivity": true,
+      "content": "Ribbon Check",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8310197591781616,
+        0.37291640043258667,
+        0.8540733456611633,
+        0.4107966423034668
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4013209342956543,
+        0.4652377963066101,
+        0.41728201508522034,
+        0.5425786972045898
+      ],
+      "interactivity": true,
+      "content": "a back or move action.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2709980607032776,
+        0.9523525834083557,
+        0.29718610644340515,
+        0.9992309808731079
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4252057373523712,
+        0.37175634503364563,
+        0.45049023628234863,
+        0.4143236577510834
+      ],
+      "interactivity": true,
+      "content": "Rectangle",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009429221972823143,
+        0.9489716291427612,
+        0.0355481393635273,
+        0.9948109984397888
+      ],
+      "interactivity": true,
+      "content": "Notifications",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 5.370187759399414,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

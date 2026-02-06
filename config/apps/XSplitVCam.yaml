@@ -1,0 +1,95 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-02-02 16:11:30'
+  path: C:\Program Files\VCam\VCam.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: click on next step
+    find:
+      type: icon
+      text: Next step -
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click on Original option
+    find:
+      type: icon
+      text: Original
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: click on settings
+    find:
+      type: icon
+      text: Settings
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: click on Performance tab
+    find:
+      type: icon
+      text: Performance
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Toggle off
+    find:
+      type: icon
+      text: A battery indicator.
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: 'Close the Window '
+    find:
+      type: icon
+      text: Close
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

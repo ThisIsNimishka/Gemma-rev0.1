@@ -1,0 +1,45 @@
+# ============================================================================
+# SDR HOOK CONFIGURATION EXAMPLE
+# Demonstrates how to integrate SDR Start/Stop scripts using hooks
+# ============================================================================
+
+metadata:
+  game_name: "SDR Integration Test"
+  description: "Example config showing SDR Pre/Post hooks"
+
+# ============================================================================
+# HOOKS SECTION
+# Define scripts to run before and after the automation steps
+# ============================================================================
+hooks:
+  
+  # PRE-HOOKS: Run before Step 1
+  pre:
+    # Hook 1: Start SDR Recording
+    - path: "tracing_tools/sdr/scripts/start_sdr_hook.bat"     # Path to your script
+      
+      # Pass arguments to the batch file: [TestCaseID] [UserName] [QDF] [TestName] [TeamName]
+      args: 
+        - "PSPV-TC-10391"                        # Arg 1: TestCaseID
+        - "UserX"                                # Arg 2: UserName
+        - "L17T"                                 # Arg 3: QDF
+        - "My_Automation_Test"                   # Arg 4: TestName
+        - "SIV_Automation"                       # Arg 5: TeamName
+      
+      timeout: 60                                # Wait up to 60s for it to finish
+      persistent: false                          # False = wait for it to finish (Start signal & exit)
+
+  # POST-HOOKS: Run after all steps complete (or fail)
+  post:
+    # Hook 1: Stop SDR Recording
+    - path: "tracing_tools/sdr/scripts/stop_sdr_hook.bat"
+      timeout: 60
+
+# ============================================================================
+# NORMAL STEPS (Example)
+# ============================================================================
+steps:
+  1:
+    description: "Wait for a moment to simulate a test"
+    action: "wait"
+    duration: 10

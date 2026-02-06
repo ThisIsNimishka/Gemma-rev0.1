@@ -1,0 +1,1166 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0020833334419876337,
+        0.05944444611668587,
+        0.05104166641831398,
+        0.08222222328186035
+      ],
+      "interactivity": false,
+      "content": "Recydle Bin",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.1366666704416275,
+        0.23333333432674408,
+        0.15777777135372162
+      ],
+      "interactivity": false,
+      "content": "Administrator: C:\\Windows\\S!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06875000149011612,
+        0.1711111068725586,
+        0.3135416805744171,
+        0.19555555284023285
+      ],
+      "interactivity": false,
+      "content": " SDR st0p failed with error code 4004",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.19388888776302338,
+        0.18125000596046448,
+        0.21722222864627838
+      ],
+      "interactivity": false,
+      "content": "Copying reports.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.21388888359069824,
+        0.12187500298023224,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "Source:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12395833432674408,
+        0.20888888835906982,
+        0.24062499403953552,
+        0.2383333295583725
+      ],
+      "interactivity": false,
+      "content": "\"c:\\ProgramData\\I",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.23333333432674408,
+        0.10833333432674408,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "Dest:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12604166567325592,
+        0.23333333432674408,
+        0.2395833283662796,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "\"C:\\Users\\Adminis",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.761805534362793,
+        0.2316666692495346,
+        0.8746528029441833,
+        0.25833332538604736
+      ],
+      "interactivity": false,
+      "content": "\\sdr\\scripts\\\\rep",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.2549999952316284,
+        0.10833333432674408,
+        0.2777777910232544
+      ],
+      "interactivity": false,
+      "content": "orts\"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.08645833283662796,
+        0.2761111259460449,
+        0.234375,
+        0.29777777194976807
+      ],
+      "interactivity": false,
+      "content": "was unexpected at this.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.36666667461395264,
+        0.2961111068725586,
+        0.6416666507720947,
+        0.3288888931274414
+      ],
+      "interactivity": false,
+      "content": "Al Creative Studio for Online Selling.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.3172222077846527,
+        0.23854166269302368,
+        0.33888888359069824
+      ],
+      "interactivity": false,
+      "content": "C:\\Users\\Administrator\\Do",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.08472222089767456,
+        0.3333333432674408,
+        0.13819444179534912,
+        0.3605555593967438
+      ],
+      "interactivity": false,
+      "content": "(2). bat\"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.30520832538604736,
+        0.3355555534362793,
+        0.7020833492279053,
+        0.3583333194255829
+      ],
+      "interactivity": false,
+      "content": "Valentine's Day Sale 30% OFF Ends February 14th",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06805555522441864,
+        0.35333332419395447,
+        0.17569445073604584,
+        0.38499999046325684
+      ],
+      "interactivity": false,
+      "content": "Stopping SDR...",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4052083194255829,
+        0.37166666984558105,
+        0.6031249761581421,
+        0.39500001072883606
+      ],
+      "interactivity": false,
+      "content": "Upgrade Now to Unlock All The Features.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.522777795791626,
+        0.1875,
+        0.5461111068725586
+      ],
+      "interactivity": false,
+      "content": "Stopping the test.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07083333283662796,
+        0.5411111116409302,
+        0.2135416716337204,
+        0.5672222375869751
+      ],
+      "interactivity": false,
+      "content": "No tests are running,.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.21770833432674408,
+        0.5461111068725586,
+        0.2395833283662796,
+        0.5638889074325562
+      ],
+      "interactivity": false,
+      "content": "ple",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.5622222423553467,
+        0.17499999701976776,
+        0.5855555534362793
+      ],
+      "interactivity": false,
+      "content": "NetworkStatus:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17083333432674408,
+        0.5655555725097656,
+        0.234375,
+        0.5838888883590698
+      ],
+      "interactivity": false,
+      "content": "Connected",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07083333283662796,
+        0.5822222232818604,
+        0.16354165971279144,
+        0.6066666841506958
+      ],
+      "interactivity": false,
+      "content": "ExitCode=4004",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.6066666841506958,
+        0.12916666269302368,
+        0.625
+      ],
+      "interactivity": false,
+      "content": "SDR STOP",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13124999403953552,
+        0.6050000190734863,
+        0.2395833283662796,
+        0.6266666650772095
+      ],
+      "interactivity": false,
+      "content": "failed with erro.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.625,
+        0.19374999403953552,
+        0.6499999761581421
+      ],
+      "interactivity": false,
+      "content": "Copying reports...",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.647777795791626,
+        0.1197916641831398,
+        0.6661111116409302
+      ],
+      "interactivity": false,
+      "content": "Source:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.6661111116409302,
+        0.10833333432674408,
+        0.6888889074325562
+      ],
+      "interactivity": false,
+      "content": "Dest:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12430555373430252,
+        0.6611111164093018,
+        0.24027778208255768,
+        0.6927777528762817
+      ],
+      "interactivity": false,
+      "content": "\"C:\\Users\\Adminis",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7583333253860474,
+        0.6677777767181396,
+        0.8739583492279053,
+        0.6888889074325562
+      ],
+      "interactivity": false,
+      "content": "\\sdr\\scripts\\repo",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5885416865348816,
+        0.676111102104187,
+        0.6572916507720947,
+        0.6938889026641846
+      ],
+      "interactivity": false,
+      "content": "Object Removal",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06666667014360428,
+        0.6888889074325562,
+        0.10312499850988388,
+        0.7072222232818604
+      ],
+      "interactivity": false,
+      "content": "rts\"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0833333358168602,
+        0.7072222232818604,
+        0.234375,
+        0.7283333539962769
+      ],
+      "interactivity": false,
+      "content": "was unexpected at this.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.7483333349227905,
+        0.2395833283662796,
+        0.7699999809265137
+      ],
+      "interactivity": false,
+      "content": "C:\\Users\\Administrator\\Do",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7604166865348816,
+        0.7516666650772095,
+        0.7875000238418579,
+        0.7699999809265137
+      ],
+      "interactivity": false,
+      "content": "pts>",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.32256942987442017,
+        0.9583333134651184,
+        0.3743055462837219,
+        0.9888888597488403
+      ],
+      "interactivity": false,
+      "content": "Q Search",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.9486111402511597,
+        0.9544444680213928,
+        0.9899305701255798,
+        0.9733333587646484
+      ],
+      "interactivity": false,
+      "content": "11:57 PM",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03263888880610466,
+        0.9700000286102295,
+        0.08819444477558136,
+        0.9972222447395325
+      ],
+      "interactivity": false,
+      "content": "Mostly sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.949999988079071,
+        0.9722222089767456,
+        0.9906250238418579,
+        0.9950000047683716
+      ],
+      "interactivity": false,
+      "content": "2/2/2026",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.24553966522216797,
+        0.4428405165672302,
+        0.4093153178691864,
+        0.7029609680175781
+      ],
+      "interactivity": true,
+      "content": " Image Enhancer ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.41400283575057983,
+        0.44287964701652527,
+        0.576065719127655,
+        0.7033392786979675
+      ],
+      "interactivity": true,
+      "content": "Al Replace ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3378082811832428,
+        0.7197340130805969,
+        0.49950626492500305,
+        0.7764683961868286
+      ],
+      "interactivity": true,
+      "content": "Launch Free Version ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5033168792724609,
+        0.7229743599891663,
+        0.6625393033027649,
+        0.7742096185684204
+      ],
+      "interactivity": true,
+      "content": " UPGRADE NOW ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0020242214668542147,
+        0.11522230505943298,
+        0.052222538739442825,
+        0.21242839097976685
+      ],
+      "interactivity": true,
+      "content": " Intel(R) ReadWrite.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0022152126766741276,
+        0.6829128861427307,
+        0.04993390664458275,
+        0.7779465317726135
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05582047626376152,
+        0.0035171317867934704,
+        0.09797652810811996,
+        0.08768899738788605
+      ],
+      "interactivity": true,
+      "content": "Results ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.002611148403957486,
+        0.229061096906662,
+        0.0497061163187027,
+        0.32567429542541504
+      ],
+      "interactivity": true,
+      "content": "(intel) Intel(R) SystemSco.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004521162714809179,
+        0.7947817444801331,
+        0.04703903570771217,
+        0.8723620772361755
+      ],
+      "interactivity": true,
+      "content": "Promeo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.00038405059603974223,
+        0.3420947194099426,
+        0.054640043526887894,
+        0.4279811978340149
+      ],
+      "interactivity": true,
+      "content": " Intel(R)PoW... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.5654609799385071,
+        0.05764966458082199,
+        0.6562033295631409
+      ],
+      "interactivity": true,
+      "content": "Luminar Neo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.912282980105374e-05,
+        0.4543890058994293,
+        0.05694352090358734,
+        0.5374667048454285
+      ],
+      "interactivity": true,
+      "content": "Intel(R)SDR... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.050816610455513,
+        0.7949172854423523,
+        0.10339907556772232,
+        0.8726425766944885
+      ],
+      "interactivity": true,
+      "content": "Intel(R)Syst.. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05272666737437248,
+        0.151022806763649,
+        0.07067987322807312,
+        0.198088139295578
+      ],
+      "interactivity": true,
+      "content": "Ble ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1247127503156662,
+        0.641392707824707,
+        0.24195922911167145,
+        0.6667918562889099
+      ],
+      "interactivity": true,
+      "content": "\"c:\\ProgramData\\I ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04800094664096832,
+        0.682540774345398,
+        0.07367927581071854,
+        0.7772594094276428
+      ],
+      "interactivity": true,
+      "content": " Inte ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07182758301496506,
+        0.4081367254257202,
+        0.24009603261947632,
+        0.49374404549598694
+      ],
+      "interactivity": true,
+      "content": "Intel(R)System Data Reco Copyright (c) Intel Corp. Tool version 2.0.1003 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7115808129310608,
+        0.30933094024658203,
+        0.880969226360321,
+        0.34212467074394226
+      ],
+      "interactivity": true,
+      "content": "pts>\"stop_sdr_hoo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5320768356323242,
+        0.9535740613937378,
+        0.5627646446228027,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Paste",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.68507319688797,
+        0.9502619504928589,
+        0.7156988978385925,
+        0.999459981918335
+      ],
+      "interactivity": true,
+      "content": "Adobe Photoshop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6234193444252014,
+        0.9506266713142395,
+        0.6555212736129761,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Toggle Terminal",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4335858225822449,
+        0.9550219774246216,
+        0.4684593081474304,
+        0.9929171800613403
+      ],
+      "interactivity": true,
+      "content": "Guitar Pro",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6554052829742432,
+        0.9499093890190125,
+        0.6845582723617554,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5632085800170898,
+        0.9524291753768921,
+        0.5934616327285767,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5030454993247986,
+        0.9530925750732422,
+        0.5325554013252258,
+        0.9999369382858276
+      ],
+      "interactivity": true,
+      "content": "K 365 365",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.47181499004364014,
+        0.9529968500137329,
+        0.5017802119255066,
+        0.9983125329017639
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5937208533287048,
+        0.9514015316963196,
+        0.624139130115509,
+        0.9989460706710815
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8468066453933716,
+        0.9544477462768555,
+        0.8679736852645874,
+        0.9916099905967712
+      ],
+      "interactivity": true,
+      "content": "Go to the next month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8683363199234009,
+        0.9524864554405212,
+        0.8912164568901062,
+        0.9935993552207947
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5557543635368347,
+        0.32705187797546387,
+        0.7040684819221497,
+        0.3629506826400757
+      ],
+      "interactivity": true,
+      "content": "Kindergarten",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.06888296455144882,
+        0.1262316256761551,
+        0.09029777348041534,
+        0.16472497582435608
+      ],
+      "interactivity": true,
+      "content": "Hanging Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7980790734291077,
+        0.1181836873292923,
+        0.8283481001853943,
+        0.1637190282344818
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8915550112724304,
+        0.9524282217025757,
+        0.911547064781189,
+        0.9947155714035034
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2857629656791687,
+        0.9565815329551697,
+        0.3134183883666992,
+        0.996363639831543
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2600310444831848,
+        0.128037229180336,
+        0.28298190236091614,
+        0.16171734035015106
+      ],
+      "interactivity": true,
+      "content": "New tab (\u2318N)",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7291430234909058,
+        0.21047213673591614,
+        0.7524626851081848,
+        0.24893054366111755
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.30217522382736206,
+        0.32713162899017334,
+        0.4586353302001953,
+        0.3629942834377289
+      ],
+      "interactivity": true,
+      "content": "Endnote",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8610649108886719,
+        0.11879575997591019,
+        0.890850841999054,
+        0.16398631036281586
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.82861328125,
+        0.118654265999794,
+        0.859804093837738,
+        0.16371089220046997
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2829985022544861,
+        0.1279667615890503,
+        0.3018403649330139,
+        0.16118213534355164
+      ],
+      "interactivity": true,
+      "content": "Go to next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2331104278564453,
+        0.12882396578788757,
+        0.25225210189819336,
+        0.1629372537136078
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.11274608969688416,
+        0.7024024724960327,
+        0.1822599619626999,
+        0.7299696207046509
+      ],
+      "interactivity": true,
+      "content": "Unppercppercase",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3166953921318054,
+        0.9548036456108093,
+        0.34069308638572693,
+        0.9925293922424316
+      ],
+      "interactivity": true,
+      "content": "Search function.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05493902042508125,
+        0.3527100682258606,
+        0.07372917234897614,
+        0.3998703360557556
+      ],
+      "interactivity": true,
+      "content": "Increase",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1120084747672081,
+        0.2695919871330261,
+        0.18186283111572266,
+        0.29862579703330994
+      ],
+      "interactivity": true,
+      "content": "Unppercppercase",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9111037254333496,
+        0.9523506164550781,
+        0.9268259406089783,
+        0.9961175322532654
+      ],
+      "interactivity": true,
+      "content": "Sync",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20352403819561005,
+        0.26531097292900085,
+        0.23494237661361694,
+        0.3051792085170746
+      ],
+      "interactivity": true,
+      "content": "ThisThis",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07172980159521103,
+        0.33580470085144043,
+        0.0846012607216835,
+        0.3592372536659241
+      ],
+      "interactivity": true,
+      "content": "K",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.24886976182460785,
+        0.16498267650604248,
+        0.28175225853919983,
+        0.1974181830883026
+      ],
+      "interactivity": true,
+      "content": "Code",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.47086578607559204,
+        0.32832714915275574,
+        0.5402542352676392,
+        0.36257117986679077
+      ],
+      "interactivity": true,
+      "content": "30% off",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20380878448486328,
+        0.7005029320716858,
+        0.23687773942947388,
+        0.7325705289840698
+      ],
+      "interactivity": true,
+      "content": "ThisThis",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05680954083800316,
+        0.2296535074710846,
+        0.0714230090379715,
+        0.27368056774139404
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6959071159362793,
+        0.48584675788879395,
+        0.7343671917915344,
+        0.5497130155563354
+      ],
+      "interactivity": true,
+      "content": "Curve",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.8739868866978213e-05,
+        0.0017903685802593827,
+        0.0055160135962069035,
+        0.08030584454536438
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9936050176620483,
+        0.949670672416687,
+        1.0,
+        0.9935308694839478
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2817855775356293,
+        0.16491591930389404,
+        0.31582343578338623,
+        0.1966458112001419
+      ],
+      "interactivity": true,
+      "content": "4404",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20911072194576263,
+        0.1641891598701477,
+        0.24957676231861115,
+        0.19687619805335999
+      ],
+      "interactivity": true,
+      "content": "Error",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 4.120434284210205,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

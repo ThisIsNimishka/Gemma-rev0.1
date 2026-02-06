@@ -1,0 +1,2402 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.02708333358168602,
+        0.009999999776482582,
+        0.11249999701976776,
+        0.032777778804302216
+      ],
+      "interactivity": false,
+      "content": "SDRTrayAppCmdLine",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1770833283662796,
+        0.009999999776482582,
+        0.24270834028720856,
+        0.032777778804302216
+      ],
+      "interactivity": false,
+      "content": "?Downloads",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.753125011920929,
+        0.056111112236976624,
+        0.8395833373069763,
+        0.07722222059965134
+      ],
+      "interactivity": false,
+      "content": "Search Downloads",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.010416666977107525,
+        0.1066666692495346,
+        0.05104166641831398,
+        0.1316666603088379
+      ],
+      "interactivity": false,
+      "content": "ONew",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.09791667014360428,
+        0.10833333432674408,
+        0.21666666865348816,
+        0.1316666603088379
+      ],
+      "interactivity": false,
+      "content": "Administrator: C:\\Windows\\Sy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05520833283662796,
+        0.14277777075767517,
+        0.17291666567325592,
+        0.16777777671813965
+      ],
+      "interactivity": false,
+      "content": "Starting the test",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05416666716337204,
+        0.16777777671813965,
+        0.10312499850988388,
+        0.18611110746860504
+      ],
+      "interactivity": false,
+      "content": "Followi",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.1827777773141861,
+        0.2666666805744171,
+        0.2038888931274414
+      ],
+      "interactivity": false,
+      "content": "Administrator: C:\\Windows\\Sy",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1041666641831398,
+        0.21722222864627838,
+        0.26249998807907104,
+        0.2383333295583725
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28437501192092896,
+        0.22055555880069733,
+        0.3322916626930237,
+        0.2383333295583725
+      ],
+      "interactivity": false,
+      "content": "_main_-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3531250059604645,
+        0.21888889372348785,
+        0.38333332538604736,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.21888889372348785,
+        0.5854166746139526,
+        0.24166665971279144
+      ],
+      "interactivity": false,
+      "content": "* 3s process poll interval",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6010416746139526,
+        0.21888889372348785,
+        0.71875,
+        0.23999999463558197
+      ],
+      "interactivity": false,
+      "content": "- reduced from 1s",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05104166641831398,
+        0.2288888841867447,
+        0.07395832985639572,
+        0.24833333492279053
+      ],
+      "interactivity": false,
+      "content": "3)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10729166865348816,
+        0.2383333295583725,
+        0.26249998807907104,
+        0.25999999046325684
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17: 55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3531250059604645,
+        0.23999999463558197,
+        0.3947916626930237,
+        0.25833332538604736
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.2383333295583725,
+        0.6000000238418579,
+        0.2616666555404663
+      ],
+      "interactivity": false,
+      "content": "* 2s pywinauto poll interval",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5947916507720947,
+        0.23666666448116302,
+        0.7760416865348816,
+        0.25999999046325684
+      ],
+      "interactivity": false,
+      "content": ". - reduced polling overhead",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.25999999046325684,
+        0.26249998807907104,
+        0.28111112117767334
+      ],
+      "interactivity": false,
+      "content": "17 : 55:18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10729166865348816,
+        0.2616666555404663,
+        0.17604166269302368,
+        0.27944445610046387
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.35208332538604736,
+        0.25833332538604736,
+        0.3958333432674408,
+        0.28111112117767334
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40833333134651184,
+        0.25833332538604736,
+        0.5791666507720947,
+        0.2827777862548828
+      ],
+      "interactivity": false,
+      "content": "* /cancel_launch endpoint",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6010416746139526,
+        0.25833332538604736,
+        0.75,
+        0.2827777862548828
+      ],
+      "interactivity": false,
+      "content": "- instant stop support",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.27944445610046387,
+        0.26354166865348816,
+        0.3027777671813965
+      ],
+      "interactivity": false,
+      "content": "17 : 55 : 18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1041666641831398,
+        0.2800000011920929,
+        0.1770833283662796,
+        0.2988888919353485
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3499999940395355,
+        0.28111112117767334,
+        0.3947916626930237,
+        0.29944443702697754
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.29944443702697754,
+        0.1770833283662796,
+        0.3222222328186035
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17916665971279144,
+        0.29944443702697754,
+        0.26354166865348816,
+        0.3222222328186035
+      ],
+      "interactivity": false,
+      "content": "17 : 55 : 18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.35208332538604736,
+        0.29944443702697754,
+        0.5260416865348816,
+        0.3222222328186035
+      ],
+      "interactivity": false,
+      "content": "INFO - [SUPPORTED ACTIONS]",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10833333432674408,
+        0.323888897895813,
+        0.17604166269302368,
+        0.3422222137451172
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.32055556774139404,
+        0.26249998807907104,
+        0.34388887882232666
+      ],
+      "interactivity": false,
+      "content": "17 : 55 : 18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2822916805744171,
+        0.323888897895813,
+        0.3343749940395355,
+        0.3422222137451172
+      ],
+      "interactivity": false,
+      "content": "-_main_-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.35208332538604736,
+        0.32055556774139404,
+        0.3958333432674408,
+        0.34388887882232666
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4104166626930237,
+        0.32055556774139404,
+        0.4625000059604645,
+        0.34388887882232666
+      ],
+      "interactivity": false,
+      "content": "+ click",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5093749761581421,
+        0.32055556774139404,
+        0.7250000238418579,
+        0.34388887882232666
+      ],
+      "interactivity": false,
+      "content": "- left/right/middle mouse clicks",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10729166865348816,
+        0.34388887882232666,
+        0.17604166269302368,
+        0.3616666793823242
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17083333432674408,
+        0.3422222137451172,
+        0.26249998807907104,
+        0.3633333444595337
+      ],
+      "interactivity": false,
+      "content": "1 17 :55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3489583432674408,
+        0.3405555486679077,
+        0.3958333432674408,
+        0.3633333444595337
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.3422222137451172,
+        0.6854166388511658,
+        0.36500000953674316
+      ],
+      "interactivity": false,
+      "content": "+ double_click - double-click at position.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.36222222447395325,
+        0.1770833283662796,
+        0.38111111521720886
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.3616666793823242,
+        0.26249998807907104,
+        0.38333332538604736
+      ],
+      "interactivity": false,
+      "content": "17 : 55 : 18 , 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40833333134651184,
+        0.36000001430511475,
+        0.49270832538604736,
+        0.38499999046325684
+      ],
+      "interactivity": false,
+      "content": "+ hold_click",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5229166746139526,
+        0.3633333444595337,
+        0.7052083611488342,
+        0.38499999046325684
+      ],
+      "interactivity": false,
+      "content": "click and hold for duration.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.3816666603088379,
+        0.26249998807907104,
+        0.40444445610046387
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.35208332538604736,
+        0.3816666603088379,
+        0.3843750059604645,
+        0.40444445610046387
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.38333332538604736,
+        0.45520833134651184,
+        0.40611112117767334
+      ],
+      "interactivity": false,
+      "content": "+ drag",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5093749761581421,
+        0.38333332538604736,
+        0.6729166507720947,
+        0.40611112117767334
+      ],
+      "interactivity": false,
+      "content": "- drag from point A to B",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02083333395421505,
+        0.4005555510520935,
+        0.10625000298023224,
+        0.4416666626930237
+      ],
+      "interactivity": false,
+      "content": "Pictu No test",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.4027777910232544,
+        0.26249998807907104,
+        0.42444443702697754
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.4027777910232544,
+        0.4677083194255829,
+        0.426111102104187
+      ],
+      "interactivity": false,
+      "content": "+ scroll",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5083333253860474,
+        0.40444445610046387,
+        0.6666666865348816,
+        0.426111102104187
+      ],
+      "interactivity": false,
+      "content": "- mouse wheel scrolling",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.42444443702697754,
+        0.26249998807907104,
+        0.44555556774139404
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.42444443702697754,
+        0.4479166567325592,
+        0.4472222328186035
+      ],
+      "interactivity": false,
+      "content": "+ key",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5072916746139526,
+        0.42277777194976807,
+        0.6343749761581421,
+        0.4472222328186035
+      ],
+      "interactivity": false,
+      "content": "- single key press",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02048611082136631,
+        0.43444445729255676,
+        0.11076389253139496,
+        0.4883333444595337
+      ],
+      "interactivity": false,
+      "content": "OMus Waiting ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.44388890266418457,
+        0.26354166865348816,
+        0.4655555486679077
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3499999940395355,
+        0.44555556774139404,
+        0.3958333432674408,
+        0.46388888359069824
+      ],
+      "interactivity": false,
+      "content": "INFO-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.44388890266418457,
+        0.4802083373069763,
+        0.4672222137451172
+      ],
+      "interactivity": false,
+      "content": "+ hold_key",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5072916746139526,
+        0.4422222077846527,
+        0.7322916388511658,
+        0.46888887882232666
+      ],
+      "interactivity": false,
+      "content": "- press and hold key for duration.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1041666641831398,
+        0.46388888359069824,
+        0.1770833283662796,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "2026-02-01",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.17812499403953552,
+        0.46388888359069824,
+        0.26354166865348816,
+        0.4866666793823242
+      ],
+      "interactivity": false,
+      "content": "17 : 55 : 18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4079861044883728,
+        0.46000000834465027,
+        0.4659722149372101,
+        0.4905555546283722
+      ],
+      "interactivity": false,
+      "content": "+ hotkey",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5229166746139526,
+        0.4655555486679077,
+        0.731249988079071,
+        0.4883333444595337
+      ],
+      "interactivity": false,
+      "content": "key combinations (Ctrl+S, etc.)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05624999850988388,
+        0.4738888740539551,
+        0.10625000298023224,
+        0.49666666984558105
+      ],
+      "interactivity": false,
+      "content": "4) Stop",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.48500001430511475,
+        0.26249998807907104,
+        0.5083333253860474
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17: 55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.34687501192092896,
+        0.48500001430511475,
+        0.3843750059604645,
+        0.5083333253860474
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.48500001430511475,
+        0.4541666805744171,
+        0.5083333253860474
+      ],
+      "interactivity": false,
+      "content": "+ text",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5093749761581421,
+        0.4866666793823242,
+        0.6395833492279053,
+        0.5083333253860474
+      ],
+      "interactivity": false,
+      "content": "- type text strings",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10729166865348816,
+        0.5066666603088379,
+        0.26249998807907104,
+        0.5277777910232544
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3499999940395355,
+        0.5083333253860474,
+        0.3812499940395355,
+        0.5261111259460449
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4086805582046509,
+        0.504444420337677,
+        0.46840277314186096,
+        0.5316666960716248
+      ],
+      "interactivity": false,
+      "content": "+ launch",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5229166746139526,
+        0.5066666603088379,
+        0.7770833373069763,
+        0.5277777910232544
+      ],
+      "interactivity": false,
+      "content": "launch games with foreground detection.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06006944552063942,
+        0.5266666412353516,
+        0.26597222685813904,
+        0.5488888621330261
+      ],
+      "interactivity": false,
+      "content": "Inte1 2026-02-01 17: 55: 18, 020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3531250059604645,
+        0.5277777910232544,
+        0.38229167461395264,
+        0.5494444370269775
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40833333134651184,
+        0.5244444608688354,
+        0.5083333253860474,
+        0.5494444370269775
+      ],
+      "interactivity": false,
+      "content": "+ kill_process",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5041666626930237,
+        0.5277777910232544,
+        0.7052083611488342,
+        0.5494444370269775
+      ],
+      "interactivity": false,
+      "content": " - terminate processes by name",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.5477777719497681,
+        0.26354166865348816,
+        0.5688889026641846
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3531250059604645,
+        0.5494444370269775,
+        0.3812499940395355,
+        0.5672222375869751
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40937501192092896,
+        0.5461111068725586,
+        0.5020833611488342,
+        0.570555567741394
+      ],
+      "interactivity": false,
+      "content": "+ login_steam",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5062500238418579,
+        0.5461111068725586,
+        0.6333333253860474,
+        0.570555567741394
+      ],
+      "interactivity": false,
+      "content": "- Steam auto-login",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.5672222375869751,
+        0.2645833194255829,
+        0.5905555486679077
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17: 55:18,020",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2802083194255829,
+        0.570555567741394,
+        0.3333333432674408,
+        0.5888888835906982
+      ],
+      "interactivity": false,
+      "content": "-_main_-",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3385416567325592,
+        0.5688889026641846,
+        0.3812499940395355,
+        0.5872222185134888
+      ],
+      "interactivity": false,
+      "content": "-INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11076389253139496,
+        0.5838888883590698,
+        0.24548611044883728,
+        0.6155555844306946
+      ],
+      "interactivity": false,
+      "content": "* Serving Flask app",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.24791666865348816,
+        0.5888888835906982,
+        0.3708333373069763,
+        0.6100000143051147
+      ],
+      "interactivity": false,
+      "content": "' gemma_service_0.2 '",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.6066666841506958,
+        0.23020833730697632,
+        0.6299999952316284
+      ],
+      "interactivity": false,
+      "content": "* Debug mode: off",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.628333330154419,
+        0.903124988079071,
+        0.6527777910232544
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,036 - werkzeug - INF0 - wARnIng: This is a development server. Do not use it in a production deploym",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05520833283662796,
+        0.6383333206176758,
+        0.109375,
+        0.6611111164093018
+      ],
+      "interactivity": false,
+      "content": "Stoppin",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0520833320915699,
+        0.6483333110809326,
+        0.38854166865348816,
+        0.6755555272102356
+      ],
+      "interactivity": false,
+      "content": "No test ent . Use a production wsI server instead.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.6711111068725586,
+        0.3541666567325592,
+        0.6938889026641846
+      ],
+      "interactivity": false,
+      "content": "* Running on all addresses (0.0.0.0)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0572916679084301,
+        0.6827777624130249,
+        0.10625000298023224,
+        0.7005555629730225
+      ],
+      "interactivity": false,
+      "content": "Network",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.6922222375869751,
+        0.34166666865348816,
+        0.7138888835906982
+      ],
+      "interactivity": false,
+      "content": "* Running on http://127.0.0.1:8080",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.7122222185134888,
+        0.375,
+        0.7333333492279053
+      ],
+      "interactivity": false,
+      "content": "* Running on http://192.168.50.230:8080",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05520833283662796,
+        0.7205555438995361,
+        0.10729166865348816,
+        0.7433333396911621
+      ],
+      "interactivity": false,
+      "content": "C:\\User",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.7316666841506958,
+        0.534375011920929,
+        0.753333330154419
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:18,036 - werkzeug - INF0 - Press CTRL+C to quit",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.75,
+        0.8489583134651184,
+        0.7761111259460449
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17:55:53,921 - werkzeug - INF0 - 192.168.50.24 - - [01/Feb/2026 17:55:53] \"GET /status HTTP/1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10625000298023224,
+        0.772777795791626,
+        0.2645833194255829,
+        0.7961111068725586
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17: 55: 58, 959",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.33645832538604736,
+        0.772777795791626,
+        0.625,
+        0.7961111068725586
+      ],
+      "interactivity": false,
+      "content": "- INFo - Screenshot captured (region: None)",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.10520832985639572,
+        0.7911111116409302,
+        0.2645833194255829,
+        0.8161110877990723
+      ],
+      "interactivity": false,
+      "content": "2026-02-01 17: 55: 58,959",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2576389014720917,
+        0.7927777767181396,
+        0.3350694477558136,
+        0.8194444179534912
+      ],
+      "interactivity": false,
+      "content": "-werkzeug",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3333333432674408,
+        0.7927777767181396,
+        0.8729166388511658,
+        0.8155555725097656
+      ],
+      "interactivity": false,
+      "content": "- INF0 - 192.168.50.24 - - [01/Feb/2026 17:55:58] \"GET /screenshot HTTP/1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0072916666977107525,
+        0.9244444370269775,
+        0.11562500149011612,
+        0.945555567741394
+      ],
+      "interactivity": false,
+      "content": "14 items 1 item selected",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01979166641831398,
+        0.9522222280502319,
+        0.05624999850988388,
+        0.9755555391311646
+      ],
+      "interactivity": false,
+      "content": "9+ 24C",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.953125,
+        0.9522222280502319,
+        0.9895833134651184,
+        0.9755555391311646
+      ],
+      "interactivity": false,
+      "content": "5:56 PM",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03333333507180214,
+        0.9738888740539551,
+        0.0625,
+        0.9950000047683716
+      ],
+      "interactivity": false,
+      "content": "Sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.949999988079071,
+        0.9722222089767456,
+        0.9906250238418579,
+        0.9950000047683716
+      ],
+      "interactivity": false,
+      "content": "2/1/2026",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2693682014942169,
+        0.9537297487258911,
+        0.42439788579940796,
+        0.991267204284668
+      ],
+      "interactivity": true,
+      "content": "QSearch ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10608047991991043,
+        0.04294029250741005,
+        0.13184471428394318,
+        0.08309797197580338
+      ],
+      "interactivity": true,
+      "content": "C ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.058388806879520416,
+        0.2773157060146332,
+        0.10604456067085266,
+        0.3617550730705261
+      ],
+      "interactivity": true,
+      "content": "IntelC Copyri ToolV ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9687187075614929,
+        0.044897690415382385,
+        0.9918469190597534,
+        0.08287670463323593
+      ],
+      "interactivity": true,
+      "content": "Q ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8889860510826111,
+        0.16430993378162384,
+        0.9152467250823975,
+        0.20802277326583862
+      ],
+      "interactivity": true,
+      "content": "X ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05736558884382248,
+        0.5240740776062012,
+        0.10543767362833023,
+        0.6080139875411987
+      ],
+      "interactivity": true,
+      "content": "Copyri ToolV ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.022472525015473366,
+        0.5430289506912231,
+        0.05649230629205704,
+        0.5751323699951172
+      ],
+      "interactivity": true,
+      "content": "Dem ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07504568248987198,
+        0.19890917837619781,
+        0.10601909458637238,
+        0.2539738714694977
+      ],
+      "interactivity": true,
+      "content": "Inte Mark ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.930397629737854,
+        0.09621080011129379,
+        0.9955117702484131,
+        0.13884897530078888
+      ],
+      "interactivity": true,
+      "content": "BDetails ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.022072408348321915,
+        0.5775732398033142,
+        0.05595657601952553,
+        0.6108458042144775
+      ],
+      "interactivity": true,
+      "content": " Scre ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05813075229525566,
+        0.3632677495479584,
+        0.10431502759456635,
+        0.4421628415584564
+      ],
+      "interactivity": true,
+      "content": "Sending ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1840522736310959,
+        0.04458938539028168,
+        0.26554426550865173,
+        0.08004473894834518
+      ],
+      "interactivity": true,
+      "content": "Downloads> ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.35015082359313965,
+        0.4226337969303131,
+        0.38033536076545715,
+        0.4446711540222168
+      ],
+      "interactivity": true,
+      "content": "INFO ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3500836193561554,
+        0.4029774069786072,
+        0.38036206364631653,
+        0.4242693781852722
+      ],
+      "interactivity": true,
+      "content": "INFO ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3504863679409027,
+        0.46425485610961914,
+        0.38038748502731323,
+        0.48533743619918823
+      ],
+      "interactivity": true,
+      "content": "INFO ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3504191040992737,
+        0.36139756441116333,
+        0.38048413395881653,
+        0.38390305638313293
+      ],
+      "interactivity": true,
+      "content": "INFO ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8690127730369568,
+        0.9549365639686584,
+        0.8920440673828125,
+        0.9879006147384644
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8923994302749634,
+        0.9554103016853333,
+        0.9121362566947937,
+        0.9879637360572815
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9359356164932251,
+        0.00013698577822651714,
+        0.9645988345146179,
+        0.03224777802824974
+      ],
+      "interactivity": true,
+      "content": "Delete",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.037334490567445755,
+        0.04289364814758301,
+        0.06612781435251236,
+        0.08428756892681122
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9615863561630249,
+        0.9176172614097595,
+        0.9806277751922607,
+        0.9476835131645203
+      ],
+      "interactivity": true,
+      "content": "a menu or list option.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8478115797042847,
+        0.9565898180007935,
+        0.8684898614883423,
+        0.9877393841743469
+      ],
+      "interactivity": true,
+      "content": "Go to the next item",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.06954345852136612,
+        0.04283291846513748,
+        0.10096053779125214,
+        0.08255541324615479
+      ],
+      "interactivity": true,
+      "content": "Up arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4872729480266571,
+        0.9582644104957581,
+        0.5159136652946472,
+        0.9997302293777466
+      ],
+      "interactivity": true,
+      "content": "Gallery",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9116772413253784,
+        0.9550618529319763,
+        0.9460121393203735,
+        0.9879082441329956
+      ],
+      "interactivity": true,
+      "content": "Television",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5195547938346863,
+        0.9569031000137329,
+        0.5457360148429871,
+        0.9987197518348694
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5795596837997437,
+        0.9524174928665161,
+        0.6074385046958923,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.42601919174194336,
+        0.9541999697685242,
+        0.45415258407592773,
+        0.9951167106628418
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7024433016777039,
+        0.9563127756118774,
+        0.7283979654312134,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Mastercard",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6732765436172485,
+        0.9576489329338074,
+        0.6983936429023743,
+        0.9986587166786194
+      ],
+      "interactivity": true,
+      "content": "Likethrough",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9698306322097778,
+        0.0,
+        0.9968963861465454,
+        0.03440118208527565
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6105807423591614,
+        0.9553430080413818,
+        0.6352797746658325,
+        0.9998733401298523
+      ],
+      "interactivity": true,
+      "content": "Adobe Photoshop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7316573858261108,
+        0.9560109972953796,
+        0.757918119430542,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Notebook",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.14292244613170624,
+        0.04501013830304146,
+        0.16424226760864258,
+        0.08111387491226196
+      ],
+      "interactivity": true,
+      "content": "TV",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.02069026604294777,
+        0.47067496180534363,
+        0.05422484129667282,
+        0.5036235451698303
+      ],
+      "interactivity": true,
+      "content": "Video",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05415638908743858,
+        0.09863381832838058,
+        0.07511018961668015,
+        0.1360018253326416
+      ],
+      "interactivity": true,
+      "content": "Horton Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8453674912452698,
+        0.09057439863681793,
+        0.8751790523529053,
+        0.13696178793907166
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3151393532752991,
+        0.003536972915753722,
+        0.3335916996002197,
+        0.03621991351246834
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4583878815174103,
+        0.9573484063148499,
+        0.48617932200431824,
+        0.9977014660835266
+      ],
+      "interactivity": true,
+      "content": "Microsoft 365",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6427227258682251,
+        0.958097517490387,
+        0.6675336360931396,
+        0.9982354640960693
+      ],
+      "interactivity": true,
+      "content": "In-game Player",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.10337909311056137,
+        0.17328864336013794,
+        0.12540195882320404,
+        0.2090606689453125
+      ],
+      "interactivity": true,
+      "content": "Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8253689408302307,
+        0.16509829461574554,
+        0.8527145385742188,
+        0.20747776329517365
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3461974561214447,
+        0.008042549714446068,
+        0.360294371843338,
+        0.03227582573890686
+      ],
+      "interactivity": true,
+      "content": "Add",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8560662865638733,
+        0.16506358981132507,
+        0.8849551677703857,
+        0.20760738849639893
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.022327203303575516,
+        0.7221153974533081,
+        0.056261803954839706,
+        0.7512770295143127
+      ],
+      "interactivity": true,
+      "content": "Network",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9809632897377014,
+        0.9176276922225952,
+        0.999076247215271,
+        0.9469236731529236
+      ],
+      "interactivity": true,
+      "content": "Laptop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9057450890541077,
+        0.0,
+        0.9337621927261353,
+        0.032264593988657
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.811826765537262,
+        0.09120059758424759,
+        0.845302164554596,
+        0.13537146151065826
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004600709769874811,
+        0.22747135162353516,
+        0.01925482228398323,
+        0.2523045539855957
+      ],
+      "interactivity": true,
+      "content": "Next",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2688133716583252,
+        0.1784757673740387,
+        0.2852219045162201,
+        0.2064088135957718
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5499014258384705,
+        0.9560329914093018,
+        0.5750973224639893,
+        0.9976489543914795
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.14882728457450867,
+        0.004793117288500071,
+        0.16678254306316376,
+        0.03421008959412575
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.021575940772891045,
+        0.6851951479911804,
+        0.05450592190027237,
+        0.7151392698287964
+      ],
+      "interactivity": true,
+      "content": "ThisThis desktop",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.020088987424969673,
+        0.22503383457660675,
+        0.05633914843201637,
+        0.2528876066207886
+      ],
+      "interactivity": true,
+      "content": "One One",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.02088971622288227,
+        0.3651791512966156,
+        0.054752614349126816,
+        0.39840516448020935
+      ],
+      "interactivity": true,
+      "content": "Document",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004507444798946381,
+        0.7246848940849304,
+        0.01962829753756523,
+        0.7512446641921997
+      ],
+      "interactivity": true,
+      "content": "Next",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7807817459106445,
+        0.0911879912018776,
+        0.8120458126068115,
+        0.13566862046718597
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.022406350821256638,
+        0.5085902214050293,
+        0.05371354892849922,
+        0.5386494398117065
+      ],
+      "interactivity": true,
+      "content": "Color picker",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004264366813004017,
+        0.6870148777961731,
+        0.019368350505828857,
+        0.715207040309906
+      ],
+      "interactivity": true,
+      "content": "Next",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.018468273803591728,
+        0.18744511902332306,
+        0.055219948291778564,
+        0.22240190207958221
+      ],
+      "interactivity": true,
+      "content": "Gali",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.24010181427001953,
+        0.9539771676063538,
+        0.2675606608390808,
+        0.9979975819587708
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.1668115258216858,
+        0.04604385793209076,
+        0.18339703977108002,
+        0.07873126864433289
+      ],
+      "interactivity": true,
+      "content": "Next",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.005061266012489796,
+        0.09512604027986526,
+        0.026803340762853622,
+        0.136567160487175
+      ],
+      "interactivity": true,
+      "content": "Add",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.021619224920868874,
+        0.3298634886741638,
+        0.054909847676754,
+        0.3625323176383972
+      ],
+      "interactivity": true,
+      "content": "Down",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.219319149851799,
+        0.1071229875087738,
+        0.2349063903093338,
+        0.13102374970912933
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05642932653427124,
+        0.21273444592952728,
+        0.07387550920248032,
+        0.2537451386451721
+      ],
+      "interactivity": true,
+      "content": "3D",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.9472125172615051,
+        0.008135093376040459,
+        0.9997097253799438
+      ],
+      "interactivity": true,
+      "content": "a blank space.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        3.8569422031287104e-05,
+        0.09418743848800659,
+        0.005621755961328745,
+        0.13656188547611237
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05669689178466797,
+        0.46715062856674194,
+        0.07500939071178436,
+        0.5008422136306763
+      ],
+      "interactivity": true,
+      "content": "WC4",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.24663695693016052,
+        0.10297834873199463,
+        0.263933002948761,
+        0.13160397112369537
+      ],
+      "interactivity": true,
+      "content": "New Project",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.005840453784912825,
+        0.15219275653362274,
+        0.037357572466135025,
+        0.18553173542022705
+      ],
+      "interactivity": true,
+      "content": "Home",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9936842322349548,
+        0.9483298659324646,
+        1.0,
+        0.9922240376472473
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2649488151073456,
+        0.5485506653785706,
+        0.275812566280365,
+        0.5665057301521301
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26402410864830017,
+        0.23811151087284088,
+        0.2782436013221741,
+        0.2604449391365051
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2625272870063782,
+        0.445893794298172,
+        0.27949225902557373,
+        0.4654024541378021
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26416143774986267,
+        0.5279001593589783,
+        0.27650272846221924,
+        0.5463540554046631
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26257088780403137,
+        0.46652862429618835,
+        0.2791750729084015,
+        0.4853169023990631
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2632676959037781,
+        0.3618488013744354,
+        0.27926596999168396,
+        0.38387033343315125
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.021096350625157356,
+        0.29392075538635254,
+        0.05466046184301376,
+        0.32744812965393066
+      ],
+      "interactivity": true,
+      "content": "Designer",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2632996439933777,
+        0.38194790482521057,
+        0.27925682067871094,
+        0.40379342436790466
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2805294096469879,
+        0.5472488403320312,
+        0.3350231945514679,
+        0.5677635073661804
+      ],
+      "interactivity": true,
+      "content": "Mains.com",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26284947991371155,
+        0.48703745007514954,
+        0.27840617299079895,
+        0.5059512257575989
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2635190486907959,
+        0.5076130032539368,
+        0.2773112952709198,
+        0.5260266661643982
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26396241784095764,
+        0.2603833079338074,
+        0.27840209007263184,
+        0.2833210825920105
+      ],
+      "interactivity": true,
+      "content": "Hide",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.280366986989975,
+        0.5258595943450928,
+        0.3348761796951294,
+        0.5474794507026672
+      ],
+      "interactivity": true,
+      "content": "Manualin",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26339659094810486,
+        0.40354469418525696,
+        0.2790617346763611,
+        0.4240880608558655
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26309502124786377,
+        0.42348572611808777,
+        0.2792137861251831,
+        0.4442950487136841
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3359193801879883,
+        0.3800169825553894,
+        0.35132676362991333,
+        0.40548086166381836
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        6.528831727337092e-05,
+        0.043424852192401886,
+        0.0051011196337640285,
+        0.08376041054725647
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2634311616420746,
+        0.3204370141029358,
+        0.2791202664375305,
+        0.34299376606941223
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5086908340454102,
+        0.46657589077949524,
+        0.522023618221283,
+        0.4863405227661133
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.025963468477129936,
+        0.09381103515625,
+        0.05157395824790001,
+        0.13719020783901215
+      ],
+      "interactivity": true,
+      "content": "New",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2645936608314514,
+        0.5686444640159607,
+        0.27547919750213623,
+        0.5876384973526001
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 18.11789870262146,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

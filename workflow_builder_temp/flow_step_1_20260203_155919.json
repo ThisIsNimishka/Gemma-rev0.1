@@ -1,0 +1,1862 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0020833334419876337,
+        0.05944444611668587,
+        0.05104166641831398,
+        0.08222222328186035
+      ],
+      "interactivity": false,
+      "content": "Recydle Bin",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.1366666704416275,
+        0.23333333432674408,
+        0.15777777135372162
+      ],
+      "interactivity": false,
+      "content": "Administrator: C:\\Windows\\S!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.17444443702697754,
+        0.14166666567325592,
+        0.1922222226858139
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.17277777194976807,
+        0.2291666716337204,
+        0.19388888776302338
+      ],
+      "interactivity": false,
+      "content": "22:27:13,308",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2447916716337204,
+        0.1761111170053482,
+        0.30000001192092896,
+        0.19388888776302338
+      ],
+      "interactivity": false,
+      "content": "werkzeug",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3166666626930237,
+        0.17444443702697754,
+        0.34687501192092896,
+        0.1922222226858139
+      ],
+      "interactivity": false,
+      "content": "INFO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.36145833134651184,
+        0.17277777194976807,
+        0.48750001192092896,
+        0.19388888776302338
+      ],
+      "interactivity": false,
+      "content": "192.168.50.24 - - ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.48229166865348816,
+        0.17277777194976807,
+        0.8354166746139526,
+        0.19388888776302338
+      ],
+      "interactivity": false,
+      "content": "[02/Feb/2026 22:27:13] \"GET /screenshot HTtP/1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07326389104127884,
+        0.1922222226858139,
+        0.14131943881511688,
+        0.21388888359069824
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14374999701976776,
+        0.1922222226858139,
+        0.22708334028720856,
+        0.21555554866790771
+      ],
+      "interactivity": false,
+      "content": "22: 27: 21,833",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.2562499940395355,
+        0.19722221791744232,
+        0.28333333134651184,
+        0.20888888835906982
+      ],
+      "interactivity": false,
+      "content": "main",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3187499940395355,
+        0.19722221791744232,
+        0.3447916805744171,
+        0.20888888835906982
+      ],
+      "interactivity": false,
+      "content": "TNEO",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3645833432674408,
+        0.19722221791744232,
+        0.42500001192092896,
+        0.20888888835906982
+      ],
+      "interactivity": false,
+      "content": "Fyerutind",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.21388888359069824,
+        0.14270833134651184,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.21388888359069824,
+        0.20729166269302368,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "22:27: 22,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20069444179534912,
+        0.21444444358348846,
+        0.22847221791744232,
+        0.23277777433395386
+      ],
+      "interactivity": false,
+      "content": ", 608",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.23333333432674408,
+        0.14166666567325592,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.2316666692495346,
+        0.20416666567325592,
+        0.2549999952316284
+      ],
+      "interactivity": false,
+      "content": "22 : 27 : 22 ,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7604166865348816,
+        0.23333333432674408,
+        0.8229166865348816,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.25333333015441895,
+        0.14166666567325592,
+        0.2761111259460449
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.2549999952316284,
+        0.203125,
+        0.2727777659893036
+      ],
+      "interactivity": false,
+      "content": "22 : 27 : 24",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.2549999952316284,
+        0.22708334028720856,
+        0.27444443106651306
+      ],
+      "interactivity": false,
+      "content": ", 915",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.2777777910232544,
+        0.140625,
+        0.2961111068725586
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14687499403953552,
+        0.2777777910232544,
+        0.20416666567325592,
+        0.2961111068725586
+      ],
+      "interactivity": false,
+      "content": "22:27: 24 ,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.2761111259460449,
+        0.22708334028720856,
+        0.2961111068725586
+      ],
+      "interactivity": false,
+      "content": ", 917",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7593749761581421,
+        0.2727777659893036,
+        0.8354166746139526,
+        0.2961111068725586
+      ],
+      "interactivity": false,
+      "content": "TP/1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.29777777194976807,
+        0.140625,
+        0.31555554270744324
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14687499403953552,
+        0.29777777194976807,
+        0.20104166865348816,
+        0.31555554270744324
+      ],
+      "interactivity": false,
+      "content": "22 : 28 : 12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.203125,
+        0.29777777194976807,
+        0.22812500596046448,
+        0.3172222077846527
+      ],
+      "interactivity": false,
+      "content": "136",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.36666667461395264,
+        0.2961111068725586,
+        0.6416666507720947,
+        0.3288888931274414
+      ],
+      "interactivity": false,
+      "content": "Al Creative Studio for Online Selling.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.31888890266418457,
+        0.14166666567325592,
+        0.3355555534362793
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14687499403953552,
+        0.3172222077846527,
+        0.20104166865348816,
+        0.3355555534362793
+      ],
+      "interactivity": false,
+      "content": "22 : 28: 12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.203125,
+        0.3172222077846527,
+        0.22812500596046448,
+        0.33722221851348877
+      ],
+      "interactivity": false,
+      "content": "138",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7593749761581421,
+        0.31555554270744324,
+        0.8354166746139526,
+        0.33888888359069824
+      ],
+      "interactivity": false,
+      "content": "TP/1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.33888888359069824,
+        0.140625,
+        0.3566666543483734
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.33722221851348877,
+        0.22812500596046448,
+        0.36000001430511475
+      ],
+      "interactivity": false,
+      "content": "22: 28: 59, 013",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.30520832538604736,
+        0.3355555534362793,
+        0.7020833492279053,
+        0.3583333194255829
+      ],
+      "interactivity": false,
+      "content": "Valentine's Day Sale 30% OFF Ends February 14th",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.3566666543483734,
+        0.14270833134651184,
+        0.3799999952316284
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.3566666543483734,
+        0.2291666716337204,
+        0.3799999952316284
+      ],
+      "interactivity": false,
+      "content": "22: 28: 59,786",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.40625,
+        0.37166666984558105,
+        0.6041666865348816,
+        0.39500001072883606
+      ],
+      "interactivity": false,
+      "content": "Upgrade Now to Unlock All The Features.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.3799999952316284,
+        0.14166666567325592,
+        0.3977777659893036
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.37833333015441895,
+        0.2291666716337204,
+        0.4011111259460449
+      ],
+      "interactivity": false,
+      "content": "22:28: 59,786",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7604166865348816,
+        0.37833333015441895,
+        0.828125,
+        0.4011111259460449
+      ],
+      "interactivity": false,
+      "content": "1.1\" 200 -",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.39944443106651306,
+        0.14166666567325592,
+        0.41777777671813965
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.3977777659893036,
+        0.20624999701976776,
+        0.4211111068725586
+      ],
+      "interactivity": false,
+      "content": "22 : 29: 08,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.39944443106651306,
+        0.22812500596046448,
+        0.4194444417953491
+      ],
+      "interactivity": false,
+      "content": ", 133",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.4211111068725586,
+        0.140625,
+        0.43888887763023376
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14687499403953552,
+        0.4211111068725586,
+        0.20416666567325592,
+        0.43888887763023376
+      ],
+      "interactivity": false,
+      "content": "22: 29 :08 ,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20000000298023224,
+        0.41777777671813965,
+        0.22812500596046448,
+        0.4422222077846527
+      ],
+      "interactivity": false,
+      "content": ", 142",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.4422222077846527,
+        0.140625,
+        0.4605555534362793
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.4422222077846527,
+        0.20208333432674408,
+        0.4605555534362793
+      ],
+      "interactivity": false,
+      "content": "22: 29 : 08",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.4422222077846527,
+        0.22708334028720856,
+        0.4605555534362793
+      ],
+      "interactivity": false,
+      "content": ", 355",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.46222221851348877,
+        0.140625,
+        0.47999998927116394
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.4605555534362793,
+        0.203125,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "22 : 29: 08 ,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.46222221851348877,
+        0.22708334028720856,
+        0.4816666543483734
+      ],
+      "interactivity": false,
+      "content": ", 355",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7583333253860474,
+        0.4605555534362793,
+        0.8187500238418579,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.4833333194255829,
+        0.140625,
+        0.5016666650772095
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14513888955116272,
+        0.47833332419395447,
+        0.20173610746860504,
+        0.5049999952316284
+      ],
+      "interactivity": false,
+      "content": "22 : 29 : 09",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.503333330154419,
+        0.140625,
+        0.5211111307144165
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.5016666650772095,
+        0.2291666716337204,
+        0.522777795791626
+      ],
+      "interactivity": false,
+      "content": "22:29:09,154",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.5244444608688354,
+        0.14166666567325592,
+        0.5411111116409302
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14374999701976776,
+        0.5216666460037231,
+        0.2291666716337204,
+        0.5427777767181396
+      ],
+      "interactivity": false,
+      "content": "22:29:09,154",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.762499988079071,
+        0.5211111307144165,
+        0.875,
+        0.5461111068725586
+      ],
+      "interactivity": false,
+      "content": ".17.4830.0\\Pr0me0",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07500000298023224,
+        0.5461111068725586,
+        0.10312499850988388,
+        0.5638889074325562
+      ],
+      "interactivity": false,
+      "content": ".exe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.5622222423553467,
+        0.14270833134651184,
+        0.5855555534362793
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.5622222423553467,
+        0.20520833134651184,
+        0.5855555534362793
+      ],
+      "interactivity": false,
+      "content": "22 : 29: 09,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1996527761220932,
+        0.5661110877990723,
+        0.22847221791744232,
+        0.5816666483879089
+      ],
+      "interactivity": false,
+      "content": ", 154",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.5822222232818604,
+        0.14166666567325592,
+        0.6050000190734863
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.5838888883590698,
+        0.203125,
+        0.6066666841506958
+      ],
+      "interactivity": false,
+      "content": "22 : 29 : 12 ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20416666567325592,
+        0.5822222232818604,
+        0.22812500596046448,
+        0.6066666841506958
+      ],
+      "interactivity": false,
+      "content": "182",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.6066666841506958,
+        0.140625,
+        0.625
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.6066666841506958,
+        0.20208333432674408,
+        0.625
+      ],
+      "interactivity": false,
+      "content": "22: 29 : 12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20416666567325592,
+        0.6050000190734863,
+        0.22708334028720856,
+        0.625
+      ],
+      "interactivity": false,
+      "content": "182",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.6266666650772095,
+        0.140625,
+        0.6449999809265137
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.625,
+        0.20104166865348816,
+        0.6433333158493042
+      ],
+      "interactivity": false,
+      "content": "22 : 29 : 12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.6266666650772095,
+        0.22708334028720856,
+        0.6461111307144165
+      ],
+      "interactivity": false,
+      "content": ", 185",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.647777795791626,
+        0.140625,
+        0.6661111116409302
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14687499403953552,
+        0.647777795791626,
+        0.20104166865348816,
+        0.6644444465637207
+      ],
+      "interactivity": false,
+      "content": "22 : 29 : 12",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.6461111307144165,
+        0.22812500596046448,
+        0.6661111116409302
+      ],
+      "interactivity": false,
+      "content": ", 186",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.6677777767181396,
+        0.140625,
+        0.6861110925674438
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.1458333283662796,
+        0.6661111116409302,
+        0.2291666716337204,
+        0.6877777576446533
+      ],
+      "interactivity": false,
+      "content": "22:29:12,186",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.24895833432674408,
+        0.6744444370269775,
+        0.32083332538604736,
+        0.6938889026641846
+      ],
+      "interactivity": false,
+      "content": " Image Enhancer",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.41874998807907104,
+        0.6727777719497681,
+        0.4677083194255829,
+        0.695555567741394
+      ],
+      "interactivity": false,
+      "content": "AI Replace",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5895833373069763,
+        0.676111102104187,
+        0.6572916507720947,
+        0.6938889026641846
+      ],
+      "interactivity": false,
+      "content": "Object Removal",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.6861110925674438,
+        0.14374999701976776,
+        0.7088888883590698
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.13854166865348816,
+        0.6888889074325562,
+        0.20416666567325592,
+        0.7072222232818604
+      ],
+      "interactivity": false,
+      "content": "22:29:12,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.6877777576446533,
+        0.22812500596046448,
+        0.7072222232818604
+      ],
+      "interactivity": false,
+      "content": ", 196",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.7088888883590698,
+        0.14166666567325592,
+        0.727222204208374
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14479166269302368,
+        0.7072222232818604,
+        0.20520833134651184,
+        0.7300000190734863
+      ],
+      "interactivity": false,
+      "content": "22:29:12,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.20104166865348816,
+        0.7088888883590698,
+        0.22708334028720856,
+        0.7288888692855835
+      ],
+      "interactivity": false,
+      "content": ", 202",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.7288888692855835,
+        0.14166666567325592,
+        0.746666669845581
+      ],
+      "interactivity": false,
+      "content": "2026-02-02",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.14374999701976776,
+        0.727222204208374,
+        0.2291666716337204,
+        0.7483333349227905
+      ],
+      "interactivity": false,
+      "content": "22: 29:12,203",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.7604166865348816,
+        0.7300000190734863,
+        0.815625011920929,
+        0.746666669845581
+      ],
+      "interactivity": false,
+      "content": "1.1\" 200",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02500000037252903,
+        0.9522222280502319,
+        0.05624999850988388,
+        0.9755555391311646
+      ],
+      "interactivity": false,
+      "content": "428C",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.9486111402511597,
+        0.9527778029441833,
+        0.9899305701255798,
+        0.9733333587646484
+      ],
+      "interactivity": false,
+      "content": "10:29 PM",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.3072916567325592,
+        0.9622222185134888,
+        0.3604166805744171,
+        0.9883333444595337
+      ],
+      "interactivity": false,
+      "content": "Q Search",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.828125,
+        0.9622222185134888,
+        0.8895833492279053,
+        0.9850000143051147
+      ],
+      "interactivity": false,
+      "content": "^4",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03263888880610466,
+        0.9700000286102295,
+        0.08819444477558136,
+        0.9972222447395325
+      ],
+      "interactivity": false,
+      "content": "Mostly sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.949999988079071,
+        0.9722222089767456,
+        0.9906250238418579,
+        0.9950000047683716
+      ],
+      "interactivity": false,
+      "content": "2/2/2026",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3377777934074402,
+        0.7197162508964539,
+        0.49954307079315186,
+        0.7765186429023743
+      ],
+      "interactivity": true,
+      "content": "Launch Free Version ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0024116889107972383,
+        0.6835559010505676,
+        0.04998084157705307,
+        0.7774826288223267
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0019275486702099442,
+        0.11593293398618698,
+        0.05246633291244507,
+        0.21147781610488892
+      ],
+      "interactivity": true,
+      "content": " Intel(R) ReadWrite.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5033180117607117,
+        0.7229432463645935,
+        0.662608802318573,
+        0.774316668510437
+      ],
+      "interactivity": true,
+      "content": "WUPGRADE NOW ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05565774813294411,
+        0.0038193226791918278,
+        0.09795296937227249,
+        0.08688466250896454
+      ],
+      "interactivity": true,
+      "content": "Results ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0022901296615600586,
+        0.22988390922546387,
+        0.05176039785146713,
+        0.32523268461227417
+      ],
+      "interactivity": true,
+      "content": "(intel Intel(R) SystemSco.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004037050995975733,
+        0.7953190803527832,
+        0.04711300507187843,
+        0.8722436428070068
+      ],
+      "interactivity": true,
+      "content": "Promeo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.4151802790584043e-05,
+        0.5678855776786804,
+        0.0567174069583416,
+        0.6533061265945435
+      ],
+      "interactivity": true,
+      "content": "Luminar Neo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0009441256406717002,
+        0.3429553210735321,
+        0.05134664475917816,
+        0.42520615458488464
+      ],
+      "interactivity": true,
+      "content": " Intel(R)PoW. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05175967141985893,
+        0.7955695986747742,
+        0.1012883111834526,
+        0.8723213076591492
+      ],
+      "interactivity": true,
+      "content": "Intel(R)Syst.. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.000642669212538749,
+        0.4554876685142517,
+        0.05605214834213257,
+        0.5369898676872253
+      ],
+      "interactivity": true,
+      "content": "Intel(R)SDR.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.048008207231760025,
+        0.6833709478378296,
+        0.0743500366806984,
+        0.7756680250167847
+      ],
+      "interactivity": true,
+      "content": "Inte ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05158939212560654,
+        0.15212610363960266,
+        0.07088036835193634,
+        0.19725574553012848
+      ],
+      "interactivity": true,
+      "content": "Ble ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20298446714878082,
+        0.23242688179016113,
+        0.2290889322757721,
+        0.2558201849460602
+      ],
+      "interactivity": true,
+      "content": "610 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20201453566551208,
+        0.47958242893218994,
+        0.2284429520368576,
+        0.503222644329071
+      ],
+      "interactivity": true,
+      "content": ", 138 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4185267686843872,
+        0.9556463360786438,
+        0.45236846804618835,
+        0.9925558567047119
+      ],
+      "interactivity": true,
+      "content": "Guitar Pro",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6691465377807617,
+        0.9505722522735596,
+        0.6994644403457642,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6389868259429932,
+        0.9509750604629517,
+        0.669512927532196,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Magnets",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6991769671440125,
+        0.9505888819694519,
+        0.7300980687141418,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Vibration Pro",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6075312495231628,
+        0.9511871337890625,
+        0.6393455862998962,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Toggle Terminal",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.517107367515564,
+        0.9538403153419495,
+        0.54810631275177,
+        0.9999188184738159
+      ],
+      "interactivity": true,
+      "content": "Save",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5481109619140625,
+        0.9532560706138611,
+        0.577854335308075,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4565138518810272,
+        0.9548524022102356,
+        0.4851982593536377,
+        0.9984954595565796
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4874610900878906,
+        0.9547809958457947,
+        0.5171805620193481,
+        0.9993309378623962
+      ],
+      "interactivity": true,
+      "content": "Keebok - Microsoft Edge",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5787156224250793,
+        0.9523723125457764,
+        0.6082941889762878,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.45236364006996155,
+        0.5966902375221252,
+        0.5496026277542114,
+        0.6334047317504883
+      ],
+      "interactivity": true,
+      "content": "a folder.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.868611752986908,
+        0.9506139755249023,
+        0.8911468386650085,
+        0.9981455206871033
+      ],
+      "interactivity": true,
+      "content": "Navigation",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8459112644195557,
+        0.9506567120552063,
+        0.86893630027771,
+        0.9971923828125
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.06894209235906601,
+        0.12645334005355835,
+        0.0902053639292717,
+        0.1646570861339569
+      ],
+      "interactivity": true,
+      "content": "Hanging Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8910741806030273,
+        0.9511871933937073,
+        0.9116880893707275,
+        0.9979825615882874
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8247649073600769,
+        0.9521515965461731,
+        0.8457657694816589,
+        0.994277834892273
+      ],
+      "interactivity": true,
+      "content": "Go to the next month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2698022425174713,
+        0.9548797011375427,
+        0.29922565817832947,
+        0.9970061779022217
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7997530698776245,
+        0.11849551647901535,
+        0.8284406661987305,
+        0.16315323114395142
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7229704856872559,
+        0.5478155612945557,
+        0.7554742693901062,
+        0.5970225930213928
+      ],
+      "interactivity": true,
+      "content": "Download.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.92206209897995,
+        0.9512309432029724,
+        0.9457857012748718,
+        0.9968430995941162
+      ],
+      "interactivity": true,
+      "content": "Delete",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.728881299495697,
+        0.21086664497852325,
+        0.7519837021827698,
+        0.24928808212280273
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8283525109291077,
+        0.11895421892404556,
+        0.8600183129310608,
+        0.16404540836811066
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8606269955635071,
+        0.11907258629798889,
+        0.8909584283828735,
+        0.16366808116436005
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2332744151353836,
+        0.13204532861709595,
+        0.2520977854728699,
+        0.16118842363357544
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5552948713302612,
+        0.32676899433135986,
+        0.7049714922904968,
+        0.3631087839603424
+      ],
+      "interactivity": true,
+      "content": "DataData",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2832735478878021,
+        0.1290319859981537,
+        0.30236056447029114,
+        0.16126470267772675
+      ],
+      "interactivity": true,
+      "content": "Go to next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3013397455215454,
+        0.9543713331222534,
+        0.3251265287399292,
+        0.994032621383667
+      ],
+      "interactivity": true,
+      "content": "Search function.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2605859637260437,
+        0.12930752336978912,
+        0.2811563014984131,
+        0.1608247309923172
+      ],
+      "interactivity": true,
+      "content": "New Project",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3019448220729828,
+        0.32729673385620117,
+        0.45874106884002686,
+        0.3631869852542877
+      ],
+      "interactivity": true,
+      "content": "Chart",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.055690109729766846,
+        0.3585207462310791,
+        0.07089720666408539,
+        0.4004853069782257
+      ],
+      "interactivity": true,
+      "content": "Inkinder",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.22974354028701782,
+        0.23423254489898682,
+        0.24102157354354858,
+        0.25662103295326233
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.057681020349264145,
+        0.6060746312141418,
+        0.07128416001796722,
+        0.6288825273513794
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7900696396827698,
+        0.4522579312324524,
+        0.8279266357421875,
+        0.48571068048477173
+      ],
+      "interactivity": true,
+      "content": "200",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.836209774017334,
+        0.16977348923683167,
+        0.84961998462677,
+        0.1979682594537735
+      ],
+      "interactivity": true,
+      "content": "Line",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.47063204646110535,
+        0.3276342749595642,
+        0.5405258536338806,
+        0.3631790280342102
+      ],
+      "interactivity": true,
+      "content": "30% off",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2302415817975998,
+        0.6852216720581055,
+        0.24457122385501862,
+        0.7090123295783997
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.18102490901947021,
+        0.4386917054653168,
+        0.20276929438114166,
+        0.46111175417900085
+      ],
+      "interactivity": true,
+      "content": "A timer or clock displaying the current time of 8:08.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9935985803604126,
+        0.9501869082450867,
+        1.0,
+        0.9938111901283264
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2547328472137451,
+        0.5742433667182922,
+        0.3419974744319916,
+        0.6211971044540405
+      ],
+      "interactivity": true,
+      "content": "A painting or painting tool.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.6712194085121155e-05,
+        0.0018512344686314464,
+        0.005627791862934828,
+        0.08004733920097351
+      ],
+      "interactivity": true,
+      "content": "a stopwatch function.",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 7.7040934562683105,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

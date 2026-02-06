@@ -1,0 +1,279 @@
+metadata:
+  game_name: My Game
+  version: '1.0'
+  created_with: Katana Workflow Builder
+  created_date: '2026-02-03 16:20:46'
+  path: C:\Program Files\CyberLink\Promeo\8.17.4830.0\Promeo.exe
+  benchmark_duration: 120
+  startup_wait: 30
+  resolution: 1920x1080
+  preset: High
+  graphics_api: DirectX 11
+steps:
+  1:
+    description: Select Launch Free Version
+    find:
+      type: icon
+      text: 'Launch '
+      text_match: startswith
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  2:
+    description: Click on Settings Icon
+    find:
+      type: icon
+      text: Settings
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  3:
+    description: Click on AI PC Section
+    find:
+      type: icon
+      text: Al PC Section
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  4:
+    description: Click on AIPC (GPU)
+    find:
+      type: any
+      text: GPU
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  5:
+    description: Click on AIPC (GPU) - option 2
+    find:
+      type: icon
+      text: AIPC (GPU)
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  6:
+    description: Click Save
+    find:
+      type: icon
+      text: Save
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  7:
+    description: Click on AI Marketing Advisor tab
+    find:
+      type: icon
+      text: Al Marketing Advisor
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 11
+    timeout: 20
+  8:
+    description: Click on Add Project Plus Icon
+    find:
+      type: icon
+      text: 'adding '
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    optional: true
+    expected_delay: 2
+    timeout: 20
+  9:
+    description: Click on Product Name TextBox
+    find:
+      type: text
+      text: e.g. Owala Water Bottle
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  10:
+    description: Input Text
+    find:
+      type: icon
+      text: ''
+      text_match: contains
+    action:
+      type: text
+      text: echobeat pro earbuds
+      clear_first: true
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  11:
+    description: Click to Import Photo
+    find:
+      type: icon
+      text: Drag your photo here, or click to import
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  12:
+    description: Click on Search Button
+    find:
+      type: icon
+      text: Full screen mode.
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    optional: true
+    expected_delay: 2
+    timeout: 20
+  13:
+    description: Select File Name Bar
+    find:
+      type: icon
+      text: Full screen mode.
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  14:
+    description: Input Workload photo name
+    find:
+      type: icon
+      text: ''
+      text_match: contains
+    action:
+      type: text
+      text: workload.png
+      clear_first: false
+      char_delay: 0.05
+    expected_delay: 2
+    timeout: 20
+  15:
+    description: Click on Open Button
+    find:
+      type: icon
+      text: Open
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  16:
+    description: Click on Get Advice (for product description)
+    find:
+      type: icon
+      text: No ideas? Get Advice
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 10
+    timeout: 20
+  17:
+    description: Click on Get Advice (for product description)
+    find:
+      type: icon
+      text: No ideas? Get Advice
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 10
+    timeout: 20
+  18:
+    description: Click on Get Advice (for product highlights)
+    find:
+      type: icon
+      text: No ideas? Get Advice
+      text_match: exact
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 10
+    timeout: 20
+  19:
+    description: Check Platform
+    find:
+      type: icon
+      text: Rectangle
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 2
+    timeout: 20
+  20:
+    description: Select Unlimited Generation with AI PC
+    find:
+      type: icon
+      text: Unlimited Generation with Al PC
+      text_match: contains
+    action:
+      type: click
+      button: left
+      move_duration: 0.3
+      click_delay: 0.2
+    expected_delay: 90
+    timeout: 20
+fallbacks:
+  general:
+    action: key
+    key: escape
+    expected_delay: 1

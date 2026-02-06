@@ -1,0 +1,590 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.4583333432674408,
+        0.046296294778585434,
+        0.53125,
+        0.07129629701375961
+      ],
+      "interactivity": false,
+      "content": "Tencent Meetinge",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4583333432674408,
+        0.08796296268701553,
+        0.5302083492279053,
+        0.11388888955116272
+      ],
+      "interactivity": false,
+      "content": "Phone Accounte",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.38749998807907104,
+        0.22777777910232544,
+        0.4270833432674408,
+        0.2537037134170532
+      ],
+      "interactivity": false,
+      "content": "Mobile",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.38749998807907104,
+        0.2611111104488373,
+        0.5052083134651184,
+        0.28703704476356506
+      ],
+      "interactivity": false,
+      "content": "+86 v |17612162932",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.38749998807907104,
+        0.32499998807907104,
+        0.43958333134651184,
+        0.35092592239379883
+      ],
+      "interactivity": false,
+      "content": "Passworde",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.38749998807907104,
+        0.5222222208976746,
+        0.4989583194255829,
+        0.5481481552124023
+      ],
+      "interactivity": false,
+      "content": " Remember password",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5614583492279053,
+        0.5222222208976746,
+        0.6010416746139526,
+        0.5481481552124023
+      ],
+      "interactivity": false,
+      "content": "Sign Up",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.01614583283662796,
+        0.9462962746620178,
+        0.0911458358168602,
+        0.9759259223937988
+      ],
+      "interactivity": false,
+      "content": "9+Air: Satisfactory",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03229166567325592,
+        0.9722222089767456,
+        0.07187499850988388,
+        0.9925925731658936
+      ],
+      "interactivity": false,
+      "content": "Tomorrowe",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3864121735095978,
+        0.44678163528442383,
+        0.6020857691764832,
+        0.4961545169353485
+      ],
+      "interactivity": true,
+      "content": "Log In ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04914126545190811,
+        0.1158362627029419,
+        0.09633587300777435,
+        0.22012659907341003
+      ],
+      "interactivity": true,
+      "content": "Blender 5.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.002331028925254941,
+        0.11408814042806625,
+        0.04793291166424751,
+        0.221802219748497
+      ],
+      "interactivity": true,
+      "content": "Intel(R) ReadWrite.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.31326496601104736,
+        0.9500308632850647,
+        0.45949336886405945,
+        0.9934629201889038
+      ],
+      "interactivity": true,
+      "content": "Q Search ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0031584843527525663,
+        0.007997926324605942,
+        0.047829531133174896,
+        0.09105943143367767
+      ],
+      "interactivity": true,
+      "content": " Recycle Bine ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0015313088661059737,
+        0.22784332931041718,
+        0.049110714346170425,
+        0.3368956446647644
+      ],
+      "interactivity": true,
+      "content": "Intel(R) SystemSco.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.052723802626132965,
+        0.23178575932979584,
+        0.0945669487118721,
+        0.3366081118583679
+      ],
+      "interactivity": true,
+      "content": "Tencente Meetinge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05451909825205803,
+        0.009126652963459492,
+        0.09159310907125473,
+        0.09132899343967438
+      ],
+      "interactivity": true,
+      "content": "Results ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.00032532066688872874,
+        0.6763290166854858,
+        0.050013016909360886,
+        0.7859647870063782
+      ],
+      "interactivity": true,
+      "content": "Microsofte Edge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.33931902050971985,
+        0.0520421639084816,
+        0.44044792652130127
+      ],
+      "interactivity": true,
+      "content": "Intel(R)Pow.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.445879727602005,
+        0.05388825014233589,
+        0.5540118217468262
+      ],
+      "interactivity": true,
+      "content": "Intel(R) SDR.... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.556939959526062,
+        0.05353371053934097,
+        0.6752018928527832
+      ],
+      "interactivity": true,
+      "content": "Luminar Neo. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0005226939683780074,
+        0.7918226718902588,
+        0.04786597564816475,
+        0.8839019536972046
+      ],
+      "interactivity": true,
+      "content": "Promeoe ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9506489038467407,
+        0.9443013668060303,
+        0.9941803216934204,
+        0.9963207244873047
+      ],
+      "interactivity": true,
+      "content": "9:00 PM 2/1/2026 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.38780948519706726,
+        0.34640857577323914,
+        0.600356936454773,
+        0.3939729332923889
+      ],
+      "interactivity": true,
+      "content": "Enter password. Forgote ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4847862124443054,
+        0.1595897525548935,
+        0.6010633707046509,
+        0.194629967212677
+      ],
+      "interactivity": true,
+      "content": "Verification Code Login > ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.44189324975013733,
+        0.7641233205795288,
+        0.5488478541374207,
+        0.7898938059806824
+      ],
+      "interactivity": true,
+      "content": "More Login Methods > ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3864787518978119,
+        0.1517002135515213,
+        0.4756167531013489,
+        0.19737981259822845
+      ],
+      "interactivity": true,
+      "content": "DTencent One ID ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6873862147331238,
+        0.94798344373703,
+        0.7162161469459534,
+        0.9996544718742371
+      ],
+      "interactivity": true,
+      "content": "Movies and TV",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5458489060401917,
+        0.9501882791519165,
+        0.5735867619514465,
+        0.9993214011192322
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6594284176826477,
+        0.9483961462974548,
+        0.6871767044067383,
+        0.9999396204948425
+      ],
+      "interactivity": true,
+      "content": "Magnets",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5736150741577148,
+        0.9491180181503296,
+        0.6013883352279663,
+        0.9981374144554138
+      ],
+      "interactivity": true,
+      "content": "Microsoft folder",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5166873335838318,
+        0.9509695768356323,
+        0.5446205735206604,
+        0.9982256889343262
+      ],
+      "interactivity": true,
+      "content": "Gallery",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6307908296585083,
+        0.9484483599662781,
+        0.6594011783599854,
+        0.9995442628860474
+      ],
+      "interactivity": true,
+      "content": "Toggle Video",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.602730393409729,
+        0.949269711971283,
+        0.6295605897903442,
+        0.999305009841919
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4881940186023712,
+        0.950882077217102,
+        0.5162448287010193,
+        0.995498538017273
+      ],
+      "interactivity": true,
+      "content": "Fresca",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.28392738103866577,
+        0.9498047828674316,
+        0.3121899366378784,
+        0.9941768050193787
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4593299925327301,
+        0.9503924250602722,
+        0.486873060464859,
+        0.9932981133460999
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8762112855911255,
+        0.9502257108688354,
+        0.8987925052642822,
+        0.9946098327636719
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9314128756523132,
+        0.9484912753105164,
+        0.9492822885513306,
+        0.9940126538276672
+      ],
+      "interactivity": true,
+      "content": "Tasks",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.857975959777832,
+        0.9521670937538147,
+        0.8758745193481445,
+        0.9918687343597412
+      ],
+      "interactivity": true,
+      "content": "Go to the next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8991107940673828,
+        0.9499735236167908,
+        0.9166656732559204,
+        0.9960354566574097
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5756883025169373,
+        0.03841651231050491,
+        0.5935242176055908,
+        0.07167595624923706
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5856615304946899,
+        0.26162680983543396,
+        0.5999338626861572,
+        0.28977328538894653
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9159584045410156,
+        0.9492149949073792,
+        0.9316064715385437,
+        0.9951222538948059
+      ],
+      "interactivity": true,
+      "content": "Sound",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5965376496315002,
+        0.03853641077876091,
+        0.6141386032104492,
+        0.0698898434638977
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.37762537598609924,
+        0.08172274380922318,
+        0.3974970579147339,
+        0.12438730150461197
+      ],
+      "interactivity": true,
+      "content": "Forward",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004633769392967224,
+        0.9458222985267639,
+        0.032567098736763,
+        0.9942595362663269
+      ],
+      "interactivity": true,
+      "content": "Notifications",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9940469264984131,
+        0.9444007277488708,
+        1.0,
+        0.9945027828216553
+      ],
+      "interactivity": true,
+      "content": "a blank space for text or image.",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 2.899125576019287,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

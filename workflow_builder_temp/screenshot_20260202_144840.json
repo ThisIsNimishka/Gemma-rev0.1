@@ -1,0 +1,866 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.47968751192092896,
+        0.14444445073604584,
+        0.520312488079071,
+        0.17499999701976776
+      ],
+      "interactivity": false,
+      "content": "Settings",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.47083333134651184,
+        0.529629647731781,
+        0.5083333253860474,
+        0.5555555820465088
+      ],
+      "interactivity": false,
+      "content": " Beautify",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5229166746139526,
+        0.5314815044403076,
+        0.550000011920929,
+        0.5537037253379822
+      ],
+      "interactivity": false,
+      "content": "Filters",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5677083134651184,
+        0.5249999761581421,
+        0.5979166626930237,
+        0.5555555820465088
+      ],
+      "interactivity": false,
+      "content": "Stickers",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.6135416626930237,
+        0.529629647731781,
+        0.6489583253860474,
+        0.5555555820465088
+      ],
+      "interactivity": false,
+      "content": "Borders",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.4020833373069763,
+        0.6490740776062012,
+        0.4427083432674408,
+        0.675000011920929
+      ],
+      "interactivity": false,
+      "content": "Featured",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.5104166865348816,
+        0.8305555582046509,
+        0.640625,
+        0.8638888597488403
+      ],
+      "interactivity": false,
+      "content": " I have a green screen ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02083333395421505,
+        0.949999988079071,
+        0.08229167014360428,
+        0.9759259223937988
+      ],
+      "interactivity": false,
+      "content": "9+ Very high UV",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03229166567325592,
+        0.9722222089767456,
+        0.0520833320915699,
+        0.9925925731658936
+      ],
+      "interactivity": false,
+      "content": "Now",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4023711085319519,
+        0.1991872787475586,
+        0.7183427214622498,
+        0.5185320973396301
+      ],
+      "interactivity": true,
+      "content": " Selfie view  Camera view ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2695966064929962,
+        0.3936040699481964,
+        0.3862805664539337,
+        0.46272966265678406
+      ],
+      "interactivity": true,
+      "content": " Background & Effect ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5294111967086792,
+        0.5704196691513062,
+        0.5920460820198059,
+        0.6372805833816528
+      ],
+      "interactivity": true,
+      "content": "Blur ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26802724599838257,
+        0.2924345135688782,
+        0.38881716132164,
+        0.344023734331131
+      ],
+      "interactivity": true,
+      "content": ") Audio ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2667081952095032,
+        0.24194669723510742,
+        0.388724148273468,
+        0.2943246364593506
+      ],
+      "interactivity": true,
+      "content": " Video ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2699894607067108,
+        0.5355034470558167,
+        0.3858473598957062,
+        0.6147513389587402
+      ],
+      "interactivity": true,
+      "content": ". Security &  Privacy ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26768526434898376,
+        0.7154023051261902,
+        0.38723331689834595,
+        0.7660703063011169
+      ],
+      "interactivity": true,
+      "content": " Shortcuts ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26896408200263977,
+        0.6665164232254028,
+        0.38562506437301636,
+        0.7172275185585022
+      ],
+      "interactivity": true,
+      "content": " Proxy Settings ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.27003949880599976,
+        0.4610024392604828,
+        0.3864661753177643,
+        0.5366734862327576
+      ],
+      "interactivity": true,
+      "content": " Captions & Transcripts ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3134666383266449,
+        0.9496179819107056,
+        0.4594075381755829,
+        0.9939965009689331
+      ],
+      "interactivity": true,
+      "content": "Q Search ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.268218070268631,
+        0.3428322970867157,
+        0.38850635290145874,
+        0.3940609395503998
+      ],
+      "interactivity": true,
+      "content": "O Recording ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4670340418815613,
+        0.5730586051940918,
+        0.5260516405105591,
+        0.6343291401863098
+      ],
+      "interactivity": true,
+      "content": "Customize ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2693684697151184,
+        0.6149805188179016,
+        0.3849916458129883,
+        0.6675523519515991
+      ],
+      "interactivity": true,
+      "content": " Network Test ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.403211772441864,
+        0.574279248714447,
+        0.46247902512550354,
+        0.6338214874267578
+      ],
+      "interactivity": true,
+      "content": "0 None ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.26682472229003906,
+        0.7658420205116272,
+        0.3879918158054352,
+        0.8139594197273254
+      ],
+      "interactivity": true,
+      "content": " About Us ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.04847676679491997,
+        0.11505015194416046,
+        0.09672679752111435,
+        0.21950285136699677
+      ],
+      "interactivity": true,
+      "content": "Blender 5.0 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2673622965812683,
+        0.19191725552082062,
+        0.3896332383155823,
+        0.244454026222229
+      ],
+      "interactivity": true,
+      "content": " General ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.001919761300086975,
+        0.11347222328186035,
+        0.04844822362065315,
+        0.22124116122722626
+      ],
+      "interactivity": true,
+      "content": "Intel(R) ReadWrite... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0025726482272148132,
+        0.006451129913330078,
+        0.049706704914569855,
+        0.09317584335803986
+      ],
+      "interactivity": true,
+      "content": " Recycle Bin ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.052911341190338135,
+        0.006958201061934233,
+        0.09262045472860336,
+        0.09463240206241608
+      ],
+      "interactivity": true,
+      "content": "Results ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0009426191681995988,
+        0.22815077006816864,
+        0.05080669745802879,
+        0.33688345551490784
+      ],
+      "interactivity": true,
+      "content": "Intel(R) SystemSco... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0006332903867587447,
+        0.6767692565917969,
+        0.04833435267210007,
+        0.7860506176948547
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05159106105566025,
+        0.23232942819595337,
+        0.0944521427154541,
+        0.33501729369163513
+      ],
+      "interactivity": true,
+      "content": "Tencent Meeting ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.339570015668869,
+        0.05337046831846237,
+        0.44053810834884644
+      ],
+      "interactivity": true,
+      "content": "Intel(R)Pow... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.002827286720275879,
+        0.7936275005340576,
+        0.045651040971279144,
+        0.8782550096511841
+      ],
+      "interactivity": true,
+      "content": "Promeo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.5563457608222961,
+        0.0531957745552063,
+        0.6742168664932251
+      ],
+      "interactivity": true,
+      "content": "Luminar Neo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.4473271667957306,
+        0.053854990750551224,
+        0.552655041217804
+      ],
+      "interactivity": true,
+      "content": "Intel(R) SDR... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.41779661178588867,
+        0.5228303074836731,
+        0.4673970341682434,
+        0.5562766790390015
+      ],
+      "interactivity": true,
+      "content": "Backg... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.40101632475852966,
+        0.8289909362792969,
+        0.5029738545417786,
+        0.8619597554206848
+      ],
+      "interactivity": true,
+      "content": " Video mirroring  ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6574435830116272,
+        0.8322432041168213,
+        0.718345582485199,
+        0.8598287105560303
+      ],
+      "interactivity": true,
+      "content": "More ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9513246417045593,
+        0.9444776773452759,
+        0.993604302406311,
+        0.9974870681762695
+      ],
+      "interactivity": true,
+      "content": "9:18 PM 2/1/2026 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6523810625076294,
+        0.5230714082717896,
+        0.7016978859901428,
+        0.5555519461631775
+      ],
+      "interactivity": true,
+      "content": "Name ... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.40201446413993835,
+        0.7577794194221497,
+        0.46477386355400085,
+        0.8233749270439148
+      ],
+      "interactivity": true,
+      "content": "Kindergarten Kids App",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4658972918987274,
+        0.7577904462814331,
+        0.5276622176170349,
+        0.8225151896476746
+      ],
+      "interactivity": true,
+      "content": "Drawing",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5950152277946472,
+        0.6850793361663818,
+        0.6538084745407104,
+        0.7477708458900452
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.46658191084861755,
+        0.6846151947975159,
+        0.5268962979316711,
+        0.7485874891281128
+      ],
+      "interactivity": true,
+      "content": "Bunting",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.530672013759613,
+        0.6845059990882874,
+        0.5904703736305237,
+        0.7481667995452881
+      ],
+      "interactivity": true,
+      "content": "Viewing",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.658203125,
+        0.6853206157684326,
+        0.7187168002128601,
+        0.7489562034606934
+      ],
+      "interactivity": true,
+      "content": "Calendar",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4022890031337738,
+        0.6842967867851257,
+        0.46380671858787537,
+        0.747621476650238
+      ],
+      "interactivity": true,
+      "content": "Image Control",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5468210577964783,
+        0.9494754076004028,
+        0.5731751322746277,
+        0.9991268515586853
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6596113443374634,
+        0.9482043385505676,
+        0.6870222091674805,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Magnets",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6876084804534912,
+        0.9479892253875732,
+        0.7158845067024231,
+        0.9998104572296143
+      ],
+      "interactivity": true,
+      "content": "Movies and TV",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5170474052429199,
+        0.9504311084747314,
+        0.5438563227653503,
+        0.9986943006515503
+      ],
+      "interactivity": true,
+      "content": "Gallery",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5950083136558533,
+        0.5716731548309326,
+        0.6543676257133484,
+        0.638484001159668
+      ],
+      "interactivity": true,
+      "content": "Image",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5296899080276489,
+        0.7579149007797241,
+        0.5916043519973755,
+        0.8222967982292175
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5743116736412048,
+        0.948245108127594,
+        0.6007290482521057,
+        0.998825192451477
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.28435787558555603,
+        0.9516807198524475,
+        0.3120305836200714,
+        0.9934418797492981
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.4885028898715973,
+        0.9507883787155151,
+        0.5155752301216125,
+        0.9953488111495972
+      ],
+      "interactivity": true,
+      "content": "Mics",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5937051177024841,
+        0.7587241530418396,
+        0.6546637415885925,
+        0.8232592940330505
+      ],
+      "interactivity": true,
+      "content": "Building",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6031795144081116,
+        0.9484095573425293,
+        0.6291817426681519,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Note",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.46007174253463745,
+        0.9507527947425842,
+        0.4856603741645813,
+        0.9948904514312744
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8765420913696289,
+        0.9516398310661316,
+        0.8986784219741821,
+        0.9942311644554138
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6311627626419067,
+        0.9485234022140503,
+        0.6589339971542358,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Toggle Video",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6575784087181091,
+        0.7593114972114563,
+        0.7189927697181702,
+        0.8228697776794434
+      ],
+      "interactivity": true,
+      "content": "Gallery",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.858472466468811,
+        0.9545706510543823,
+        0.8751285672187805,
+        0.9904505014419556
+      ],
+      "interactivity": true,
+      "content": "Go to the next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9308611154556274,
+        0.9491972923278809,
+        0.9487058520317078,
+        0.9950855374336243
+      ],
+      "interactivity": true,
+      "content": "Draw",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8992147445678711,
+        0.9510819911956787,
+        0.9165269732475281,
+        0.9968858361244202
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9162538647651672,
+        0.9492892622947693,
+        0.9314603805541992,
+        0.9975447058677673
+      ],
+      "interactivity": true,
+      "content": "Sound",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7098093032836914,
+        0.14014661312103271,
+        0.730204164981842,
+        0.17827193439006805
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6575801968574524,
+        0.5726797580718994,
+        0.7179311513900757,
+        0.6612251400947571
+      ],
+      "interactivity": true,
+      "content": "Refresh",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.006269303150475025,
+        0.945887565612793,
+        0.03398346155881882,
+        0.9965444207191467
+      ],
+      "interactivity": true,
+      "content": "Uncomm&entive",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2584015429019928,
+        0.4184686541557312,
+        0.26935264468193054,
+        0.44457337260246277
+      ],
+      "interactivity": true,
+      "content": "R",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 2.740393877029419,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}

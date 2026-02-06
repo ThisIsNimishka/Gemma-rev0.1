@@ -1,0 +1,962 @@
+{
+  "parsed_content_list": [
+    {
+      "type": "text",
+      "bbox": [
+        0.0020833334419876337,
+        0.05944444611668587,
+        0.0520833320915699,
+        0.08222222328186035
+      ],
+      "interactivity": false,
+      "content": "Recydle Bin",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.11249999701976776,
+        0.1366666704416275,
+        0.23333333432674408,
+        0.15777777135372162
+      ],
+      "interactivity": false,
+      "content": "Administrator: C:\\Windows\\S!",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06979166716337204,
+        0.17277777194976807,
+        0.3135416805744171,
+        0.19555555284023285
+      ],
+      "interactivity": false,
+      "content": "SDR ST0P failed with error code 4004",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.19388888776302338,
+        0.19583334028720856,
+        0.21722222864627838
+      ],
+      "interactivity": false,
+      "content": "Copying reports...",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.21388888359069824,
+        0.12187500298023224,
+        0.23666666448116302
+      ],
+      "interactivity": false,
+      "content": "Source:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12291666865348816,
+        0.20888888835906982,
+        0.559374988079071,
+        0.2383333295583725
+      ],
+      "interactivity": false,
+      "content": "\"c:\\ProgramData\\Intel Corporation\\SystemDataRecorder\\sDR\\Reports\"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.23333333432674408,
+        0.109375,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "Dest :",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12604166567325592,
+        0.23333333432674408,
+        0.875,
+        0.2566666603088379
+      ],
+      "interactivity": false,
+      "content": "\"c:\\Users\\Administrator\\Downloads\\PRoJEcts\\Gemma-rev0.1-feature-hooks-and-sideload\\tracing_tools\\sdr\\scripts\\\\rep",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.08645833283662796,
+        0.2761111259460449,
+        0.2718749940395355,
+        0.29777777194976807
+      ],
+      "interactivity": false,
+      "content": "was unexpected at this time.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07083333283662796,
+        0.3122222125530243,
+        0.8739583492279053,
+        0.34388887882232666
+      ],
+      "interactivity": false,
+      "content": "C:\\Users\\Administrator\\Downloads\\PRoJEcTs\\Gemma-rev0.1-feature-hooks-and-sideload\\tracing_tools\\sdr\\scripts>\"stop_sdr_hoo.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.08645833283662796,
+        0.33888888359069824,
+        0.13958333432674408,
+        0.3566666543483734
+      ],
+      "interactivity": false,
+      "content": "(2) . bat \"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.3583333194255829,
+        0.17916665971279144,
+        0.3816666603088379
+      ],
+      "interactivity": false,
+      "content": "Stopping SDR..:",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07916666567325592,
+        0.4194444417953491,
+        0.30000001192092896,
+        0.44055554270744324
+      ],
+      "interactivity": false,
+      "content": "Intel(R)System Data Recorder Tool",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07916666567325592,
+        0.44055554270744324,
+        0.32083332538604736,
+        0.46388888359069824
+      ],
+      "interactivity": false,
+      "content": "Copyright (c) Intel Corporation 2025",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07916666567325592,
+        0.4605555534362793,
+        0.22187499701976776,
+        0.4833333194255829
+      ],
+      "interactivity": false,
+      "content": "Tool version 2.0.1003",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.522777795791626,
+        0.18854166567325592,
+        0.5461111068725586
+      ],
+      "interactivity": false,
+      "content": "Stopping the test",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.5427777767181396,
+        0.22083333134651184,
+        0.5655555725097656
+      ],
+      "interactivity": false,
+      "content": "No tests are running,",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.21458333730697632,
+        0.5427777767181396,
+        0.4468750059604645,
+        0.5638889074325562
+      ],
+      "interactivity": false,
+      "content": " please start the test and continue.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.5622222423553467,
+        0.23541666567325592,
+        0.5855555534362793
+      ],
+      "interactivity": false,
+      "content": "NetworkStatus: Connected",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.28333333134651184,
+        0.5622222423553467,
+        0.43958333134651184,
+        0.5855555534362793
+      ],
+      "interactivity": false,
+      "content": "2026-02-03 11:35:59.890",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.5822222232818604,
+        0.16354165971279144,
+        0.6033333539962769
+      ],
+      "interactivity": false,
+      "content": "ExitCode=4004",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.6038888692855835,
+        0.31458333134651184,
+        0.625
+      ],
+      "interactivity": false,
+      "content": "SDR sT0p failed with error code 4004",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.6266666650772095,
+        0.19374999403953552,
+        0.647777795791626
+      ],
+      "interactivity": false,
+      "content": "Copying reports...",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07395832985639572,
+        0.647777795791626,
+        0.12083332985639572,
+        0.6661111116409302
+      ],
+      "interactivity": false,
+      "content": "Source :",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.125,
+        0.6449999809265137,
+        0.5583333373069763,
+        0.6677777767181396
+      ],
+      "interactivity": false,
+      "content": "\"C:\\ProgramData\\Intel Corporation\\SystemDataRecorder\\sDR\\Reports\"",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.12395833432674408,
+        0.6611111164093018,
+        0.875,
+        0.6922222375869751
+      ],
+      "interactivity": false,
+      "content": "\"C:\\Users\\Administrator\\Downloads\\PRoJEcTs\\Gemma-rev0.1-feature-hooks-and-sideload\\tracing_tools\\sdr\\scripts\\repo",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.0729166641831398,
+        0.6677777767181396,
+        0.10729166865348816,
+        0.6861110925674438
+      ],
+      "interactivity": false,
+      "content": "Dest :",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.06979166716337204,
+        0.6888889074325562,
+        0.10312499850988388,
+        0.7072222232818604
+      ],
+      "interactivity": false,
+      "content": "rts ",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.08437500149011612,
+        0.7072222232818604,
+        0.2718749940395355,
+        0.7300000190734863
+      ],
+      "interactivity": false,
+      "content": "was unexpected at this time.",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.05104166641831398,
+        0.7400000095367432,
+        0.06979166716337204,
+        0.7583333253860474
+      ],
+      "interactivity": false,
+      "content": " Inte",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.07187499850988388,
+        0.7483333349227905,
+        0.7906249761581421,
+        0.7711111307144165
+      ],
+      "interactivity": false,
+      "content": "C:\\Users\\Administrator\\Downloads\\PRoJEcTs\\Gemma-rev0.1-feature-hooks-and-sideload\\tracing_tools\\sdr\\scripts>",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.02500000037252903,
+        0.9522222280502319,
+        0.05624999850988388,
+        0.9755555391311646
+      ],
+      "interactivity": false,
+      "content": "6 28C",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "text",
+      "bbox": [
+        0.03368055447936058,
+        0.9700000286102295,
+        0.08715277910232544,
+        0.9972222447395325
+      ],
+      "interactivity": false,
+      "content": "Mostly sunny",
+      "source": "box_ocr_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        2.651214526849799e-05,
+        0.11204016208648682,
+        0.05312225595116615,
+        0.2129635512828827
+      ],
+      "interactivity": true,
+      "content": " Intel(R) ReadWrite.. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        5.793571472167969e-05,
+        0.2263411283493042,
+        0.05371356010437012,
+        0.3270029127597809
+      ],
+      "interactivity": true,
+      "content": "Intel(R) SystemSco... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.055039454251527786,
+        0.0027017020620405674,
+        0.09815206378698349,
+        0.08753963559865952
+      ],
+      "interactivity": true,
+      "content": "Results ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0015171885024756193,
+        0.6795790195465088,
+        0.05058969929814339,
+        0.7775108218193054
+      ],
+      "interactivity": true,
+      "content": "Edge ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.5608672499656677,
+        0.057244814932346344,
+        0.6628395318984985
+      ],
+      "interactivity": true,
+      "content": "Luminar Neo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.4521489143371582,
+        0.05667579919099808,
+        0.5357354879379272
+      ],
+      "interactivity": true,
+      "content": "Intel(R)SDR... ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.0,
+        0.34063202142715454,
+        0.05607989802956581,
+        0.4284118711948395
+      ],
+      "interactivity": true,
+      "content": "Intel(R)PoW. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.004198515322059393,
+        0.7930593490600586,
+        0.04805313050746918,
+        0.87249755859375
+      ],
+      "interactivity": true,
+      "content": "Promeo ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.3310204744338989,
+        0.9535384178161621,
+        0.48713424801826477,
+        0.992580771446228
+      ],
+      "interactivity": true,
+      "content": "QSearch ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05071883276104927,
+        0.794011116027832,
+        0.10229267179965973,
+        0.8723072409629822
+      ],
+      "interactivity": true,
+      "content": "intel) Intel(RSyst.. ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9479352235794067,
+        0.9474528431892395,
+        0.99388587474823,
+        0.994389533996582
+      ],
+      "interactivity": true,
+      "content": "11:57 PM 2/2/2026 ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05190392583608627,
+        0.15094077587127686,
+        0.07043067365884781,
+        0.19463881850242615
+      ],
+      "interactivity": true,
+      "content": "Ble ",
+      "source": "box_yolo_content_ocr"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5477252006530762,
+        0.9554276466369629,
+        0.5775204300880432,
+        1.0
+      ],
+      "interactivity": true,
+      "content": "Paste",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.48727309703826904,
+        0.9539878964424133,
+        0.5151802897453308,
+        0.997279167175293
+      ],
+      "interactivity": true,
+      "content": "Copy",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5177133083343506,
+        0.955367922782898,
+        0.5474411249160767,
+        0.998907744884491
+      ],
+      "interactivity": true,
+      "content": "Kioser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.5798534154891968,
+        0.9543243646621704,
+        0.6076221466064453,
+        0.9986169338226318
+      ],
+      "interactivity": true,
+      "content": "Microsoft Edge browser",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6727165579795837,
+        0.9547919631004333,
+        0.6961424350738525,
+        0.9998351335525513
+      ],
+      "interactivity": true,
+      "content": "Notebook",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.7975265383720398,
+        0.11801077425479889,
+        0.8283630609512329,
+        0.1641637235879898
+      ],
+      "interactivity": true,
+      "content": "Minimize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6394147872924805,
+        0.9519082307815552,
+        0.6683124303817749,
+        0.9997674822807312
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.6097016334533691,
+        0.9526122808456421,
+        0.6379244923591614,
+        0.9987045526504517
+      ],
+      "interactivity": true,
+      "content": "Microsoft Office",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.301665723323822,
+        0.9547765851020813,
+        0.32950228452682495,
+        0.9925054907798767
+      ],
+      "interactivity": true,
+      "content": "Windows",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8282914161682129,
+        0.11842962354421616,
+        0.8601500391960144,
+        0.16398930549621582
+      ],
+      "interactivity": true,
+      "content": "Maximize",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.06916117668151855,
+        0.12610656023025513,
+        0.09073841571807861,
+        0.16403335332870483
+      ],
+      "interactivity": true,
+      "content": "Hanging Security",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8469812273979187,
+        0.9548320174217224,
+        0.8679251074790955,
+        0.9908649921417236
+      ],
+      "interactivity": true,
+      "content": "Go to the next month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8687124252319336,
+        0.9526162147521973,
+        0.890912652015686,
+        0.9919899106025696
+      ],
+      "interactivity": true,
+      "content": "Arrow",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8604834675788879,
+        0.118280790746212,
+        0.8919280171394348,
+        0.16384325921535492
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.25977012515068054,
+        0.1278708279132843,
+        0.2831307351589203,
+        0.16223645210266113
+      ],
+      "interactivity": true,
+      "content": "New tab (\u2318N)",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05541067197918892,
+        0.357667475938797,
+        0.07257123291492462,
+        0.399901807308197
+      ],
+      "interactivity": true,
+      "content": "Notebook",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.8917608261108398,
+        0.9529051184654236,
+        0.9112493991851807,
+        0.992007315158844
+      ],
+      "interactivity": true,
+      "content": "WiFi",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.28298622369766235,
+        0.12742750346660614,
+        0.3021697700023651,
+        0.1621759533882141
+      ],
+      "interactivity": true,
+      "content": "Go to next month month",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9111223220825195,
+        0.9525541663169861,
+        0.9355044960975647,
+        0.9919798374176025
+      ],
+      "interactivity": true,
+      "content": "Delete",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07197389751672745,
+        0.33549538254737854,
+        0.0844087153673172,
+        0.35764533281326294
+      ],
+      "interactivity": true,
+      "content": "K",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.08790779113769531,
+        0.3352796137332916,
+        0.10619140416383743,
+        0.3580172061920166
+      ],
+      "interactivity": true,
+      "content": "2 (\u2318)",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2823818624019623,
+        0.16518428921699524,
+        0.3145608603954315,
+        0.1979806125164032
+      ],
+      "interactivity": true,
+      "content": "4404",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.057855166494846344,
+        0.2289891391992569,
+        0.07100926339626312,
+        0.2626281976699829
+      ],
+      "interactivity": true,
+      "content": "Microsoft 365.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05818500369787216,
+        0.565350353717804,
+        0.07090020179748535,
+        0.6217951774597168
+      ],
+      "interactivity": true,
+      "content": "Microsoft 365.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.2095680683851242,
+        0.16377747058868408,
+        0.2494751363992691,
+        0.19869369268417358
+      ],
+      "interactivity": true,
+      "content": "Error",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05752640962600708,
+        0.6815695762634277,
+        0.07085684686899185,
+        0.7292062640190125
+      ],
+      "interactivity": true,
+      "content": "a forward or forward action.",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.23451294004917145,
+        0.13266101479530334,
+        0.2509000301361084,
+        0.16004855930805206
+      ],
+      "interactivity": true,
+      "content": "Close",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.24931700527668,
+        0.16508041322231293,
+        0.2811799645423889,
+        0.197132870554924
+      ],
+      "interactivity": true,
+      "content": "Code",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.05806979164481163,
+        0.2648087739944458,
+        0.07032843679189682,
+        0.2891483008861542
+      ],
+      "interactivity": true,
+      "content": "System",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.009564673528075218,
+        0.9483178853988647,
+        0.0363081693649292,
+        0.9917164444923401
+      ],
+      "interactivity": true,
+      "content": "Notifications",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        1.9830466044368222e-05,
+        0.0018120002932846546,
+        0.005519561469554901,
+        0.07994361966848373
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.9933401346206665,
+        0.9483555555343628,
+        1.0,
+        0.9942762851715088
+      ],
+      "interactivity": true,
+      "content": "M0,0L9,0 4.5,5z",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.20376832783222198,
+        0.2682461440563202,
+        0.23523299396038055,
+        0.2997712194919586
+      ],
+      "interactivity": true,
+      "content": "ThisThis",
+      "source": "box_yolo_content_yolo"
+    },
+    {
+      "type": "icon",
+      "bbox": [
+        0.07041653245687485,
+        0.7085035443305969,
+        0.08459073305130005,
+        0.7360716462135315
+      ],
+      "interactivity": true,
+      "content": "More Options",
+      "source": "box_yolo_content_yolo"
+    }
+  ],
+  "latency": 5.000047445297241,
+  "config_used": {
+    "BOX_TRESHOLD": 0.05,
+    "IOU_THRESHOLD": 0.1,
+    "use_paddleocr": true,
+    "text_threshold": 0.8,
+    "use_local_semantics": true,
+    "scale_img": false
+  },
+  "som_image_base64_present": true
+}
