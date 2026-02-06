@@ -845,7 +845,7 @@ class WorkflowBuilderGUI:
         # Hooks configuration (pre and post automation hooks)
         self.hooks = {"pre": [], "post": []}
         self.persistent_processes = {}  # Track PIDs of persistent hooks
-        self.enable_hooks_testing = tk.BooleanVar(value=True)
+        self.enable_hooks_testing = tk.BooleanVar(value=False)
         self.enable_hooks_testing.trace_add("write", self._update_hooks_toggle_label)
 
         # SUT connection
@@ -1058,10 +1058,10 @@ class WorkflowBuilderGUI:
                   relief=tk.RAISED, bd=2).pack(side=tk.LEFT, padx=3)
 
         # Hooks/Sideload toggle (Easily visible button-style toggle)
-        self.hooks_toggle = tk.Checkbutton(step_btn_frame, text="Disable Hooks/Sideloads", 
+        self.hooks_toggle = tk.Checkbutton(step_btn_frame, text="Disabled", 
                                            variable=self.enable_hooks_testing,
                                            indicatoron=0,
-                                           bg="#1976D2", fg="white", selectcolor="#0D47A1",
+                                           bg="#f44336", fg="white", selectcolor="#d32f2f",
                                            activebackground="#1565C0", activeforeground="white",
                                            font=('TkDefaultFont', 10, 'bold'),
                                            relief=tk.RAISED, bd=2)
@@ -1492,15 +1492,15 @@ class WorkflowBuilderGUI:
             return
         if self.enable_hooks_testing.get():
             self.hooks_toggle.config(
-                text="Disable Hooks/Sideloads",
-                bg="#1976D2", fg="white", 
-                selectcolor="#0D47A1"
+                text="Enabled",
+                bg="#4CAF50", fg="white",  # Green when active
+                selectcolor="#2E7D32"
             )
         else:
             self.hooks_toggle.config(
-                text="Enable Hooks/Sideloads",
-                bg="#E0E0E0", fg="black",
-                selectcolor="#BDBDBD"
+                text="Disabled",
+                bg="#f44336", fg="white",  # Red when inactive
+                selectcolor="#d32f2f"
             )
 
     def connect_vision_model(self):
