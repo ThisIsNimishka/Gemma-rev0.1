@@ -37,7 +37,7 @@ An interactive IDE-like tool for creating automation logic without writing code.
 
 ### 🪝 Advanced Hooks & Sideloading (SDR Integration)
 Fully integrated support for external diagnostic tools like **Intel System Data Recorder (SDR)**.
-*   **Pre-Hooks**: Run scripts (e.g., `start_sdr.bat`) before the app starts.
+*   **Pre-Hooks**: Run scripts before the app starts.
 *   **Post-Hooks**: Auto-collect logs and stop tracing after completion.
 *   **Persistent Hooks**: Keep monitors running in the background throughout the test.
 *   **Sideloading**: Run clean-up or verification scripts between specific steps.
@@ -89,6 +89,3 @@ A centralized output system that organizes every run chronologically:
 *   **Script Failures**: Check the `automation.log` inside the `Automation Logs` folder to see the direct output of your `.bat` or `.py` hooks.
 
 ---
-
-> [!NOTE]
-> This framework is currently in **Rev0.1-feature-hooks** development. For detailed YAML syntax, refer to the [Quick Reference Guide](file:///c:/Users/nimishka/Downloads/1. PROJECTS/ISV AUTOMATION WITH VCAP/VCAP RELEASE/Gemma-rev0.1-feature-hooks-and-sideload/config/QUICK_REFERENCE.md).
