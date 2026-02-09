@@ -36,6 +36,9 @@ An interactive IDE-like tool for creating automation logic without writing code.
 *   **Real-time Testing**: Test individual actions or full flows instantly on the SUT.
 *   **⏱️ Live Timer**: Monitor workflow execution time with a real-time stopwatch (updates every 100ms).
 
+![Workflow Builder Timer](docs/images/workflow-timer-toolbar.png)
+*The timer display (⏱️ 0.0s) is positioned in the toolbar after the Enable/Disable button*
+
 ### 🪝 Advanced Hooks & Sideloading (SDR Integration)
 Fully integrated support for external diagnostic tools like **Intel System Data Recorder (SDR)**.
 *   **Pre-Hooks**: Run scripts before the app starts.
