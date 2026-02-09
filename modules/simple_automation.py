@@ -10,6 +10,7 @@ import yaml
 from typing import List, Dict, Any, Optional, Union
 
 from modules.gemma_client import BoundingBox
+from modules.stopwatch import Stopwatch
 
 logger = logging.getLogger(__name__)
 
@@ -67,6 +68,9 @@ class SimpleAutomation:
         # Hooks configuration
         self.hooks = self.config.get("hooks", {})
         self.persistent_processes = {}  # Track persistent hook processes (PID -> hook_config)
+        
+        # Initialize stopwatch for workflow timing
+        self.stopwatch = Stopwatch()
 
         logger.info(f"SimpleAutomation initialized for {self.app_name}")
         if self.process_id:
