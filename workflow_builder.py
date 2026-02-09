@@ -890,9 +890,43 @@ class WorkflowBuilderGUI:
         # Flow control
         self.flow_running = False
         self.flow_stop_requested = False
+        
+        # Timer display for flow execution
+        self.timer_running = False
+        self.timer_start_time = 0
+        self.timer_label = None  # Will be created in create_widgets
 
         self.create_widgets()
         self.center_window()
+
+    def _update_timer(self):
+        """Update the timer display in real-time during flow execution."""
+        if self.timer_running:
+            import time
+            elapsed = time.perf_counter() - self.timer_start_time
+            
+            # Format time for display
+            if elapsed < 60:
+                time_str = f"⏱️ {elapsed:.1f}s"
+            elif elapsed < 3600:
+                minutes = int(elapsed // 60)
+                seconds = int(elapsed % 60)
+                time_str = f"⏱️ {minutes}m {seconds:02d}s"
+            else:
+                hours = int(elapsed // 3600)
+                minutes = int((elapsed % 3600) // 60)
+                time_str = f"⏱️ {hours}h {minutes:02d}m"
+            
+            # Update label
+            if self.timer_label:
+                self.timer_label.config(text=time_str)
+            
+            # Schedule next update (every 100ms for smooth updates)
+            self.root.after(100, self._update_timer)
+        else:
+            # Reset when stopped
+            if self.timer_label:
+                self.timer_label.config(text="⏱️ 0.0s")
 
     def create_widgets(self):
         """Create main GUI widgets."""
@@ -1067,6 +1101,14 @@ class WorkflowBuilderGUI:
                                            font=('TkDefaultFont', 10, 'bold'),
                                            relief=tk.RAISED, bd=2)
         self.hooks_toggle.pack(side=tk.LEFT, padx=5)
+        
+        # Timer display - informational display with consistent styling
+        self.timer_label = tk.Label(step_btn_frame, text="⏱️ 0.0s",
+                                    font=('TkDefaultFont', 11, 'bold'),
+                                    fg="white", bg="#546E7A",  # Gray-blue to match toolbar
+                                    padx=10, pady=4, relief=tk.RIDGE, bd=2,  # RIDGE for subtle distinction
+                                    width=10)
+        self.timer_label.pack(side=tk.LEFT, padx=3)
 
         # Yellow Help button for YAML reference
         tk.Button(step_btn_frame, text="? Help", command=self.show_yaml_reference, width=6,
@@ -2020,6 +2062,13 @@ class WorkflowBuilderGUI:
         self.flow_stop_requested = False
         self.flow_btn.config(text="■ Stop", bg="#f44336")  # Red
         self.root.update()
+        
+        # Start timing and timer display
+        import time
+        flow_start_time = time.perf_counter()
+        self.timer_running = True
+        self.timer_start_time = flow_start_time
+        self._update_timer()  # Start the timer update loop
 
         failed_step = None
         stopped = False
@@ -2179,9 +2228,10 @@ class WorkflowBuilderGUI:
                 failed_step = (i + 1, str(e))
                 break
         
-        # Reset button state
+        # Reset button state and stop timer
         self.flow_running = False
         self.flow_stop_requested = False
+        self.timer_running = False  # Stop the timer update loop
         self.flow_btn.config(text="▶▶ Flow", bg="#2E7D32")  # Green
         self.root.update()
         
@@ -2191,15 +2241,26 @@ class WorkflowBuilderGUI:
             if run_hooks:
                 self._execute_post_hooks()
         
-        if stopped:
-            self.status_text.set(f"Flow stopped after {executed} steps")
-            messagebox.showinfo("Stopped", f"Flow stopped after {executed} steps")
-        elif failed_step:
-            messagebox.showerror("Flow Failed", f"Step {failed_step[0]} failed: {failed_step[1]}")
-            self.status_text.set(f"Flow failed at step {failed_step[0]}")
+        # Calculate elapsed time
+        flow_duration = time.perf_counter() - flow_start_time
+        
+        # Format duration for display
+        if flow_duration < 60:
+            duration_str = f"{flow_duration:.2f}s"
         else:
-            messagebox.showinfo("Success", f"Executed {total_steps} steps successfully!")
-            self.status_text.set(f"Flow complete: {total_steps} steps executed")
+            minutes = int(flow_duration // 60)
+            seconds = int(flow_duration % 60)
+            duration_str = f"{minutes}m {seconds}s"
+        
+        if stopped:
+            self.status_text.set(f"Flow stopped after {executed} steps | Time: {duration_str}")
+            messagebox.showinfo("Stopped", f"Flow stopped after {executed} steps\n\n⏱️ Elapsed Time: {duration_str}")
+        elif failed_step:
+            messagebox.showerror("Flow Failed", f"Step {failed_step[0]} failed: {failed_step[1]}\n\n⏱️ Time: {duration_str}")
+            self.status_text.set(f"Flow failed at step {failed_step[0]} | Time: {duration_str}")
+        else:
+            messagebox.showinfo("Success", f"✅ Executed {total_steps} steps successfully!\n\n⏱️ Elapsed Time: {duration_str}")
+            self.status_text.set(f"Flow complete: {total_steps} steps | Time: {duration_str}")
 
 
 

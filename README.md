@@ -34,6 +34,7 @@ An interactive IDE-like tool for creating automation logic without writing code.
 *   **Point & Click**: Capture screenshots and click UI elements to define steps.
 *   **AI Detection**: Automatically suggests element types (icons, text, buttons).
 *   **Real-time Testing**: Test individual actions or full flows instantly on the SUT.
+*   **⏱️ Live Timer**: Monitor workflow execution time with a real-time stopwatch (updates every 100ms).
 
 ### 🪝 Advanced Hooks & Sideloading (SDR Integration)
 Fully integrated support for external diagnostic tools like **Intel System Data Recorder (SDR)**.
