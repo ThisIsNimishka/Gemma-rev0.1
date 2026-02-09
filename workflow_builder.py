@@ -979,7 +979,8 @@ class WorkflowBuilderGUI:
 
         ttk.Button(btn_frame, text="📷 Capture", command=self.capture_screenshot).pack(side=tk.LEFT, padx=2)
         ttk.Button(btn_frame, text="🔍 Parse", command=self.parse_screenshot).pack(side=tk.LEFT, padx=2)
-        ttk.Button(btn_frame, text="📁 Folder", command=self.open_screenshots_folder).pack(side=tk.LEFT, padx=2)
+        ttk.Button(btn_frame, text="📷 Screenshots", command=self.open_screenshots_folder).pack(side=tk.LEFT, padx=2)
+        
         
         # Zoom button
         self.zoom_btn_text = tk.StringVar(value="🔎 100%")
@@ -1547,11 +1548,11 @@ class WorkflowBuilderGUI:
             return
 
         try:
-            # Create temp directory
-            os.makedirs("workflow_builder_temp", exist_ok=True)
+            # Create snapshots directory
+            os.makedirs("design_snapshots", exist_ok=True)
 
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            screenshot_path = f"workflow_builder_temp/screenshot_{timestamp}.png"
+            screenshot_path = f"design_snapshots/screenshot_{timestamp}.png"
 
             self.screenshot_mgr.capture(screenshot_path)
             self.current_screenshot = screenshot_path
@@ -2057,9 +2058,9 @@ class WorkflowBuilderGUI:
                         
                         # Capture screenshot
                         import os
-                        os.makedirs("workflow_builder_temp", exist_ok=True)
+                        os.makedirs("automation_screenshots", exist_ok=True)
                         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                        screenshot_path = f"workflow_builder_temp/flow_step_{i+1}_{timestamp}.png"
+                        screenshot_path = f"automation_screenshots/flow_step_{i+1}_{timestamp}.png"
                         self.screenshot_mgr.capture(screenshot_path)
                         
                         if self.flow_stop_requested:
@@ -2200,18 +2201,24 @@ class WorkflowBuilderGUI:
             messagebox.showinfo("Success", f"Executed {total_steps} steps successfully!")
             self.status_text.set(f"Flow complete: {total_steps} steps executed")
 
+
+
     def open_screenshots_folder(self):
-        """Open the screenshots folder in file explorer."""
+        """Open the automation screenshots folder in file explorer."""
         import os
         import subprocess
 
         # Get current working directory (where screenshots are saved)
-        screenshots_dir = os.getcwd()
+        base_dir = os.getcwd()
+        target_dir = os.path.join(base_dir, "automation_screenshots")
+        
+        # Create if it doesn't exist
+        os.makedirs(target_dir, exist_ok=True)
 
         try:
             # Open folder in Windows Explorer
-            subprocess.Popen(f'explorer "{screenshots_dir}\\workflow_builder_temp"')
-            self.status_text.set(f"Opened folder: {screenshots_dir}\\workflow_builder_temp")
+            subprocess.Popen(f'explorer "{target_dir}"')
+            self.status_text.set(f"Opened folder: {target_dir}")
         except Exception as e:
             messagebox.showerror("Error", f"Failed to open folder: {str(e)}")
 

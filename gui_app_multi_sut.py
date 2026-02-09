@@ -335,6 +335,9 @@ class SUTController:
                 # SINGLE APP MODE (original behavior)
                 self._run_single_app(shared_settings)
 
+            if os.path.exists("automation_logs"):
+                subprocess.Popen(f'explorer "automation_logs"')
+
         except Exception as e:
             self.logger.error(f"Automation failed: {str(e)}", exc_info=True)
             self.status = "Failed"
@@ -368,7 +371,7 @@ class SUTController:
         # Create batch folder for all runs
         batch_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         app_name = config_parser.app_name
-        sut_dir = f"Automation Logs/{self.name}"
+        sut_dir = f"automation_logs/{self.name}"
         os.makedirs(sut_dir, exist_ok=True)
         batch_dir = f"{sut_dir}/batch_{batch_timestamp}"
         os.makedirs(batch_dir, exist_ok=True)
@@ -435,7 +438,7 @@ class SUTController:
         # Create campaign folder
         campaign_timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         campaign_folder_name = f"{sanitize_folder_name(self.campaign_name)}_{campaign_timestamp}"
-        sut_dir = f"Automation Logs/{self.name}"
+        sut_dir = f"automation_logs/{self.name}"
         os.makedirs(sut_dir, exist_ok=True)
         campaign_dir = f"{sut_dir}/{campaign_folder_name}"
         os.makedirs(campaign_dir, exist_ok=True)

@@ -86,6 +86,6 @@ A centralized output system that organizes every run chronologically:
 
 *   **Case Sensitivity Issues?**: The framework uses bulk string input (`pyautogui.write`) to ensure Capital Letters and special characters are preserved exactly as entered in the Workflow Builder.
 *   **Application Focus**: If an app starts hidden, the SUT Agent uses a robust Windows `AttachThreadInput` + `SetForegroundWindow` sequence to force focus before clicks occur.
-*   **Script Failures**: Check the `automation.log` inside the `Automation Logs` folder to see the direct output of your `.bat` or `.py` hooks.
+*   **Script Failure- **Logs**: Execution logs are saved in `automation_logs/{App Name}/run_{timestamp}/automation.log`
 
 ---

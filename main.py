@@ -36,8 +36,8 @@ def create_directory_structure(app_name):
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
     
     # Create base directories
-    os.makedirs("Automation Logs", exist_ok=True)
-    app_dir = f"Automation Logs/{app_name}"
+    os.makedirs("automation_logs", exist_ok=True)
+    app_dir = f"automation_logs/{app_name}"
     os.makedirs(app_dir, exist_ok=True)
     
     # Create run-specific directory

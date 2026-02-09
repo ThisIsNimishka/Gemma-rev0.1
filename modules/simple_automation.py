@@ -52,7 +52,7 @@ class SimpleAutomation:
         # App metadata with enhanced support
         self.app_name = self.config.get("metadata", {}).get("app_name", "Unknown App")
         self.process_id = self.config.get("metadata", {}).get("process_id")
-        self.run_dir = run_dir or f"Automation Logs/{self.app_name}"
+        self.run_dir = run_dir or f"automation_logs/{self.app_name}"
         
         # Enhanced features
         self.enhanced_features = self.config.get("enhanced_features", {})
@@ -166,6 +166,7 @@ class SimpleAutomation:
 
             if needs_parsing:
                 # Capture screenshot
+                os.makedirs(f"{self.run_dir}/screenshots", exist_ok=True)
                 screenshot_path = f"{self.run_dir}/screenshots/screenshot_{current_step}.png"
                 try:
                     self.screenshot_mgr.capture(screenshot_path)
@@ -209,6 +210,7 @@ class SimpleAutomation:
                 # Annotate screenshot if annotator available
                 if self.annotator:
                     try:
+                        os.makedirs(f"{self.run_dir}/annotated", exist_ok=True)
                         annotated_path = f"{self.run_dir}/annotated/annotated_{current_step}.png"
                         self.annotator.draw_bounding_boxes(screenshot_path, bounding_boxes, annotated_path)
                     except Exception as e:
